@@ -2,6 +2,7 @@
 .omx/
 .codex/
 .claude/
+.local-backups/
 
 # OS/editor noise
 .DS_Store
