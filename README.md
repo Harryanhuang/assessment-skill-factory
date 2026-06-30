@@ -8,6 +8,40 @@ Assessment Skill Factory 是一套用于把国际课程官方考纲、specificat
 - 把 reviewed source evidence bundle 转换成标准 assessment skill package。
 - 用 reviewer gate、registry gate 和 pilot gate 防止低置信度内容直接进入 active。
 
+## Workflow Overview
+
+```mermaid
+flowchart LR
+  A["Official PDF / HTML source"] --> B["assessment-source-pdf-extractor"]
+  B --> C["Source evidence bundle"]
+  C --> C1["source-index.md"]
+  C --> C2["page-map.json"]
+  C --> C3["accuracy-verdict.json"]
+  C --> C4["source-review/"]
+  C --> D["Independent source review"]
+  D --> E["assessment-skill-builder"]
+  E --> F["Assessment skill package"]
+  F --> F1["metadata.json"]
+  F --> F2["topics.json"]
+  F --> F3["assessment.json"]
+  F --> F4["examples.md"]
+  F --> G["Validation + pilot gates"]
+  G --> H["Registry entry"]
+```
+
+## Promotion Gates
+
+```mermaid
+stateDiagram-v2
+  [*] --> draft
+  draft --> validated: source bundle exists and P0 cleared
+  validated --> reviewed: P0/P1 cleared and reviewer verdict passes
+  reviewed --> active: independent dual-pass review plus pilots pass
+  reviewed --> reviewed: same-agent review or dual_pass_checked=false
+  active --> suspended: source issue or production regression
+  suspended --> reviewed: issue fixed and re-reviewed
+```
+
 ## Repository Layout
 
 ```text
