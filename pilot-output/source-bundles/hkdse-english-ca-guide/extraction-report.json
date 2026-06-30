@@ -1,0 +1,158 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ca_guide",
+  "extracted_at": "2026-06-30",
+  "extracted_by": "worker_syllabus",
+  "extraction_profile": "dse_curriculum_assessment_guide",
+  "sections_extracted": [
+    {
+      "section": "Syllabus identity",
+      "page_refs": ["p.i"],
+      "extracted_content_summary": "HKDSE English Language Curriculum and Assessment Guide (Secondary 4-6), CDC/HKEAA, Education Bureau HKSARG, 2021, effective from Secondary 4 in the 2021/22 school year.",
+      "target_asset": "metadata.json"
+    },
+    {
+      "section": "Curriculum aims",
+      "page_refs": ["p.5"],
+      "extracted_content_summary": "Three aims: increase language proficiency; develop knowledge, skills, values and attitudes; promote lifelong learning.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Curriculum framework components",
+      "page_refs": ["p.6-7"],
+      "extracted_content_summary": "Subject knowledge and skills, generic skills, positive values and attitudes; organised under three Strands.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Strands and learning targets",
+      "page_refs": ["p.8-9"],
+      "extracted_content_summary": "Interpersonal, Knowledge and Experience Strands with detailed learning targets.",
+      "target_asset": "topics.json / assessment.json"
+    },
+    {
+      "section": "Learning objectives",
+      "page_refs": ["p.10-12"],
+      "extracted_content_summary": "Language Forms and Communicative Functions; Language Skills and Language Development Strategies; Attitudes Specific to English Language Learning.",
+      "target_asset": "topics.json / references"
+    },
+    {
+      "section": "Curriculum organisation / modules",
+      "page_refs": ["p.13-18"],
+      "extracted_content_summary": "Compulsory Part and Elective Parts; modules of learning and enrichment components.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Assessment objectives",
+      "page_refs": ["p.63"],
+      "extracted_content_summary": "Reading, Writing, Listening, Speaking assessment objectives.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Public assessment design",
+      "page_refs": ["p.69"],
+      "extracted_content_summary": "Paper 1 Reading (20%, 1.5h), Paper 2 Writing (25%, 2h), Paper 3 Listening and Integrated Skills (30%, ~2h), Paper 4 Speaking (10%, ~20min), SBA (15%).",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "School-based Assessment",
+      "page_refs": ["p.69-70"],
+      "extracted_content_summary": "SBA reading/viewing programme, two to four texts, oral performance assessed.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Standards and reporting",
+      "page_refs": ["p.71-72"],
+      "extracted_content_summary": "Standards-referenced reporting, five levels, 5** and 5* annotations, SBA moderated.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Appendix 1: Language Items and Communicative Functions",
+      "page_refs": ["p.79-83"],
+      "extracted_content_summary": "Communicative functions and language item examples for Key Stages 3-4.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Appendix 3: Examples of Text Types",
+      "page_refs": ["p.89"],
+      "extracted_content_summary": "Text type examples for Key Stages 1-4.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Appendix 4: Language Skills and Language Development Strategies",
+      "page_refs": ["p.91-94"],
+      "extracted_content_summary": "Language skills and strategies for Key Stage 4.",
+      "target_asset": "references"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "Preamble",
+      "page_refs": ["p.i"],
+      "reason": "admin"
+    },
+    {
+      "section": "Chapter 1 Introduction",
+      "page_refs": ["p.1-4"],
+      "reason": "programme_background"
+    },
+    {
+      "section": "Chapter 3 Curriculum Planning",
+      "page_refs": ["p.19-28"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Chapter 4 Learning and Teaching",
+      "page_refs": ["p.29-60"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Chapter 6 Resources",
+      "page_refs": ["p.73-78"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Appendix 2: Vocabulary Building Strategies",
+      "page_refs": ["p.85-88"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Appendix 5: Attitudes Specific to English Language Learning",
+      "page_refs": ["p.95-96"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Glossary / Membership / Copyright",
+      "page_refs": ["p.97-110"],
+      "reason": "admin / copyright"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "Strand and learning target grouping",
+      "page_refs": ["p.8-9"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Appendix 1 full list",
+      "page_refs": ["p.79-83"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Appendix 3 text type list",
+      "page_refs": ["p.89"],
+      "reason": "needs_visual_review"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "Strands, learning targets and learning objectives from Chapter 2 (p.5-18).",
+    "assessment_json": "Aims, assessment objectives, paper structure, SBA, standards reporting from Chapter 5 (p.61-72).",
+    "references": "Appendices 1, 3, 4 (p.79-83, p.89, p.91-94)."
+  },
+  "known_risks": [
+    "Single-channel text extraction; visual review of high-impact pages pending.",
+    "Large document (110 pages); appendix pages only partially audited.",
+    "Official URL and retrieved_at not captured in local archive metadata.",
+    "Live examination regulations and frameworks supersede the guide for exam-specific rules."
+  ],
+  "notes": "Extraction completed without copying official PDF text. Page-map mappings use printed/footer page numbers."
+}

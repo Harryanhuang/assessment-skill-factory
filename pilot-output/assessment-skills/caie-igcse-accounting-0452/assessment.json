@@ -1,0 +1,96 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "P1",
+      "name": "Multiple Choice",
+      "question_styles": ["mcq"],
+      "duration_minutes": 75,
+      "total_marks": 35,
+      "weighting_percent": 30,
+      "coverage_notes": "All syllabus content; questions may include calculations.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P2",
+      "name": "Structured Written Paper",
+      "question_styles": ["structured_written", "calculation", "preparation_of_accounts", "explanation"],
+      "duration_minutes": 105,
+      "total_marks": 100,
+      "weighting_percent": 70,
+      "coverage_notes": "Five questions worth 20 marks each; stimulus material followed by tasks such as calculations, completing cash books, preparing accounts, suspense accounts and journal entries.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "AO1",
+      "name": "Knowledge and understanding",
+      "description": "Demonstrate knowledge and understanding of facts, terms, principles, policies, procedures and techniques; apply this knowledge in various accounting situations.",
+      "weighting_qualification_percent": 65,
+      "weighting_by_paper": {"P1": 80, "P2": 60},
+      "classification_hints": ["recall", "define", "identify", "state", "prepare straightforward accounts"]
+    },
+    {
+      "ao_id": "AO2",
+      "name": "Analysis",
+      "description": "Select relevant data; order, analyse and present information in an appropriate accounting form.",
+      "weighting_qualification_percent": 25,
+      "weighting_by_paper": {"P1": 20, "P2": 25},
+      "classification_hints": ["analyse", "calculate", "complete", "prepare from given data"]
+    },
+    {
+      "ao_id": "AO3",
+      "name": "Evaluation",
+      "description": "Interpret and evaluate accounting information and draw reasoned conclusions.",
+      "weighting_qualification_percent": 10,
+      "weighting_by_paper": {"P1": 0, "P2": 15},
+      "classification_hints": ["interpret", "evaluate", "comment", "advise", "recommend", "explain implications"]
+    }
+  ],
+  "question_styles": [
+    {"style_id": "mcq", "name": "Multiple Choice", "typical_marks": 1, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "structured_written", "name": "Structured Written", "typical_marks": 20, "ao_focus": ["AO1", "AO2", "AO3"]},
+    {"style_id": "calculation", "name": "Calculation", "typical_marks": 1, "ao_focus": ["AO2"]},
+    {"style_id": "preparation_of_accounts", "name": "Preparation of Accounts", "typical_marks": 20, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "explanation", "name": "Explanation / Comment", "typical_marks": 2, "ao_focus": ["AO3"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single concept recall or direct application (e.g., define a term, calculate a simple ratio)"},
+    {"level": "standard", "description": "multi-step application within one topic (e.g., prepare ledger accounts with discounts)"},
+    {"level": "challenge", "description": "cross-topic reasoning or exam-style synthesis (e.g., prepare financial statements from incomplete records with adjustments)"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "exclude_from_questions": [
+      "partnership admission/departure/dissolution",
+      "cumulative/non-cumulative preference shares",
+      "share premium",
+      "capital redemption reserve",
+      "folio columns",
+      "three-column running-balance accounts",
+      "incomplete records for partnerships or companies"
+    ]
+  },
+  "marking_guidance": {
+    "command_words_ref": "references/page-map.json target assessment.command_words",
+    "notes": "Command words are defined in the syllabus p.18-19. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

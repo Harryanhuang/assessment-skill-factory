@@ -1,0 +1,283 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "Aims",
+      "topic_name": "Curriculum aims",
+      "parent_id": "",
+      "scope": ["increase language proficiency for study/work/leisure/personal enrichment", "develop knowledge, skills, values and attitudes", "promote lifelong learning"],
+      "out_of_scope": ["generic English learning goals not tied to HKDSE S4-S6 curriculum", "primary or junior secondary English curriculum aims"],
+      "classification_hints": ["question asks about the overall purpose of the HKDSE English Language curriculum"],
+      "common_misconceptions": [],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "Framework",
+      "topic_name": "Curriculum framework",
+      "parent_id": "",
+      "scope": ["subject knowledge and skills", "generic skills", "positive values and attitudes", "three Strands: Interpersonal, Knowledge, Experience"],
+      "out_of_scope": ["cross-curricular links that are not English-specific", "implementation details from Chapter 3 or Chapter 4"],
+      "classification_hints": ["question asks about the organising structure of the curriculum"],
+      "common_misconceptions": ["the three Strands are separate subjects"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "Strand-Interpersonal",
+      "topic_name": "Interpersonal Strand",
+      "parent_id": "Framework",
+      "scope": ["establish and maintain relationships and routines", "converse, discuss, compare, argue, evaluate, justify", "communicate complex messages", "participate in planning/organising events", "obtain/provide objects, services and information"],
+      "out_of_scope": ["social skills outside language use", "role-play scenarios not tied to English language functions"],
+      "classification_hints": ["question involves spoken or written interaction, social routines, requests, offers, opinions in interaction"],
+      "common_misconceptions": ["Interpersonal only means spoken conversation"],
+      "common_misclassifications": [
+        {
+          "confused_with": "Strand-Knowledge",
+          "reason": "both may involve giving information, but Interpersonal focuses on relationship and exchange purposes"
+        }
+      ],
+      "prerequisite_topics": ["Framework"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "Strand-Knowledge",
+      "topic_name": "Knowledge Strand",
+      "parent_id": "Framework",
+      "scope": ["provide/find/select/analyse/organise/present information", "interpret and use complex information", "identify and discuss ideas/issues/themes/arguments/views", "identify/define/solve problems", "develop and reorganise ideas", "understand how English works"],
+      "out_of_scope": ["subject-content knowledge from other disciplines", "academic research methods beyond senior secondary"],
+      "classification_hints": ["question involves information handling, analysis, presentation, problem solving or language awareness"],
+      "common_misconceptions": ["Knowledge Strand only tests reading comprehension"],
+      "common_misclassifications": [
+        {
+          "confused_with": "Strand-Experience",
+          "reason": "both may involve texts; Knowledge focuses on information and ideas rather than imaginative response"
+        }
+      ],
+      "prerequisite_topics": ["Framework"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "Strand-Experience",
+      "topic_name": "Experience Strand",
+      "parent_id": "Framework",
+      "scope": ["respond to imaginative/literary texts", "respond to characters/events/issues/themes", "give expression to imaginative ideas and personal experience through oral/written/performative means"],
+      "out_of_scope": ["full literary criticism at university level", "creative writing without assessment context"],
+      "classification_hints": ["question involves literary response, personal narrative, creative expression or performative language"],
+      "common_misconceptions": ["Experience Strand is only for leisure reading"],
+      "common_misclassifications": [
+        {
+          "confused_with": "Strand-Knowledge",
+          "reason": "both may use texts; Experience focuses on affective and imaginative response"
+        }
+      ],
+      "prerequisite_topics": ["Framework"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "LearningObjectives",
+      "topic_name": "Learning objectives",
+      "parent_id": "",
+      "scope": ["Language Forms and Communicative Functions", "Language Skills and Language Development Strategies", "Attitudes Specific to English Language Learning"],
+      "out_of_scope": ["Appendix 2 vocabulary-building strategies as teaching guidance", "Appendix 5 attitudes as teaching guidance"],
+      "classification_hints": ["question asks about what students should learn in terms of forms, functions, skills or attitudes"],
+      "common_misconceptions": [],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["Framework"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "LanguageForms",
+      "topic_name": "Language forms and communicative functions",
+      "parent_id": "LearningObjectives",
+      "scope": ["grammatical forms and structures", "vocabulary", "text types", "communicative functions across Key Stages 3-4"],
+      "out_of_scope": ["exhaustive grammar rules beyond senior secondary", "every example sentence in Appendix 1"],
+      "classification_hints": ["question concerns grammar, vocabulary, text type or communicative function"],
+      "common_misconceptions": ["language forms are only about grammar"],
+      "common_misclassifications": [
+        {
+          "confused_with": "TextTypes",
+          "reason": "both involve textual knowledge; Language Forms focuses on form/function, Text Types focuses on genre conventions"
+        }
+      ],
+      "prerequisite_topics": ["LearningObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "LanguageSkills",
+      "topic_name": "Language skills and development strategies",
+      "parent_id": "LearningObjectives",
+      "scope": ["listening", "speaking", "reading", "writing", "language development strategies for Key Stage 4"],
+      "out_of_scope": ["general study skills not specific to English language learning", "early Key Stage strategies not listed for S4-S6"],
+      "classification_hints": ["question concerns one of the four skills or strategies for developing them"],
+      "common_misconceptions": ["skills are tested only in the corresponding paper"],
+      "common_misclassifications": [
+        {
+          "confused_with": "AO-Reading",
+          "reason": "both involve reading; Language Skills is curriculum objective, AO-Reading is assessment objective"
+        }
+      ],
+      "prerequisite_topics": ["LearningObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "TextTypes",
+      "topic_name": "Text types",
+      "parent_id": "LearningObjectives",
+      "scope": ["examples of text types for Key Stages 1-4", "genre awareness and conventions"],
+      "out_of_scope": ["text types not listed in Appendix 3", "professional genres beyond senior secondary"],
+      "classification_hints": ["question names or requires a specific text type"],
+      "common_misconceptions": ["any real-world document type is examinable"],
+      "common_misclassifications": [
+        {
+          "confused_with": "LanguageForms",
+          "reason": "both involve textual knowledge; Text Types focuses on genre and purpose"
+        }
+      ],
+      "prerequisite_topics": ["LanguageForms"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "Modules",
+      "topic_name": "Modules of learning",
+      "parent_id": "",
+      "scope": ["Compulsory Part", "Elective Parts", "enrichment components", "learning time"],
+      "out_of_scope": ["school-level timetable planning", "specific school module names not in the guide"],
+      "classification_hints": ["question asks about compulsory/elective modules or enrichment components"],
+      "common_misconceptions": ["Elective Parts are optional for all students"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["Framework"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "CompulsoryPart",
+      "topic_name": "Compulsory Part",
+      "parent_id": "Modules",
+      "scope": ["core language learning required for all students", "integration of skills across strands"],
+      "out_of_scope": ["elective module content"],
+      "classification_hints": ["question concerns core curriculum content applicable to all candidates"],
+      "common_misconceptions": [],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["Modules"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "ElectiveParts",
+      "topic_name": "Elective Parts",
+      "parent_id": "Modules",
+      "scope": ["optional extension modules", "language arts or non-language arts electives as described in the guide"],
+      "out_of_scope": ["elective content not listed in the C&A Guide", "school-devised electives"],
+      "classification_hints": ["question references an elective module or extension pathway"],
+      "common_misconceptions": ["Elective Parts are assessed in the public examination in the same way as the Compulsory Part"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["Modules"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "AssessmentObjectives",
+      "topic_name": "Assessment objectives",
+      "parent_id": "",
+      "scope": ["Reading assessment objectives", "Writing assessment objectives", "Listening assessment objectives", "Speaking assessment objectives"],
+      "out_of_scope": ["assessment objectives from other exam systems", "SBA marking criteria details not in Chapter 5"],
+      "classification_hints": ["question asks what a paper or task is intended to assess"],
+      "common_misconceptions": [],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "AO-Reading",
+      "topic_name": "Reading assessment objectives",
+      "parent_id": "AssessmentObjectives",
+      "scope": ["understand/interpret purpose and meaning", "identify main theme/key details", "contextual meaning", "tone/mood", "distinguish/evaluate views/arguments", "language features", "interpret/analyse/select/organise ideas from sources"],
+      "out_of_scope": ["literary criticism at university level"],
+      "classification_hints": ["question concerns Paper 1 or reading comprehension demands"],
+      "common_misconceptions": ["reading AO only tests literal comprehension"],
+      "common_misclassifications": [
+        {
+          "confused_with": "AO-Writing",
+          "reason": "both may involve texts; AO-Reading focuses on comprehension and analysis of given texts"
+        }
+      ],
+      "prerequisite_topics": ["AssessmentObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "AO-Writing",
+      "topic_name": "Writing assessment objectives",
+      "parent_id": "AssessmentObjectives",
+      "scope": ["write for different contexts/audiences/purposes", "convey meaning with vocabulary/devices/patterns", "plan/produce coherent structured texts", "appropriate tone/style/register/genre", "draft and revise"],
+      "out_of_scope": ["creative writing without assessment context", "professional publishing standards"],
+      "classification_hints": ["question concerns Paper 2 or writing task demands"],
+      "common_misconceptions": ["good writing only needs correct grammar"],
+      "common_misclassifications": [
+        {
+          "confused_with": "AO-Reading",
+          "reason": "both may use texts; AO-Writing focuses on production"
+        }
+      ],
+      "prerequisite_topics": ["AssessmentObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "AO-Listening",
+      "topic_name": "Listening assessment objectives",
+      "parent_id": "AssessmentObjectives",
+      "scope": ["understand/interpret spoken texts", "key details", "speakers' feelings/views/attitudes/intentions", "range of accents/varieties", "language features in spoken texts"],
+      "out_of_scope": ["phonetics at university level"],
+      "classification_hints": ["question concerns Paper 3 listening component or listening demands"],
+      "common_misconceptions": ["listening only tests factual recall"],
+      "common_misclassifications": [
+        {
+          "confused_with": "AO-Speaking",
+          "reason": "both involve oracy; AO-Listening focuses on receptive listening"
+        }
+      ],
+      "prerequisite_topics": ["AssessmentObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "AO-Speaking",
+      "topic_name": "Speaking assessment objectives",
+      "parent_id": "AssessmentObjectives",
+      "scope": ["express information/ideas with elaboration", "convey meaning with vocabulary/patterns", "establish/maintain exchanges", "produce coherent structured speeches", "pronunciation", "pace/volume/intonation/stress/eye contact/gesture"],
+      "out_of_scope": ["drama performance assessment", "public speaking beyond HKDSE context"],
+      "classification_hints": ["question concerns Paper 4, SBA oral performance or speaking demands"],
+      "common_misconceptions": ["speaking assessment only tests fluency"],
+      "common_misclassifications": [
+        {
+          "confused_with": "AO-Listening",
+          "reason": "both involve oracy; AO-Speaking focuses on productive speaking"
+        }
+      ],
+      "prerequisite_topics": ["AssessmentObjectives"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "SBA",
+      "topic_name": "School-based Assessment",
+      "parent_id": "",
+      "scope": ["reading/viewing programme", "two to four texts over three years", "at least one print and one non-print text", "oral performance assessment"],
+      "out_of_scope": ["public examination papers", "school internal tests not part of SBA"],
+      "classification_hints": ["question concerns the reading/viewing programme or oral assessment administered at school"],
+      "common_misconceptions": ["SBA is a written paper"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "StandardsReporting",
+      "topic_name": "Standards-referenced reporting",
+      "parent_id": "",
+      "scope": ["five performance levels 1-5", "Level 5** and 5* annotations", "SBA moderated statistically"],
+      "out_of_scope": ["grading standards of other systems", "predicted grades or admission cut-offs"],
+      "classification_hints": ["question asks about performance levels, 5*/5** or moderation"],
+      "common_misconceptions": ["Level 5** is a separate syllabus"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    }
+  ]
+}

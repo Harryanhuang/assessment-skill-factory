@@ -1,0 +1,129 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "extracted_at": "2026-06-30",
+  "extracted_by": "worker_syllabus",
+  "extraction_profile": "edexcel_specification",
+  "sections_extracted": [
+    {
+      "section": "Syllabus identity",
+      "page_refs": ["p.1"],
+      "extracted_content_summary": "Pearson Edexcel International GCSE in Physics (4PH1), Issue 4, September 2024, first teaching September 2017.",
+      "target_asset": "metadata.json"
+    },
+    {
+      "section": "Qualification at a glance",
+      "page_refs": ["p.8-9"],
+      "extracted_content_summary": "Two papers: Paper 1 (61.1%, 2h, 110 marks, non-bold/non-P content) and Paper 2 (38.9%, 1h15m, 70 marks, all content including bold/P).",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Assessment objectives",
+      "page_refs": ["p.31"],
+      "extracted_content_summary": "AO1 38-42%, AO2 38-42%, AO3 19-21%; per-paper AO breakdown provided.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Physics content",
+      "page_refs": ["p.11-28"],
+      "extracted_content_summary": "8 topics: Forces and motion, Electricity, Waves, Energy resources and energy transfers, Solids liquids and gases, Magnetism and electromagnetism, Radioactivity and particles, Astrophysics. Each topic includes units, sub-topics, specification points, practicals, and bold/P markers.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Command word taxonomy",
+      "page_refs": ["p.47-48"],
+      "extracted_content_summary": "Command words and definitions used in external assessments.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Physics formulae for relationships",
+      "page_refs": ["p.51-52"],
+      "extracted_content_summary": "18 required relationships not provided on exam formula sheet.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Suggested practical investigations",
+      "page_refs": ["p.49"],
+      "extracted_content_summary": "List of additional suggested practicals.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Mathematical skills",
+      "page_refs": ["p.45-46"],
+      "extracted_content_summary": "Mathematical skills developed and assessed across the qualification.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Electrical circuit symbols",
+      "page_refs": ["p.53"],
+      "extracted_content_summary": "Circuit symbols used in examination papers.",
+      "target_asset": "references"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "About this specification",
+      "page_refs": ["p.1-7"],
+      "reason": "programme_background"
+    },
+    {
+      "section": "Administration and general information",
+      "page_refs": ["p.33-36"],
+      "reason": "admin"
+    },
+    {
+      "section": "Appendix 1: Codes",
+      "page_refs": ["p.39"],
+      "reason": "admin"
+    },
+    {
+      "section": "Appendix 2: World Class Qualification design principles",
+      "page_refs": ["p.41-42"],
+      "reason": "programme_background"
+    },
+    {
+      "section": "Appendix 3: Transferable skills",
+      "page_refs": ["p.43-44"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Appendix 9: Glossary",
+      "page_refs": ["p.55-58"],
+      "reason": "reference_not_sampled"
+    },
+    {
+      "section": "Copyright / ISBN page",
+      "page_refs": ["p.1"],
+      "reason": "copyright"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "Physics content specification points",
+      "page_refs": ["p.11-28"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Bold/P reference markers",
+      "page_refs": ["p.11-28"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Formula rendering",
+      "page_refs": ["p.51-52"],
+      "reason": "needs_visual_review"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "8 topics from Physics content (p.11-28), with bold/P scope markers.",
+    "assessment_json": "Paper 1/2 structure, AO weightings, command words (p.8-9, p.31, p.47-48).",
+    "references": "Formulae, circuit symbols, suggested practicals, mathematical skills (p.45-46, p.49, p.51-53)."
+  },
+  "known_risks": [
+    "Single-channel text extraction; visual review of high-impact pages pending.",
+    "Formula and equation rendering reconstructed from text; visual confirmation recommended.",
+    "Official URL and exact retrieved_at not captured in local archive metadata.",
+    "Bold/P markers used for Paper scope; downstream tool must correctly interpret them."
+  ],
+  "notes": "Extraction completed without copying official PDF text. Page-map mappings use printed/page numbers."
+}

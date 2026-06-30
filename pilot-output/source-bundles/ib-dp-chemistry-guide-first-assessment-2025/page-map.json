@@ -1,0 +1,116 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_subject_guide",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.1"],
+      "evidence_note": "Title page states 'Diploma Programme Chemistry guide, Published February 2023, First assessment 2025'."
+    },
+    {
+      "target": "assessment.aims",
+      "page_refs": ["p.21"],
+      "evidence_note": "Nine aims covering conceptual understanding, knowledge/methods/tools, analysis/evaluation/synthesis, creativity/resilience, designing/modelling solutions, possibilities/limitations of science, technology skills, communication/collaboration, ethical/environmental/economic/cultural/social impact."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO1",
+      "page_refs": ["p.22"],
+      "evidence_note": "AO1 Demonstrate knowledge of: terminology, facts and concepts; skills, techniques and methodologies."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO2",
+      "page_refs": ["p.22"],
+      "evidence_note": "AO2 Understand and apply knowledge of: terminology and concepts; skills, techniques and methodologies."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO3",
+      "page_refs": ["p.22"],
+      "evidence_note": "AO3 Analyse, evaluate, and synthesize: experimental procedures; primary and secondary data; trends, patterns and predictions."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO4",
+      "page_refs": ["p.22"],
+      "evidence_note": "AO4 Demonstrate the application of skills necessary to carry out insightful and ethical investigations."
+    },
+    {
+      "target": "assessment.ao_component_mapping",
+      "page_refs": ["p.23"],
+      "evidence_note": "AO1-AO3 assessed in Paper 1 and Paper 2; AO1-AO4 assessed in scientific investigation (internal assessment). Paper 1 and Paper 2 each approximately 50% AO1+AO2 and 50% AO3."
+    },
+    {
+      "target": "assessment.syllabus_outline",
+      "page_refs": ["p.24"],
+      "evidence_note": "Syllabus content: Structure 1-3 and Reactivity 1-3. SL total teaching hours 150; HL 240. Experimental programme: practical work 20/40h, collaborative sciences project 10h, scientific investigation 10h."
+    },
+    {
+      "target": "assessment.syllabus_roadmap",
+      "page_refs": ["p.25"],
+      "evidence_note": "Roadmap via structure and reactivity; Structure determines reactivity, which transforms structure."
+    },
+    {
+      "target": "topics.boundaries.sl_hl_ahl",
+      "page_refs": ["p.33-64"],
+      "evidence_note": "Explicit SL/HL/AHL boundary table extracted to sl-hl-ahl-boundaries.json. Each sub-topic has 'Standard level and higher level: N hours' and optional 'Additional higher level: N hours' (or 'None')."
+    },
+    {
+      "target": "topics.structure_1",
+      "page_refs": ["p.25", "p.33-35"],
+      "evidence_note": "Structure 1 Models of the particulate nature of matter. 1.1 SL/HL only (2h); 1.2 SL/HL (2h) + AHL (1h); 1.3 SL/HL (3h) + AHL (3h); 1.4 SL/HL only (7h); 1.5 SL/HL only (3h)."
+    },
+    {
+      "target": "topics.structure_2",
+      "page_refs": ["p.25", "p.36-43"],
+      "evidence_note": "Structure 2 Models of bonding and structure. 2.1 SL/HL only (4h); 2.2 SL/HL (10h) + AHL (8h); 2.3 SL/HL (2h) + AHL (1h); 2.4 SL/HL (4h) + AHL (1h)."
+    },
+    {
+      "target": "topics.structure_3",
+      "page_refs": ["p.25", "p.44-50"],
+      "evidence_note": "Structure 3 Classification of matter. 3.1 SL/HL (7h) + AHL (4h); 3.2 SL/HL (9h) + AHL (11h)."
+    },
+    {
+      "target": "topics.reactivity_1",
+      "page_refs": ["p.25", "p.51-56"],
+      "evidence_note": "Reactivity 1 What drives chemical reactions?. 1.1 SL/HL only (5h); 1.2 SL/HL (3h) + AHL (5h); 1.3 SL/HL only (4h); 1.4 AHL only (5h)."
+    },
+    {
+      "target": "topics.reactivity_2",
+      "page_refs": ["p.25", "p.57-62"],
+      "evidence_note": "Reactivity 2 How much, how fast and how far?. 2.1 SL/HL only (7h); 2.2 SL/HL (9h) + AHL (6h); 2.3 SL/HL (5h) + AHL (4h)."
+    },
+    {
+      "target": "topics.reactivity_3",
+      "page_refs": ["p.25", "p.63-64"],
+      "evidence_note": "Reactivity 3 What are the mechanisms of chemical change?. 3.1 SL/HL (8h) + AHL (9h); 3.2 SL/HL (10h) + AHL (5h); 3.3 SL/HL only (2h); 3.4 SL/HL (4h) + AHL (7h)."
+    },
+    {
+      "target": "assessment.sl_papers",
+      "page_refs": ["p.67"],
+      "evidence_note": "SL: External assessment 3h (80%). Paper 1 1h30m 36% (55 marks: 1A MCQ 30 marks, 1B data-based 25 marks). Paper 2 1h30m 44% (50 marks short-answer/extended-response). Internal assessment 10h 20% (24 marks scientific investigation)."
+    },
+    {
+      "target": "assessment.hl_papers",
+      "page_refs": ["p.68"],
+      "evidence_note": "HL: External assessment 4h30m (80%). Paper 1 2h 36% (75 marks: 1A MCQ 40 marks, 1B data-based 35 marks). Paper 2 2h30m 44% (90 marks short-answer/extended-response). Internal assessment 10h 20% (24 marks scientific investigation)."
+    },
+    {
+      "target": "assessment.internal_assessment",
+      "page_refs": ["p.71-80"],
+      "evidence_note": "Scientific investigation internally assessed and externally moderated; four criteria: Research design, Data analysis, Conclusion, Evaluation."
+    },
+    {
+      "target": "assessment.command_terms",
+      "page_refs": ["p.81-82"],
+      "evidence_note": "Command terms by AO: AO1 Draw/State; AO2 Annotate/Calculate/Describe/Estimate/Outline; AO3 Comment/Compare/Contrast/Deduce/Determine/Discuss/Evaluate/Explain/Predict/Sketch/Suggest."
+    },
+    {
+      "target": "references.data_booklet",
+      "page_refs": ["p.69-70"],
+      "evidence_note": "Clean copy of Chemistry data booklet required for external assessment."
+    }
+  ],
+  "draft_notes": [
+    "Page numbers use printed/page numbers from the PDF footer.",
+    "Syllabus content section (p.33-64) sampled, not fully audited.",
+    "SL/HL and AHL boundaries exist within each topic; builder must verify boundaries before finalising topics.json."
+  ]
+}

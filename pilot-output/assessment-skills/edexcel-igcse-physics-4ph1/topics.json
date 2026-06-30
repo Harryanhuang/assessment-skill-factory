@@ -1,0 +1,595 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "Forces and motion",
+      "parent_id": "",
+      "scope": ["units of force, mass, acceleration, velocity, momentum", "effects of forces", "motion graphs", "Newton's laws", "moments and equilibrium", "momentum and collisions", "safety features"],
+      "out_of_scope": ["A-Level vector resolution beyond scalar treatment", "university dynamics", "non-linear drag derivations"],
+      "classification_hints": ["question involves forces, acceleration, velocity-time graphs, Newton's laws, moments or momentum"],
+      "common_misconceptions": ["a force is needed to keep an object moving at constant velocity", "heavier objects always fall faster in a vacuum"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4",
+          "reason": "both may involve work and energy; Topic 1 focuses on forces and motion, Topic 4 on energy transfers and resources"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.1",
+      "topic_name": "Units and motion",
+      "parent_id": "1",
+      "scope": ["SI units", "distance, displacement, speed, velocity, acceleration", "distance-time and velocity-time graphs", "equations of uniform acceleration"],
+      "out_of_scope": ["vector notation beyond scalar treatment required at IGCSE"],
+      "classification_hints": ["question asks to interpret or sketch motion graphs", "question uses equations of motion"],
+      "common_misconceptions": ["the slope of a distance-time graph gives acceleration"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both involve motion; 1.1 is kinematics, 1.2 is dynamics and forces"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.2",
+      "topic_name": "Forces and Newton's laws",
+      "parent_id": "1",
+      "scope": ["types of force", "resultant force", "Newton's first, second and third laws", "mass and weight", "terminal velocity"],
+      "out_of_scope": ["vector triangle construction", "coefficient of friction calculations beyond syllabus"],
+      "classification_hints": ["question asks about resultant force, Newton's laws or terminal velocity"],
+      "common_misconceptions": ["mass and weight are the same quantity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.3",
+          "reason": "both involve forces; 1.2 focuses on linear motion, 1.3 on turning effects"
+        }
+      ],
+      "prerequisite_topics": ["1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.3",
+      "topic_name": "Moments",
+      "parent_id": "1",
+      "scope": ["moment of a force", "principle of moments", "centre of mass", "equilibrium"],
+      "out_of_scope": ["couples and torque beyond simple moment calculations"],
+      "classification_hints": ["question involves pivots, levers, balance or centre of mass"],
+      "common_misconceptions": ["the moment depends only on force, not perpendicular distance"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.4",
+      "topic_name": "Momentum and safety",
+      "parent_id": "1",
+      "scope": ["momentum", "impulse", "conservation of momentum in collisions", "safety features reducing force in collisions"],
+      "out_of_scope": ["two-dimensional collisions", "elastic/inelastic classification beyond IGCSE treatment"],
+      "classification_hints": ["question asks to calculate momentum before/after collision", "question links crumple zones, seat belts or air bags to force reduction"],
+      "common_misconceptions": ["momentum is always lost in a collision"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both use F=ma; momentum questions focus on mv before and after impact"
+        }
+      ],
+      "prerequisite_topics": ["1.1", "1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2",
+      "topic_name": "Electricity",
+      "parent_id": "",
+      "scope": ["units of current, charge, potential difference, resistance, power, energy", "mains electricity", "current and charge", "potential difference and resistance", "series and parallel circuits", "magnetic effect of current"],
+      "out_of_scope": ["Kirchhoff's laws by name", "internal resistance circuits beyond simple treatment", "semiconductor device physics"],
+      "classification_hints": ["question involves circuits, current, voltage, resistance or mains electricity"],
+      "common_misconceptions": ["current is used up in a circuit", "resistance is always constant regardless of temperature"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6",
+          "reason": "both involve current and magnetic fields; Topic 2 is circuit electricity, Topic 6 is magnetism and electromagnetism"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.1",
+      "topic_name": "Current and charge",
+      "parent_id": "2",
+      "scope": ["charge flow", "current as rate of flow of charge", "Q = I t", "conventional current", "electrical symbols and circuit diagrams"],
+      "out_of_scope": ["drift velocity of electrons", "band theory of conduction"],
+      "classification_hints": ["question asks for charge transferred or links current to charge flow"],
+      "common_misconceptions": ["electrons flow from positive to negative terminal"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.2",
+          "reason": "both involve circuit quantities; 2.1 focuses on charge/current, 2.2 on voltage/resistance"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.2",
+      "topic_name": "Potential difference and resistance",
+      "parent_id": "2",
+      "scope": ["potential difference", "resistance", "Ohm's law", "I-V characteristics", "resistivity concepts at IGCSE level", "factors affecting resistance"],
+      "out_of_scope": ["resistivity formula calculations", "superconductivity"],
+      "classification_hints": ["question asks to calculate V, I or R", "question involves Ohm's law or I-V graphs"],
+      "common_misconceptions": ["resistance depends on voltage or current"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.3",
+          "reason": "both use V=IR; 2.2 is component behaviour, 2.3 is circuit arrangement"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.3",
+      "topic_name": "Series and parallel circuits",
+      "parent_id": "2",
+      "scope": ["current and voltage rules in series and parallel", "total resistance in series and parallel", "circuit calculations"],
+      "out_of_scope": ["complex network reductions", "Thevenin equivalent circuits"],
+      "classification_hints": ["question involves series or parallel resistor arrangements"],
+      "common_misconceptions": ["current is the same at all points in a parallel circuit"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.4",
+          "reason": "both involve household or power contexts; 2.3 is circuit theory, 2.4 is mains electricity"
+        }
+      ],
+      "prerequisite_topics": ["2.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.4",
+      "topic_name": "Mains electricity",
+      "parent_id": "2",
+      "scope": ["a.c. and d.c.", "mains voltage and frequency", "cables, plugs, fuses, circuit breakers", "power and energy in domestic circuits", "P = IV, P = I^2R, E = IVt"],
+      "out_of_scope": ["ring main circuit design", "three-phase supply"],
+      "classification_hints": ["question mentions household circuits, plugs, fuses, kWh or mains supply"],
+      "common_misconceptions": ["fuses protect people from electric shock"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.3",
+          "reason": "both involve power calculations; 2.4 is electrical power, 4.3 is mechanical power"
+        }
+      ],
+      "prerequisite_topics": ["2.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.5",
+      "topic_name": "Magnetic effect of current",
+      "parent_id": "2",
+      "scope": ["magnetic field around a current-carrying wire", "solenoid", "electromagnet applications"],
+      "out_of_scope": ["Fleming's left-hand rule motor effect", "electromagnetic induction"],
+      "classification_hints": ["question asks about magnetic field produced by current"],
+      "common_misconceptions": ["a current creates a magnetic field only inside the wire"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.2",
+          "reason": "both involve current and magnetism; 2.5 is the magnetic field due to current, 6.2 is electromagnetism and motor effect"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3",
+      "topic_name": "Waves",
+      "parent_id": "",
+      "scope": ["units of wavelength, frequency, speed, amplitude", "properties of waves", "sound and ultrasound", "reflection and refraction", "total internal reflection"],
+      "out_of_scope": ["wave-particle duality", "standing wave mathematics", "Doppler effect calculations"],
+      "classification_hints": ["question involves wave properties, sound, light reflection/refraction or fibre optics"],
+      "common_misconceptions": ["waves transfer matter as well as energy"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8",
+          "reason": "both involve light; Topic 3 is wave behaviour, Topic 8 is astrophysics and cosmology"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.1",
+      "topic_name": "Properties of waves",
+      "parent_id": "3",
+      "scope": ["amplitude, wavelength, frequency, period, wave speed", "transverse and longitudinal waves", "v = f λ", "wavefront diagrams"],
+      "out_of_scope": ["wave equations involving partial derivatives", "polarisation"],
+      "classification_hints": ["question asks to define or calculate wave quantities"],
+      "common_misconceptions": ["frequency depends on amplitude"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both involve waves; 3.1 is general wave properties, 3.2 is sound"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.2",
+      "topic_name": "Sound and ultrasound",
+      "parent_id": "3",
+      "scope": ["sound as a longitudinal wave", "pitch and loudness", "ultrasound uses", "echo sounding"],
+      "out_of_scope": ["decibel scale calculations", "acoustic resonance beyond syllabus"],
+      "classification_hints": ["question mentions sound, ultrasound, sonar or echo"],
+      "common_misconceptions": ["sound can travel through a vacuum"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both use wave terminology; 3.2 focuses on sound applications"
+        }
+      ],
+      "prerequisite_topics": ["3.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.3",
+      "topic_name": "Reflection and refraction",
+      "parent_id": "3",
+      "scope": ["law of reflection", "refraction", "refractive index", "real and apparent depth", "converging and diverging lenses", "ray diagrams"],
+      "out_of_scope": ["lensmaker equation", "dispersion derivation"],
+      "classification_hints": ["question involves mirrors, lenses, ray diagrams or refractive index"],
+      "common_misconceptions": ["refraction only happens when light enters water at 90 degrees"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.4",
+          "reason": "both involve light at boundaries; 3.3 is reflection/refraction, 3.4 is total internal reflection"
+        }
+      ],
+      "prerequisite_topics": ["3.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.4",
+      "topic_name": "Total internal reflection",
+      "parent_id": "3",
+      "scope": ["critical angle", "total internal reflection", "optical fibres"],
+      "out_of_scope": ["graded-index fibre design", "attenuation calculations"],
+      "classification_hints": ["question mentions critical angle, TIR or fibre optics"],
+      "common_misconceptions": ["total internal reflection can occur when light travels from air to glass"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.3",
+          "reason": "both involve light at boundaries; 3.4 is TIR and critical angle"
+        }
+      ],
+      "prerequisite_topics": ["3.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4",
+      "topic_name": "Energy resources and energy transfers",
+      "parent_id": "",
+      "scope": ["units of energy, work, power", "energy transfers", "work and power", "energy resources and electricity generation"],
+      "out_of_scope": ["thermodynamic cycles", "entropy", "nuclear reactor engineering details"],
+      "classification_hints": ["question involves energy forms, conservation of energy, work, power or energy resources"],
+      "common_misconceptions": ["energy is created or destroyed in a device"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1",
+          "reason": "both may use work and power; Topic 4 is energy, Topic 1 is forces and motion"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1",
+      "topic_name": "Energy transfers",
+      "parent_id": "4",
+      "scope": ["forms of energy", "conservation of energy", "efficiency", "energy transfer diagrams"],
+      "out_of_scope": ["Lagrangian mechanics", "quantum energy levels"],
+      "classification_hints": ["question asks to identify energy forms or calculate efficiency"],
+      "common_misconceptions": ["efficiency can exceed 100%"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.2",
+          "reason": "both involve energy and work; 4.1 is general transfers, 4.2 is work and power"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2",
+      "topic_name": "Work and power",
+      "parent_id": "4",
+      "scope": ["work done by a force", "W = F d", "power", "P = W/t", "P = F v"],
+      "out_of_scope": ["vector dot product treatment of work"],
+      "classification_hints": ["question asks to calculate work done or power"],
+      "common_misconceptions": ["work is done when holding a heavy object stationary"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both use force; 4.2 calculates work/energy transfer, 1.2 calculates acceleration"
+        }
+      ],
+      "prerequisite_topics": ["1.1", "1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3",
+      "topic_name": "Energy resources and electricity generation",
+      "parent_id": "4",
+      "scope": ["renewable and non-renewable resources", "power stations", "advantages and disadvantages of energy resources"],
+      "out_of_scope": ["grid frequency control", "detailed nuclear reactor design"],
+      "classification_hints": ["question compares energy resources or describes power station energy transfers"],
+      "common_misconceptions": ["renewable resources have no environmental impact"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.1",
+          "reason": "both involve energy; 4.3 focuses on resources and generation"
+        }
+      ],
+      "prerequisite_topics": ["4.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5",
+      "topic_name": "Solids, liquids and gases",
+      "parent_id": "",
+      "scope": ["units of density, pressure, temperature", "density and pressure", "change of state", "ideal gas molecules"],
+      "out_of_scope": ["kinetic theory derivation of gas laws", "thermodynamic temperature scale derivations"],
+      "classification_hints": ["question involves density, pressure, state changes or particle model of matter"],
+      "common_misconceptions": ["particles expand when heated"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3",
+          "reason": "both use particle ideas; Topic 5 is matter states, Topic 3 is waves"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.1",
+      "topic_name": "Density and pressure",
+      "parent_id": "5",
+      "scope": ["density", "ρ = m/V", "pressure in solids, liquids and gases", "p = h ρ g", "atmospheric pressure"],
+      "out_of_scope": ["hydrostatic paradox derivations", "barometric formula"],
+      "classification_hints": ["question asks to calculate density or fluid pressure"],
+      "common_misconceptions": ["pressure acts only downward in a fluid"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.2",
+          "reason": "both involve particles and states; 5.1 is density/pressure, 5.2 is state changes"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.2",
+      "topic_name": "Change of state",
+      "parent_id": "5",
+      "scope": ["particle model of solids, liquids and gases", "changes of state", "specific latent heat"],
+      "out_of_scope": ["Clausius-Clapeyron relation", "detailed phase diagrams"],
+      "classification_hints": ["question asks about melting, boiling, latent heat or particle arrangement"],
+      "common_misconceptions": ["temperature changes during boiling at constant pressure"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.3",
+          "reason": "both involve gas behaviour; 5.2 is state change, 5.3 is ideal gas model"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.3",
+      "topic_name": "Ideal gas molecules",
+      "parent_id": "5",
+      "scope": ["kinetic theory of gases", "pressure-temperature-volume relationships", "absolute zero", "Brownian motion"],
+      "out_of_scope": ["ideal gas equation pV = nRT with moles", "Maxwell-Boltzmann distribution"],
+      "classification_hints": ["question involves gas laws, absolute zero or Brownian motion"],
+      "common_misconceptions": ["absolute zero is the temperature at which all motion stops"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.2",
+          "reason": "both involve gas particles; 5.3 is gas laws, 5.2 is state changes"
+        }
+      ],
+      "prerequisite_topics": ["5.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6",
+      "topic_name": "Magnetism and electromagnetism",
+      "parent_id": "",
+      "scope": ["units of magnetic flux density at IGCSE level", "magnetism", "electromagnetism", "electromagnetic induction"],
+      "out_of_scope": ["Biot-Savart law", "Faraday's law quantitative derivations beyond syllabus", "Lenz's law quantitative derivations"],
+      "classification_hints": ["question involves magnets, magnetic fields, motors, generators or transformers"],
+      "common_misconceptions": ["magnetic field lines start and stop on poles"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both involve current; Topic 6 is electromagnetic interactions, Topic 2 is circuit electricity"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.1",
+      "topic_name": "Magnetism",
+      "parent_id": "6",
+      "scope": ["permanent and induced magnets", "magnetic field patterns", "magnetic materials"],
+      "out_of_scope": ["domain theory of magnetism", "hysteresis loops"],
+      "classification_hints": ["question asks about magnetic poles, field lines or magnetic materials"],
+      "common_misconceptions": ["magnetic monopoles exist"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.2",
+          "reason": "both involve magnetic fields; 6.1 is permanent magnets, 6.2 is electromagnetism"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.2",
+      "topic_name": "Electromagnetism",
+      "parent_id": "6",
+      "scope": ["magnetic field around a current-carrying conductor", "Fleming's left-hand rule", "motor effect", "simple d.c. motor"],
+      "out_of_scope": ["torque on a coil derivation", "commutator design beyond syllabus"],
+      "classification_hints": ["question asks about force on a current-carrying wire in a magnetic field"],
+      "common_misceptions": ["the force on a wire is independent of current direction"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both involve current producing magnetic fields; 6.2 focuses on motor force, 2.5 on field patterns"
+        }
+      ],
+      "prerequisite_topics": ["2.1", "6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.3",
+      "topic_name": "Electromagnetic induction",
+      "parent_id": "6",
+      "scope": ["inducing a voltage", "Fleming's right-hand rule", "simple generator", "transformers", "p.d. and turns ratio"],
+      "out_of_scope": ["quantitative Faraday/Lenz derivations", "eddy current applications beyond syllabus"],
+      "classification_hints": ["question involves moving conductors in magnetic fields, generators or transformers"],
+      "common_misconceptions": ["transformers work with direct current"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.2",
+          "reason": "both involve magnetic fields and current; 6.3 is induction/generation, 6.2 is motor effect"
+        }
+      ],
+      "prerequisite_topics": ["6.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7",
+      "topic_name": "Radioactivity and particles",
+      "parent_id": "",
+      "scope": ["units of activity, count rate, half-life", "radioactivity", "fission and fusion"],
+      "out_of_scope": ["quark model", "standard model of particle physics", "relativistic treatment of nuclear reactions"],
+      "classification_hints": ["question involves radioactive decay, half-life, nuclear fission or fusion"],
+      "common_misconceptions": ["radioactivity can be neutralised by chemical means"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8",
+          "reason": "both involve nuclear/astrophysical contexts; Topic 7 is radioactivity and nuclear energy, Topic 8 is astrophysics"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.1",
+      "topic_name": "Radioactivity",
+      "parent_id": "7",
+      "scope": ["alpha, beta, gamma radiation", "properties and ionising ability", "background radiation", "half-life", "uses and dangers of radiation"],
+      "out_of_scope": ["decay equations with neutrinos", "radiocarbon dating beyond simple treatment"],
+      "classification_hints": ["question asks about types of radiation, half-life or safety"],
+      "common_misconceptions": ["beta particles are electromagnetic radiation"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7.2",
+          "reason": "both involve nucleus; 7.1 is decay/radiation, 7.2 is fission/fusion"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.2",
+      "topic_name": "Fission and fusion",
+      "parent_id": "7",
+      "scope": ["nuclear fission", "nuclear fusion", "chain reactions", "energy release in nuclear reactions"],
+      "out_of_scope": ["binding energy per nucleon curve calculations", "reactor control rod materials"],
+      "classification_hints": ["question mentions fission, fusion or chain reactions"],
+      "common_misconceptions": ["fusion releases less energy than fission"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7.1",
+          "reason": "both involve nucleus; 7.2 is fission/fusion energy"
+        }
+      ],
+      "prerequisite_topics": ["7.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8",
+      "topic_name": "Astrophysics",
+      "parent_id": "",
+      "scope": ["units of astronomical distance", "origins of the Universe", "lifecycle of stars", "red-shift", "galaxies"],
+      "out_of_scope": ["Hubble's law derivation", "dark matter/energy detailed models", "stellar spectral class calculations"],
+      "classification_hints": ["question involves stars, galaxies, red-shift, Big Bang or stellar evolution"],
+      "common_misconceptions": ["the Big Bang was an explosion in space"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7",
+          "reason": "both involve nuclear processes; Topic 8 is astrophysics/cosmology, Topic 7 is radioactivity"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.1",
+      "topic_name": "Origins of the Universe",
+      "parent_id": "8",
+      "scope": ["Big Bang model", "expansion of the Universe", "cosmic microwave background"],
+      "out_of_scope": ["inflationary cosmology", "multiverse hypotheses"],
+      "classification_hints": ["question asks about the Big Bang or expansion of the Universe"],
+      "common_misconceptions": ["the Universe expanded into empty space"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8.2",
+          "reason": "both involve stars/Universe; 8.1 is cosmology, 8.2 is stellar lifecycle"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.2",
+      "topic_name": "Lifecycle of stars",
+      "parent_id": "8",
+      "scope": ["nebulae, protostars, main sequence, red giant, white dwarf", "supernovae, neutron stars, black holes"],
+      "out_of_scope": ["Hertzsprung-Russell diagram quantitative analysis", "nucleosynthesis pathways beyond syllabus"],
+      "classification_hints": ["question describes stages of stellar evolution"],
+      "common_misconceptions": ["all stars end as black holes"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8.3",
+          "reason": "both involve stars; 8.2 is lifecycle, 8.3 is red-shift/galaxies"
+        }
+      ],
+      "prerequisite_topics": ["8.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.3",
+      "topic_name": "Red-shift and galaxies",
+      "parent_id": "8",
+      "scope": ["Doppler effect for light", "red-shift of galaxies", "evidence for expanding Universe"],
+      "out_of_scope": ["relativistic red-shift formula", "quasar luminosity calculations"],
+      "classification_hints": ["question mentions red-shift, galaxy spectra or expansion evidence"],
+      "common_misconceptions": ["red-shift means a galaxy is actually red in colour"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both use wave shift ideas; 8.3 is cosmological red-shift, 3.1 is general wave properties"
+        }
+      ],
+      "prerequisite_topics": ["3.1", "8.2"],
+      "overlap_links": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "id": "",
+  "assessment_type": "syllabus",
+  "system": "",
+  "board_or_owner": "",
+  "subject": "",
+  "level": "",
+  "assessment_code": "",
+  "valid_from": "",
+  "valid_to": "",
+  "package_version": "",
+  "source_provenance": [
+    {
+      "role": "primary_syllabus",
+      "title": "Official syllabus",
+      "url": "",
+      "source_document_type": "",
+      "source_layout_profile": "",
+      "source_format": "pdf",
+      "local_archive_ref": "",
+      "file_checksum_sha256": "",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "",
+      "retrieved_at": "",
+      "page_refs": [],
+      "page_ref_convention": "printed_page",
+      "physical_page_ref_note": "",
+      "extraction_tool": "",
+      "extraction_method": "structured_extract",
+      "extraction_verified": false,
+      "extraction_note": "Structured extraction only; no full official text copied.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": ""
+    }
+  ],
+  "aliases": [],
+  "canonical_id": "",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": ""
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "mappings": [
+    {
+      "target": "metadata.assessment_identity",
+      "page_refs": ["cover", "p.i", "p.1"],
+      "evidence_note": "Document title identifies HKDSE Chemistry Curriculum and Assessment Guide (中四至中六), jointly published by CDC and HKEAA."
+    },
+    {
+      "target": "curriculum.strands",
+      "page_refs": ["p.9-p.12"],
+      "evidence_note": "Learning objectives split into three strands: 知識和理解, 技能和過程, 價值觀和態度."
+    },
+    {
+      "target": "curriculum.mandatory_topics",
+      "page_refs": ["p.13-p.15", "p.16-p.80"],
+      "evidence_note": "Mandatory part lists Topics 1-12 with suggested hours; detailed learning outcomes follow."
+    },
+    {
+      "target": "curriculum.elective_topics",
+      "page_refs": ["p.63", "p.78", "p.80-p.95"],
+      "evidence_note": "Elective part: Topics 13 Industrial Chemistry, 14 Materials Chemistry, 15 Analytical Chemistry; choose any two."
+    },
+    {
+      "target": "curriculum.investigative_study",
+      "page_refs": ["p.78-p.80"],
+      "evidence_note": "Topic 16 化學的探究研習 is a 20-hour investigative study, not a written-exam topic."
+    },
+    {
+      "target": "topics.T01.scope",
+      "page_refs": ["p.16-p.18"],
+      "evidence_note": "Topic 地球 covers atmosphere, ocean, rocks/minerals; separation techniques and tests."
+    },
+    {
+      "target": "topics.T02.scope",
+      "page_refs": ["p.19-p.24"],
+      "evidence_note": "Topic 微觀世界 I covers atomic structure, periodic table, bonding, structure/properties of metals/ionic/covalent/simple molecular/giant covalent substances."
+    },
+    {
+      "target": "topics.T03.scope",
+      "page_refs": ["p.25-p.29"],
+      "evidence_note": "Topic 金屬 covers occurrence/extraction, reactivity series, reaction stoichiometry, corrosion/protection."
+    },
+    {
+      "target": "topics.T04.scope",
+      "page_refs": ["p.30-p.33"],
+      "evidence_note": "Topic 酸和鹽基 covers acids/bases, indicators/pH, strength, salts/neutralisation, concentration, titration."
+    },
+    {
+      "target": "topics.T05.scope",
+      "page_refs": ["p.34-p.38"],
+      "evidence_note": "Topic 化石燃料和碳化合物 covers fossil fuels/hydrocarbons, homologous series, alkanes/alkenes, addition polymers."
+    },
+    {
+      "target": "topics.T06.scope",
+      "page_refs": ["p.39-p.41"],
+      "evidence_note": "Topic 微觀世界 II covers bond/molecular polarity, intermolecular forces, ice structure, non-octet molecules, molecular shapes."
+    },
+    {
+      "target": "topics.T07.scope",
+      "page_refs": ["p.42-p.46"],
+      "evidence_note": "Topic 氧化還原反應、化學電池和電解 covers cells, redox, electrolysis, electroplating."
+    },
+    {
+      "target": "topics.T08.scope",
+      "page_refs": ["p.47-p.48"],
+      "evidence_note": "Topic 化學反應和能量 covers enthalpy changes, standard enthalpy, Hess's law; bomb calorimetry excluded."
+    },
+    {
+      "target": "topics.T09.scope",
+      "page_refs": ["p.49-p.51"],
+      "evidence_note": "Topic 反應速率 covers rate measurement, factors affecting rate, molar gas volume at r.t.p."
+    },
+    {
+      "target": "topics.T10.scope",
+      "page_refs": ["p.52-p.54"],
+      "evidence_note": "Topic 化學平衡 covers dynamic equilibrium, Kc, effect of concentration/temperature; effect of inert species excluded."
+    },
+    {
+      "target": "topics.T11.scope",
+      "page_refs": ["p.55-p.59"],
+      "evidence_note": "Topic 碳化合物的化學 covers homologous series, isomerism, reactions of functional groups, interconversions, important organic substances."
+    },
+    {
+      "target": "topics.T12.scope",
+      "page_refs": ["p.60-p.62"],
+      "evidence_note": "Topic 化學世界中的規律 covers periodic trends Li-Ar, oxide acid-base properties, transition metals."
+    },
+    {
+      "target": "topics.T13.scope",
+      "page_refs": ["p.63-p.66"],
+      "evidence_note": "Elective Topic 工業化學 covers rate equations, activation energy, catalysis, Haber process, chlor-alkali, methanol synthesis, green chemistry."
+    },
+    {
+      "target": "topics.T14.scope",
+      "page_refs": ["p.67-p.71"],
+      "evidence_note": "Elective Topic 物料化學 covers natural/synthetic polymers, metals/alloys, liquid crystals, nanomaterials, green chemistry."
+    },
+    {
+      "target": "topics.T15.scope",
+      "page_refs": ["p.72-p.77"],
+      "evidence_note": "Elective Topic 分析化學 covers chemical tests, separation/purification, quantitative analysis, instrumental analysis (colorimetry, IR, MS), societal role."
+    },
+    {
+      "target": "assessment.assessment_objectives",
+      "page_refs": ["p.117"],
+      "evidence_note": "Ten assessment objectives listed under 5.3 評核目標."
+    },
+    {
+      "target": "assessment.public_exam",
+      "page_refs": ["p.121"],
+      "evidence_note": "Paper 1 mandatory (60%, 2h30m), Paper 2 electives (20%, 1h)."
+    },
+    {
+      "target": "assessment.sba",
+      "page_refs": ["p.121-p.122"],
+      "evidence_note": "School-based assessment 20%; covers practical and generic skills."
+    },
+    {
+      "target": "assessment.question_styles",
+      "page_refs": ["p.121"],
+      "evidence_note": "MCQ, short questions, structured questions, essay/extended questions."
+    },
+    {
+      "target": "assessment.grading",
+      "page_refs": ["p.122-p.123"],
+      "evidence_note": "Standards-referenced reporting, levels 1-5 with 5** and 5*."
+    },
+    {
+      "target": "assessment.experimental_skills",
+      "page_refs": ["p.137-p.138"],
+      "evidence_note": "Appendix 2 lists experimental techniques; not a comprehensive mandated list."
+    }
+  ]
+}

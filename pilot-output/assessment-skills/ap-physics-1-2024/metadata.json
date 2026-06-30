@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "id": "ap-physics-1-2024",
+  "assessment_type": "syllabus",
+  "system": "AP",
+  "board_or_owner": "College Board",
+  "subject": "Physics 1",
+  "level": "High School / Introductory College",
+  "assessment_code": "none",
+  "valid_from": "2024",
+  "valid_to": "ongoing",
+  "package_version": "2026.1",
+  "source_provenance": [
+    {
+      "role": "primary_syllabus",
+      "title": "AP Physics 1: Algebra-Based Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/courses/ap-physics-1/course",
+      "source_document_type": "course_and_exam_description",
+      "source_layout_profile": "ap_ced_unit_guide",
+      "source_format": "pdf",
+      "local_archive_ref": "<local-pdf-archive>/ap-physics-1-2024-course-and-exam-description.pdf",
+      "file_checksum_sha256": "2bc7fd0115976d899aa501f92f00acc0fd151285cdc068a3e25ae2fa4b41e14c",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "Effective Fall 2024",
+      "retrieved_at": "unknown",
+      "page_refs": ["p.1", "p.6", "p.13-14", "p.16-19", "p.177-183", "p.213", "p.217"],
+      "extraction_tool": "pdftotext",
+      "extraction_method": "structured_extract",
+      "extraction_verified": true,
+      "extraction_note": "Structured extraction only; no full official text copied. Source review verdict: sampled_pass.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": "Page references use printed/footer page numbers; physical PDF pages are offset by approximately +2 to +4 due to front matter and blank pages."
+    }
+  ],
+  "aliases": ["ap-physics-1", "ap-physics-1-algebra-based"],
+  "canonical_id": "ap-physics-1-2024",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": "Generated from source evidence bundle ap-physics-1-2024-ced."
+}

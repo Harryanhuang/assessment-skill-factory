@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "",
+      "name": "",
+      "question_styles": [],
+      "duration_minutes": 0,
+      "total_marks": 0,
+      "weighting_percent": 0,
+      "coverage_notes": "",
+      "calculator_allowed": false,
+      "formula_sheet_allowed": false
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "",
+      "name": "",
+      "description": "",
+      "weighting_qualification_percent": 0,
+      "weighting_by_paper": {},
+      "classification_hints": []
+    }
+  ],
+  "question_styles": [],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single concept recall or direct application"},
+    {"level": "standard", "description": "multi-step application within one topic"},
+    {"level": "challenge", "description": "cross-topic reasoning or exam-style synthesis"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "Set supported=true only when at least one teacher/student/parent-facing mode is intentionally declared and validated."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true
+  },
+  "marking_guidance": {
+    "command_words_ref": "",
+    "notes": ""
+  }
+}

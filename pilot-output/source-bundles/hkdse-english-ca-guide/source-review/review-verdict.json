@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ca_guide",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Document is 110 pages; appendices and learning-objective pages were sampled but not fully audited.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata.",
+    "Page references use printed/footer page numbers, which are offset from physical PDF pages. Any downstream tool using physical page numbers must apply the offset."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "p.79-83",
+      "target": "references.appendix_1_language_items",
+      "issue": "Appendix 1 contains many example sentences; only communicative-function categories were summarised, not every example.",
+      "required_fix": "Builder should treat Appendix 1 as reference, not as assessable content; sample key functions only."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.13-18",
+      "target": "assessment.modules",
+      "issue": "Curriculum organisation section describes modules/compulsory/elective parts at a high level; detailed module list not extracted into discrete topics.",
+      "required_fix": "Builder to decide whether modules become topics or references based on DSE skill scope."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.1"],
+      "evidence_note": "Title page states 'Cambridge IGCSE Accounting 0452' and 'Use this syllabus for exams in 2023, 2024 and 2025'."
+    },
+    {
+      "target": "assessment.aims",
+      "page_refs": ["p.5"],
+      "evidence_note": "Aims section lists knowledge/understanding, concepts/principles, numeracy/literacy, accuracy/logic, foundation for advanced study."
+    },
+    {
+      "target": "assessment.content_overview",
+      "page_refs": ["p.6"],
+      "evidence_note": "Content overview lists 7 sections: fundamentals, sources/recording, verification, procedures, financial statements, analysis/interpretation, principles/policies."
+    },
+    {
+      "target": "assessment.papers.P1",
+      "page_refs": ["p.7", "p.17"],
+      "evidence_note": "Paper 1 Multiple Choice: 1h15m, 35 marks, 30%, assesses AO1 and AO2."
+    },
+    {
+      "target": "assessment.papers.P2",
+      "page_refs": ["p.7", "p.17-18"],
+      "evidence_note": "Paper 2 Structured Written Paper: 1h45m, 100 marks, 70%, five 20-mark questions, assesses AO1/AO2/AO3."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO1",
+      "page_refs": ["p.8"],
+      "evidence_note": "AO1 Knowledge and understanding: 65% qualification weighting; 80% Paper 1, 60% Paper 2."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO2",
+      "page_refs": ["p.8"],
+      "evidence_note": "AO2 Analysis: 25% qualification weighting; 20% Paper 1, 25% Paper 2."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO3",
+      "page_refs": ["p.8"],
+      "evidence_note": "AO3 Evaluation: 10% qualification weighting; 0% Paper 1, 15% Paper 2."
+    },
+    {
+      "target": "assessment.command_words",
+      "page_refs": ["p.18-19"],
+      "evidence_note": "Command words table defines Advise/Analyse/Assess/Calculate/Comment/Compare/Consider/Contrast/Define/Demonstrate/Describe/Develop/Discuss/Evaluate/Examine/Explain/Give/Identify/Justify/Outline/Predict/Prepare/State/Suggest/Summarise."
+    },
+    {
+      "target": "topics.1.1.scope",
+      "page_refs": ["p.9"],
+      "evidence_note": "1.1 The purpose of accounting: book-keeping vs accounting, profit/loss measurement, role in monitoring/decision-making."
+    },
+    {
+      "target": "topics.1.2.scope",
+      "page_refs": ["p.9"],
+      "evidence_note": "1.2 The accounting equation: assets, liabilities, owner's equity, apply the equation."
+    },
+    {
+      "target": "topics.2.1.scope",
+      "page_refs": ["p.9"],
+      "evidence_note": "2.1 Double entry system: outline, process data, prepare ledger accounts, post transactions, balance accounts, interpret balances, division of ledger."
+    },
+    {
+      "target": "topics.2.2.scope",
+      "page_refs": ["p.10"],
+      "evidence_note": "2.2 Business documents: invoice, debit/credit note, statement, cheque, receipt; complete pro-forma; use as sources of information."
+    },
+    {
+      "target": "topics.2.3.scope",
+      "page_refs": ["p.10"],
+      "evidence_note": "2.3 Books of prime entry: cash book, petty cash book, sales/purchases/returns journals, general journal; trade/cash discounts; imprest system."
+    },
+    {
+      "target": "topics.3.1.scope",
+      "page_refs": ["p.10"],
+      "evidence_note": "3.1 Trial balance: statement of ledger balances, uses/limitations, prepare/amend, errors not affecting trial balance."
+    },
+    {
+      "target": "topics.3.2.scope",
+      "page_refs": ["p.10-11"],
+      "evidence_note": "3.2 Correction of errors: journal entries, suspense account, adjust profit/loss and statement of financial position."
+    },
+    {
+      "target": "topics.3.3.scope",
+      "page_refs": ["p.11"],
+      "evidence_note": "3.3 Bank reconciliation: use/purpose of bank statement, update cash book, prepare bank reconciliation statement."
+    },
+    {
+      "target": "topics.3.4.scope",
+      "page_refs": ["p.11"],
+      "evidence_note": "3.4 Control accounts: purposes of purchases/sales ledger control accounts, sources of information, prepare control accounts."
+    },
+    {
+      "target": "topics.4.1.scope",
+      "page_refs": ["p.11"],
+      "evidence_note": "4.1 Capital and revenue expenditure/receipts: distinguish, account, calculate effect on profit and asset valuations."
+    },
+    {
+      "target": "topics.4.2.scope",
+      "page_refs": ["p.11-12"],
+      "evidence_note": "4.2 Depreciation and disposal of non-current assets: define, reasons, straight-line/reducing balance/revaluation, ledger accounts/journal entries, disposal accounts."
+    },
+    {
+      "target": "topics.4.3.scope",
+      "page_refs": ["p.12"],
+      "evidence_note": "4.3 Other payables and receivables: matching, accrued/prepaid expenses and incomes."
+    },
+    {
+      "target": "topics.4.4.scope",
+      "page_refs": ["p.12"],
+      "evidence_note": "4.4 Irrecoverable debts and provision for doubtful debts: meaning, recovery, ledger accounts/journal entries, reasons for provision, adjustments."
+    },
+    {
+      "target": "topics.4.5.scope",
+      "page_refs": ["p.12"],
+      "evidence_note": "4.5 Valuation of inventory: lower of cost and NRV, prepare statements, effect on gross profit/profit/equity/assets."
+    },
+    {
+      "target": "topics.5.1.scope",
+      "page_refs": ["p.12-13"],
+      "evidence_note": "5.1 Sole traders: advantages/disadvantages, trading/service businesses, income statements/statements of financial position, year-end adjustments."
+    },
+    {
+      "target": "topics.5.2.scope",
+      "page_refs": ["p.13"],
+      "evidence_note": "5.2 Partnerships: advantages/disadvantages, partnership agreement, appropriation account, income statements/statements of financial position, capital/current accounts."
+    },
+    {
+      "target": "topics.5.3.scope",
+      "page_refs": ["p.13-14"],
+      "evidence_note": "5.3 Limited companies: limited liability, equity, capital structure, issued/called-up/paid-up capital, share capital vs loan capital, financial statements."
+    },
+    {
+      "target": "topics.5.4.scope",
+      "page_refs": ["p.14"],
+      "evidence_note": "5.4 Clubs and societies: receipts/payments vs income/expenditure, accounts, accumulated fund."
+    },
+    {
+      "target": "topics.5.5.scope",
+      "page_refs": ["p.14"],
+      "evidence_note": "5.5 Manufacturing accounts: direct/indirect costs, prime cost, factory overheads, work in progress, factory cost of production, financial statements."
+    },
+    {
+      "target": "topics.5.6.scope",
+      "page_refs": ["p.14"],
+      "evidence_note": "5.6 Incomplete records: disadvantages, statements of affairs, calculate figures from incomplete info, mark-up/margin/inventory turnover; sole traders only."
+    },
+    {
+      "target": "topics.6.1.scope",
+      "page_refs": ["p.14"],
+      "evidence_note": "6.1 Calculation and understanding of accounting ratios: gross margin, profit margin, ROCE, current ratio, liquid ratio, inventory turnover, receivables/payables turnover."
+    },
+    {
+      "target": "topics.6.2.scope",
+      "page_refs": ["p.14-15"],
+      "evidence_note": "6.2 Interpretation of accounting ratios: comparison over years, recommendations, gross vs profit margin, relationship to inventory/turnover/revenue/expenses/equity."
+    },
+    {
+      "target": "topics.6.3.scope",
+      "page_refs": ["p.15"],
+      "evidence_note": "6.3 Inter-firm comparison: problems, apply ratios."
+    },
+    {
+      "target": "topics.6.4.scope",
+      "page_refs": ["p.15"],
+      "evidence_note": "6.4 Interested parties: owners, managers, trade payables, banks, investors, club members, governments/tax authorities."
+    },
+    {
+      "target": "topics.6.5.scope",
+      "page_refs": ["p.15"],
+      "evidence_note": "6.5 Limitations of accounting statements: historic cost, difficulties of definition, non-financial aspects."
+    },
+    {
+      "target": "topics.7.1.scope",
+      "page_refs": ["p.15"],
+      "evidence_note": "7.1 Accounting principles: matching, historic cost, business entity, materiality, consistency, money measurement, duality, prudence, going concern, realisation."
+    },
+    {
+      "target": "topics.7.2.scope",
+      "page_refs": ["p.15"],
+      "evidence_note": "7.2 Accounting policies: influence of international accounting standards, objectives (comparability, relevance, reliability, understandability)."
+    },
+    {
+      "target": "references.accounting_ratios",
+      "page_refs": ["p.16"],
+      "evidence_note": "Appendix lists formulas for gross margin, mark up, profit margin, ROCE, current ratio, liquid ratio, inventory turnover, receivables/payables turnover."
+    },
+    {
+      "target": "references.terminology",
+      "page_refs": ["p.19-20"],
+      "evidence_note": "International standards terminology table maps current usage to previous Cambridge usage."
+    }
+  ],
+  "draft_notes": []
+}

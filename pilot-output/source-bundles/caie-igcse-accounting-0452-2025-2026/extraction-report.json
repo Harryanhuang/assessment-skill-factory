@@ -1,0 +1,114 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "extracted_at": "2026-06-30",
+  "extracted_by": "worker_syllabus",
+  "extraction_profile": "standard_syllabus",
+  "sections_extracted": [
+    {
+      "section": "Syllabus identity",
+      "page_refs": ["p.1"],
+      "extracted_content_summary": "Cambridge IGCSE Accounting 0452, Version 1, September 2020, valid for 2023-2025.",
+      "target_asset": "metadata.json"
+    },
+    {
+      "section": "Aims",
+      "page_refs": ["p.5"],
+      "extracted_content_summary": "Five aims covering knowledge, concepts/principles, numeracy/literacy, accuracy/logic, advanced-study foundation.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Content overview",
+      "page_refs": ["p.6"],
+      "extracted_content_summary": "Seven sections: fundamentals; sources/recording; verification; procedures; financial statements; analysis/interpretation; principles/policies.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Assessment overview",
+      "page_refs": ["p.7"],
+      "extracted_content_summary": "All candidates take Paper 1 (MCQ, 1h15m, 35 marks, 30%) and Paper 2 (structured written, 1h45m, 100 marks, 70%). Grades A*-G.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Assessment objectives",
+      "page_refs": ["p.8"],
+      "extracted_content_summary": "AO1 Knowledge and understanding (65%), AO2 Analysis (25%), AO3 Evaluation (10%); per-paper weightings listed.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Subject content",
+      "page_refs": ["p.9-15"],
+      "extracted_content_summary": "Topics 1.1-7.2 with bullet-point learning outcomes; includes explicit exclusions (e.g., folio columns, three-column running balance, partnership admission/dissolution, cumulative preference shares, incomplete records limited to sole traders).",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Appendix: Accounting ratios",
+      "page_refs": ["p.16"],
+      "extracted_content_summary": "Formulas for profitability, liquidity, turnover ratios.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Details of the assessment",
+      "page_refs": ["p.17-18"],
+      "extracted_content_summary": "Paper 1 and Paper 2 format, duration, marks, AO coverage, calculators allowed.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Command words",
+      "page_refs": ["p.18-19"],
+      "extracted_content_summary": "25 command words with definitions.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "International standards terminology",
+      "page_refs": ["p.19-20"],
+      "extracted_content_summary": "Terminology mapping current vs previous Cambridge usage.",
+      "target_asset": "references"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "Why choose this syllabus?",
+      "page_refs": ["p.2-4"],
+      "reason": "marketing"
+    },
+    {
+      "section": "Quality management / Copyright",
+      "page_refs": ["p.1", "p.26"],
+      "reason": "copyright"
+    },
+    {
+      "section": "What else you need to know (Before you start / Making entries / After the exam / How students and teachers can use the grades)",
+      "page_refs": ["p.20-22"],
+      "reason": "admin"
+    },
+    {
+      "section": "Changes to this syllabus for 2023, 2024 and 2025",
+      "page_refs": ["p.23"],
+      "reason": "not_official_scope"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "Subject content bullet-point grouping",
+      "page_refs": ["p.9-15"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Command words table",
+      "page_refs": ["p.18-19"],
+      "reason": "needs_visual_review"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "Topics 1.1-7.2 from Subject content (p.9-15).",
+    "assessment_json": "Aims, Paper 1/2 structure, AO weightings, command words (p.5-8, p.17-19).",
+    "references": "Accounting ratios appendix, terminology table (p.16, p.19-20)."
+  },
+  "known_risks": [
+    "Single-channel text extraction; visual review pending.",
+    "Official URL and retrieved_at not captured in local archive metadata.",
+    "Grade descriptions are noted as 'will be published after first assessment in 2020' and are not present in this PDF."
+  ],
+  "notes": "Extraction completed without copying official PDF text. Page-map mappings use physical PDF page numbers, which align with footer page numbers."
+}

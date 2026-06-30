@@ -1,0 +1,935 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "SP",
+      "topic_name": "Science Practices",
+      "parent_id": "",
+      "scope": ["Creating Representations", "Mathematical Routines", "Scientific Questioning and Argumentation"],
+      "out_of_scope": ["practices from other AP science courses not aligned to AP Physics 1", "inquiry skills assessed only in lab portfolio"],
+      "classification_hints": ["question asks to sketch, plot, derive, justify, verify, or design an experiment"],
+      "common_misconceptions": ["science practices are separate from content and can be ignored"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "SP.1",
+      "topic_name": "Creating Representations",
+      "parent_id": "SP",
+      "scope": ["1.A: create diagrams or models of physical situations", "1.B: create graphs or charts representing data or relationships", "1.C: create equations representing physical relationships"],
+      "out_of_scope": ["creating representations that require calculus-based derivations"],
+      "classification_hints": ["question asks to draw, sketch, plot, label, or represent a physical situation"],
+      "common_misconceptions": ["any drawing is a representation; the representation must connect to a physics model"],
+      "common_misclassifications": [
+        {
+          "confused_with": "SP.2",
+          "reason": "both may involve equations, but 1.C focuses on representation while 2.A/B/C focus on mathematical routines"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "SP.2",
+      "topic_name": "Mathematical Routines",
+      "parent_id": "SP",
+      "scope": ["2.A: justify a claim using qualitative and quantitative reasoning", "2.B: calculate or estimate quantities", "2.C: compare physical quantities", "2.D: predict new values using functional dependence"],
+      "out_of_scope": ["calculus-based derivations or integrals", "estimation requiring advanced statistical methods"],
+      "classification_hints": ["question asks to calculate, compare, estimate, justify quantitatively, or predict a value"],
+      "common_misconceptions": ["mathematical routines are only about getting a number; they include reasoning and justification"],
+      "common_misclassifications": [
+        {
+          "confused_with": "SP.3",
+          "reason": "both may involve claims; 2.A/B/C/D focus on quantitative justification, 3.A/B/C focus on argumentation and experimental reasoning"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "SP.3",
+      "topic_name": "Scientific Questioning and Argumentation",
+      "parent_id": "SP",
+      "scope": ["3.A: identify or describe experimental procedures", "3.B: identify patterns or trends in data", "3.C: develop and justify scientific arguments"],
+      "out_of_scope": ["designing experiments beyond the scope of AP Physics 1 content", "arguments requiring content outside the 8 units"],
+      "classification_hints": ["question asks to design, describe a procedure, identify a trend, or justify a claim with evidence"],
+      "common_misconceptions": ["argumentation is just opinion; it must use physics evidence and reasoning"],
+      "common_misclassifications": [
+        {
+          "confused_with": "SP.2",
+          "reason": "both may justify claims; 3.C focuses on evidence-based argumentation while 2.A focuses on quantitative reasoning"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1",
+      "topic_name": "Kinematics",
+      "parent_id": "",
+      "scope": ["scalars and vectors in one dimension", "displacement, velocity, and acceleration", "representing motion", "reference frames and relative motion", "vectors and motion in two dimensions"],
+      "out_of_scope": ["calculus-based kinematics derivations", "three-dimensional motion beyond projectile basics", "relativistic kinematics"],
+      "classification_hints": ["question involves position, velocity, acceleration, motion graphs, projectiles, or relative motion without forces"],
+      "common_misconceptions": ["velocity and acceleration are always in the same direction", "zero velocity means zero acceleration"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both involve motion; kinematics describes motion without reference to forces"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.1",
+      "topic_name": "Scalars and Vectors in One Dimension",
+      "parent_id": "1",
+      "scope": ["distinguish scalar and vector quantities", "add and subtract vectors in one dimension", "use sign conventions for direction"],
+      "out_of_scope": ["vector products", "unit vector notation beyond one dimension"],
+      "classification_hints": ["question asks about magnitude, direction, or sign of a one-dimensional quantity"],
+      "common_misconceptions": ["negative sign always means smaller magnitude"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.5",
+          "reason": "both involve vectors; 1.1 stays in one dimension"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.2",
+      "topic_name": "Displacement, Velocity, and Acceleration",
+      "parent_id": "1",
+      "scope": ["definitions and relationships between displacement, velocity, and acceleration", "average and instantaneous quantities", "kinematic equations for constant acceleration"],
+      "out_of_scope": ["derivation of kinematic equations using calculus", "non-constant acceleration requiring calculus"],
+      "classification_hints": ["question uses kinematic equations or asks for displacement/velocity/acceleration relationships"],
+      "common_misconceptions": ["acceleration is the same as velocity", "deceleration always means negative acceleration"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.3",
+          "reason": "both involve kinematic quantities; 1.2 focuses on algebraic relationships while 1.3 focuses on graphical representations"
+        }
+      ],
+      "prerequisite_topics": ["1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.3",
+      "topic_name": "Representing Motion",
+      "parent_id": "1",
+      "scope": ["position-time, velocity-time, and acceleration-time graphs", "slope and area interpretations", "translating between verbal, graphical, and algebraic descriptions"],
+      "out_of_scope": ["calculus-based graph derivations", "motion maps not used in AP Physics 1"],
+      "classification_hints": ["question provides or asks for a motion graph and interprets slope or area"],
+      "common_misconceptions": ["slope of position-time graph gives acceleration", "area under velocity-time graph gives position without sign consideration"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both use kinematic quantities; 1.3 emphasizes graphical representation"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.4",
+      "topic_name": "Reference Frames and Relative Motion",
+      "parent_id": "1",
+      "scope": ["define reference frame", "describe motion relative to different observers", "relative velocity in one dimension"],
+      "out_of_scope": ["Galilean transformations in multiple dimensions", "relativistic reference frames"],
+      "classification_hints": ["question compares observations from two different frames of reference"],
+      "common_misconceptions": ["absolute rest exists; motion is always relative to a chosen frame"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both involve velocity; 1.4 focuses on observer dependence"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.5",
+      "topic_name": "Vectors and Motion in Two Dimensions",
+      "parent_id": "1",
+      "scope": ["vector components", "vector addition and subtraction in two dimensions", "projectile motion", "uniform circular motion"],
+      "out_of_scope": ["three-dimensional vectors", "calculus-based projectile derivations", "non-uniform circular motion requiring calculus"],
+      "classification_hints": ["question involves vector components, projectiles, or circular motion at constant speed"],
+      "common_misconceptions": ["horizontal and vertical motions of a projectile are not independent", "centripetal acceleration is outward"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.9",
+          "reason": "both involve circular motion; 1.5 treats kinematics of uniform circular motion while 2.9 treats dynamics"
+        }
+      ],
+      "prerequisite_topics": ["1.1", "1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2",
+      "topic_name": "Force and Translational Dynamics",
+      "parent_id": "",
+      "scope": ["systems and center of mass", "forces and free-body diagrams", "Newton's third law", "Newton's first law", "Newton's second law", "gravitational force", "kinetic and static friction", "spring forces", "circular motion"],
+      "out_of_scope": ["friction on inclined planes beyond algebraic treatment", "variable forces requiring calculus", "drag forces with differential equations"],
+      "classification_hints": ["question involves forces, Newton's laws, free-body diagrams, or dynamics of objects"],
+      "common_misconceptions": ["force is required to maintain motion", "action-reaction pairs act on the same object"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1",
+          "reason": "both describe motion; Unit 2 explains motion using forces"
+        }
+      ],
+      "prerequisite_topics": ["1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.1",
+      "topic_name": "Systems and Center of Mass",
+      "parent_id": "2",
+      "scope": ["define a system", "center of mass of a system", "motion of center of mass"],
+      "out_of_scope": ["calculating center of mass by integration for irregular objects", "extended rigid body rotation in this topic"],
+      "classification_hints": ["question asks to choose or analyze a system boundary or center-of-mass motion"],
+      "common_misconceptions": ["center of mass must lie inside the object"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both may involve system motion; 2.1 focuses on defining the system and center of mass"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.2",
+      "topic_name": "Forces and Free-Body Diagrams",
+      "parent_id": "2",
+      "scope": ["identify forces", "draw free-body diagrams", "contact and field forces"],
+      "out_of_scope": ["forces not covered in AP Physics 1 such as electric or magnetic forces"],
+      "classification_hints": ["question asks to identify forces or draw a free-body diagram"],
+      "common_misconceptions": ["normal force always equals weight", "velocity direction indicates net force direction"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both involve forces; 2.2 focuses on identification and representation"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.3",
+      "topic_name": "Newton's Third Law",
+      "parent_id": "2",
+      "scope": ["action-reaction pairs", "identifying third-law pairs", "force pairs between interacting objects"],
+      "out_of_scope": ["third-law applications involving fields outside mechanics"],
+      "classification_hints": ["question asks about forces between two interacting objects"],
+      "common_misconceptions": ["action and reaction cancel each other on the same object"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both use Newton's laws; 2.3 focuses on paired forces"
+        }
+      ],
+      "prerequisite_topics": ["2.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.4",
+      "topic_name": "Newton's First Law",
+      "parent_id": "2",
+      "scope": ["inertia", "equilibrium", "objects at rest or moving with constant velocity"],
+      "out_of_scope": ["rotational equilibrium, which is covered in Unit 5"],
+      "classification_hints": ["question involves zero net force and constant velocity or rest"],
+      "common_misconceptions": ["an object at rest has no forces acting on it"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both involve net force; 2.4 is the special case of zero net force"
+        }
+      ],
+      "prerequisite_topics": ["2.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.5",
+      "topic_name": "Newton's Second Law",
+      "parent_id": "2",
+      "scope": ["F=ma", "net force and acceleration", "applications with multiple forces"],
+      "out_of_scope": ["variable mass systems requiring calculus", "forces requiring vector calculus"],
+      "classification_hints": ["question asks to relate net force to acceleration or solve dynamics problems"],
+      "common_misconceptions": ["mass and weight are the same quantity", "larger force always means larger velocity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.4",
+          "reason": "both involve net force; 2.5 handles non-zero net force"
+        }
+      ],
+      "prerequisite_topics": ["2.2", "2.4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.6",
+      "topic_name": "Gravitational Force",
+      "parent_id": "2",
+      "scope": ["gravitational force near Earth's surface", "weight", "gravitational field strength"],
+      "out_of_scope": ["universal gravitation law calculations", "gravitational potential energy beyond mgh near Earth"],
+      "classification_hints": ["question involves weight or gravitational force near Earth's surface"],
+      "common_misconceptions": ["weight is the same on the Moon as on Earth", "mass changes with location"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.3",
+          "reason": "both involve gravitational effects; 2.6 focuses on force, 3.3 on gravitational potential energy"
+        }
+      ],
+      "prerequisite_topics": ["2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.7",
+      "topic_name": "Kinetic and Static Friction",
+      "parent_id": "2",
+      "scope": ["static friction", "kinetic friction", "frictional force models"],
+      "out_of_scope": ["friction coefficients on complex curved surfaces", "microscopic friction models"],
+      "classification_hints": ["question involves surfaces in contact resisting motion or impending motion"],
+      "common_misconceptions": ["static friction always equals mu_s N", "friction always opposes motion"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both involve net force; 2.7 specifically addresses contact friction"
+        }
+      ],
+      "prerequisite_topics": ["2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.8",
+      "topic_name": "Spring Forces",
+      "parent_id": "2",
+      "scope": ["Hooke's law", "spring force", "springs in equilibrium and dynamics"],
+      "out_of_scope": ["series/parallel spring combinations beyond simple algebraic treatment", "calculus-based spring potential derivations"],
+      "classification_hints": ["question involves a spring and Hooke's law"],
+      "common_misconceptions": ["spring force is constant regardless of displacement"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7",
+          "reason": "both involve springs; 2.8 treats spring as a force in dynamics, 7 treats spring as an oscillator"
+        }
+      ],
+      "prerequisite_topics": ["2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.9",
+      "topic_name": "Circular Motion",
+      "parent_id": "2",
+      "scope": ["centripetal force", "centripetal acceleration", "dynamics of uniform circular motion"],
+      "out_of_scope": ["banked curves requiring calculus", "non-uniform circular motion"],
+      "classification_hints": ["question asks for the force causing circular motion or relates tension/gravity/friction to circular path"],
+      "common_misconceptions": ["centripetal force is a new separate force", "outward centrifugal force exists in inertial frame"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.5",
+          "reason": "both involve circular motion; 2.9 focuses on forces causing circular motion"
+        }
+      ],
+      "prerequisite_topics": ["1.5", "2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3",
+      "topic_name": "Work, Energy, and Power",
+      "parent_id": "",
+      "scope": ["translational kinetic energy", "work", "potential energy", "conservation of energy", "power"],
+      "out_of_scope": ["energy in fields beyond gravitational and spring", "relativistic energy", "thermodynamics"],
+      "classification_hints": ["question involves energy, work, power, or conservation of energy"],
+      "common_misconceptions": ["work is force times distance without considering displacement in force direction", "potential energy is a property of an object alone"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both may involve forces; Unit 3 focuses on energy transfer and storage"
+        }
+      ],
+      "prerequisite_topics": ["1", "2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.1",
+      "topic_name": "Translational Kinetic Energy",
+      "parent_id": "3",
+      "scope": ["kinetic energy of a point mass or system", "relation to speed and mass"],
+      "out_of_scope": ["relativistic kinetic energy", "kinetic energy of rotation, which is Unit 6"],
+      "classification_hints": ["question asks for kinetic energy due to translational motion"],
+      "common_misconceptions": ["kinetic energy is proportional to velocity rather than velocity squared"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.1",
+          "reason": "both involve kinetic energy; 3.1 is translational, 6.1 is rotational"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.2",
+      "topic_name": "Work",
+      "parent_id": "3",
+      "scope": ["work done by a constant force", "work as energy transfer", "positive, negative, and zero work"],
+      "out_of_scope": ["work done by variable forces requiring integration", "work in thermodynamic processes"],
+      "classification_hints": ["question asks to calculate work or relate work to energy change"],
+      "common_misconceptions": ["work is done whenever a force acts, regardless of displacement"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.3",
+          "reason": "both involve energy storage/transfer; 3.2 is work as transfer, 3.3 is potential energy as stored"
+        }
+      ],
+      "prerequisite_topics": ["2.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.3",
+      "topic_name": "Potential Energy",
+      "parent_id": "3",
+      "scope": ["gravitational potential energy near Earth", "elastic potential energy in springs", "reference levels"],
+      "out_of_scope": ["universal gravitational potential energy", "potential energy in electric or magnetic fields"],
+      "classification_hints": ["question involves stored energy due to position or spring deformation"],
+      "common_misconceptions": ["potential energy is absolute rather than dependent on reference level"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both are forms of mechanical energy; 3.3 is stored, 3.1 is due to motion"
+        }
+      ],
+      "prerequisite_topics": ["3.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.4",
+      "topic_name": "Conservation of Energy",
+      "parent_id": "3",
+      "scope": ["conservation of mechanical energy", "energy bar charts", "systems with non-conservative forces"],
+      "out_of_scope": ["general conservation laws in thermodynamics", "energy quantization"],
+      "classification_hints": ["question tracks energy forms through a process or uses energy conservation"],
+      "common_misconceptions": ["mechanical energy is always conserved regardless of friction"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.3",
+          "reason": "both are conservation laws; 3.4 conserves energy, 4.3 conserves linear momentum"
+        }
+      ],
+      "prerequisite_topics": ["3.1", "3.2", "3.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.5",
+      "topic_name": "Power",
+      "parent_id": "3",
+      "scope": ["average power", "instantaneous power", "power as rate of energy transfer"],
+      "out_of_scope": ["power in alternating current circuits", "thermodynamic power cycles"],
+      "classification_hints": ["question asks for rate of work or energy transfer"],
+      "common_misconceptions": ["power is the same as energy or work"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both involve work; 3.5 focuses on rate"
+        }
+      ],
+      "prerequisite_topics": ["3.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4",
+      "topic_name": "Linear Momentum",
+      "parent_id": "",
+      "scope": ["linear momentum", "change in momentum and impulse", "conservation of linear momentum", "elastic and inelastic collisions"],
+      "out_of_scope": ["momentum in two dimensions beyond vector component treatment", "relativistic momentum", "center-of-mass frame calculations"],
+      "classification_hints": ["question involves collisions, impulse, or momentum conservation"],
+      "common_misconceptions": ["momentum and kinetic energy are always conserved together", "impulse is force times time without vector direction"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3",
+          "reason": "both involve conserved quantities; momentum is vector and relates to forces over time"
+        }
+      ],
+      "prerequisite_topics": ["2", "3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1",
+      "topic_name": "Linear Momentum",
+      "parent_id": "4",
+      "scope": ["definition p=mv", "momentum as a vector", "momentum of a system"],
+      "out_of_scope": ["relativistic momentum"],
+      "classification_hints": ["question asks for momentum of an object or system"],
+      "common_misconceptions": ["momentum is a scalar"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both involve mass and velocity; momentum is vector and relates to collisions"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2",
+      "topic_name": "Change in Momentum and Impulse",
+      "parent_id": "4",
+      "scope": ["impulse-momentum theorem", "force-time graphs", "average force"],
+      "out_of_scope": ["variable force impulse requiring integration"],
+      "classification_hints": ["question relates force applied over time to momentum change"],
+      "common_misconceptions": ["impulse is the same as work"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both involve force and displacement/time; impulse is force times time"
+        }
+      ],
+      "prerequisite_topics": ["4.1", "2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3",
+      "topic_name": "Conservation of Linear Momentum",
+      "parent_id": "4",
+      "scope": ["isolated systems", "conservation of momentum in collisions and explosions"],
+      "out_of_scope": ["momentum conservation in multi-dimensional collisions beyond component treatment"],
+      "classification_hints": ["question uses conservation of momentum in an isolated system"],
+      "common_misconceptions": ["momentum is conserved for individual objects rather than systems"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.4",
+          "reason": "both are conservation laws; momentum conservation applies to isolated systems"
+        }
+      ],
+      "prerequisite_topics": ["4.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.4",
+      "topic_name": "Elastic and Inelastic Collisions",
+      "parent_id": "4",
+      "scope": ["elastic collisions conserve kinetic energy", "inelastic collisions do not conserve kinetic energy", "perfectly inelastic collisions"],
+      "out_of_scope": ["two-dimensional collision analysis beyond component treatment", "coefficient of restitution calculations"],
+      "classification_hints": ["question classifies a collision or compares kinetic energy before and after"],
+      "common_misconceptions": ["all collisions conserve kinetic energy", "inelastic means no momentum conservation"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.3",
+          "reason": "both involve collisions; 4.4 focuses on kinetic energy conservation distinction"
+        }
+      ],
+      "prerequisite_topics": ["4.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5",
+      "topic_name": "Torque and Rotational Dynamics",
+      "parent_id": "",
+      "scope": ["rotational kinematics", "connecting linear and rotational motion", "torque", "rotational inertia", "rotational equilibrium", "Newton's second law for rotation"],
+      "out_of_scope": ["calculus-based derivations of rotational inertia", "gyroscopic motion", "general three-dimensional rotation"],
+      "classification_hints": ["question involves rotation about a fixed axis, torque, or rotational inertia"],
+      "common_misconceptions": ["torque is force", "rotational inertia depends only on mass"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both involve forces and motion; Unit 5 focuses on rotation"
+        }
+      ],
+      "prerequisite_topics": ["1", "2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.1",
+      "topic_name": "Rotational Kinematics",
+      "parent_id": "5",
+      "scope": ["angular displacement, velocity, and acceleration", "rotational kinematic equations for constant angular acceleration"],
+      "out_of_scope": ["non-constant angular acceleration requiring calculus"],
+      "classification_hints": ["question describes rotation with angular quantities"],
+      "common_misconceptions": ["angular acceleration and tangential acceleration are the same"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.2",
+          "reason": "both use kinematic equations; 5.1 is for rotation"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.2",
+      "topic_name": "Connecting Linear and Rotational Motion",
+      "parent_id": "5",
+      "scope": ["arc length, tangential velocity, tangential acceleration", "centripetal acceleration in rotational description"],
+      "out_of_scope": ["vector cross products for velocity and acceleration"],
+      "classification_hints": ["question relates angular quantities to linear quantities for a rotating object"],
+      "common_misconceptions": ["all points on a rotating object have the same linear speed"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.5",
+          "reason": "both involve circular motion; 5.2 links angular and linear descriptions"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.3",
+      "topic_name": "Torque",
+      "parent_id": "5",
+      "scope": ["definition of torque", "torque from a force about a pivot", "sign conventions"],
+      "out_of_scope": ["torque vectors using cross products", "torque in three dimensions"],
+      "classification_hints": ["question asks for torque or its effect on rotation"],
+      "common_misconceptions": ["torque depends only on force magnitude"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both involve forces causing acceleration; 5.3 causes angular acceleration"
+        }
+      ],
+      "prerequisite_topics": ["2.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.4",
+      "topic_name": "Rotational Inertia",
+      "parent_id": "5",
+      "scope": ["rotational inertia of point masses and common shapes", "dependence on mass distribution and axis"],
+      "out_of_scope": ["integration to find rotational inertia of irregular shapes", "parallel-axis theorem calculations"],
+      "classification_hints": ["question involves resistance to angular acceleration or given I values"],
+      "common_misconceptions": ["rotational inertia is the same for all axes through an object"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.3",
+          "reason": "both affect rotational acceleration; 5.4 is the resistance property"
+        }
+      ],
+      "prerequisite_topics": ["5.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.5",
+      "topic_name": "Rotational Equilibrium and Newton's First Law in Rotational Form",
+      "parent_id": "5",
+      "scope": ["net torque zero", "static equilibrium conditions", "balance problems"],
+      "out_of_scope": ["indeterminate structures", "advanced engineering statics"],
+      "classification_hints": ["question involves balancing torques or objects in rotational equilibrium"],
+      "common_misconceptions": ["zero net force guarantees zero net torque"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.4",
+          "reason": "both are equilibrium conditions; 5.5 adds torque balance"
+        }
+      ],
+      "prerequisite_topics": ["2.4", "5.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.6",
+      "topic_name": "Newton's Second Law in Rotational Form",
+      "parent_id": "5",
+      "scope": ["net torque equals I alpha", "applications to rotating systems"],
+      "out_of_scope": ["systems with time-varying rotational inertia requiring calculus"],
+      "classification_hints": ["question relates net torque to angular acceleration"],
+      "common_misconceptions": ["larger torque always means larger angular velocity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.5",
+          "reason": "both are Newton's second law; 5.6 is the rotational form"
+        }
+      ],
+      "prerequisite_topics": ["5.4", "5.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6",
+      "topic_name": "Energy and Momentum of Rotating Systems",
+      "parent_id": "",
+      "scope": ["rotational kinetic energy", "torque and work", "angular momentum and angular impulse", "conservation of angular momentum", "rolling", "motion of orbiting satellites"],
+      "out_of_scope": ["calculus-based derivations", "general gyroscopic precession", "gravitational orbits requiring calculus"],
+      "classification_hints": ["question involves energy, work, or momentum in rotating systems"],
+      "common_misconceptions": ["angular momentum is a scalar", "rolling objects have only translational kinetic energy"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5",
+          "reason": "both involve rotation; Unit 6 focuses on energy and momentum of rotating systems"
+        }
+      ],
+      "prerequisite_topics": ["3", "4", "5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.1",
+      "topic_name": "Rotational Kinetic Energy",
+      "parent_id": "6",
+      "scope": ["kinetic energy of rotating objects", "total kinetic energy of rolling objects"],
+      "out_of_scope": ["integration for irregular shapes"],
+      "classification_hints": ["question asks for kinetic energy of a rotating or rolling object"],
+      "common_misconceptions": ["rotational kinetic energy is independent of axis"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both involve kinetic energy; 6.1 is rotational"
+        }
+      ],
+      "prerequisite_topics": ["5.4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.2",
+      "topic_name": "Torque and Work",
+      "parent_id": "6",
+      "scope": ["work done by a torque", "work-energy theorem for rotation"],
+      "out_of_scope": ["variable torque requiring integration"],
+      "classification_hints": ["question relates torque through an angle to rotational kinetic energy change"],
+      "common_misconceptions": ["work by torque is force times distance only"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both involve work; 6.2 is work by torque"
+        }
+      ],
+      "prerequisite_topics": ["5.3", "6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.3",
+      "topic_name": "Angular Momentum and Angular Impulse",
+      "parent_id": "6",
+      "scope": ["angular momentum of a point mass or rigid object", "angular impulse"],
+      "out_of_scope": ["angular momentum in three dimensions using cross products"],
+      "classification_hints": ["question involves angular momentum or torque applied over time"],
+      "common_misconceptions": ["angular momentum depends only on angular velocity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4.2",
+          "reason": "both involve impulse; 6.3 is angular"
+        }
+      ],
+      "prerequisite_topics": ["4.2", "5.4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.4",
+      "topic_name": "Conservation of Angular Momentum",
+      "parent_id": "6",
+      "scope": ["conservation of angular momentum in isolated systems", "examples such as spinning figure skater"],
+      "out_of_scope": ["systems with external torque not along axis"],
+      "classification_hints": ["question uses conservation of angular momentum when external torque is zero"],
+      "common_misconceptions": ["angular momentum is conserved whenever energy is conserved"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.3",
+          "reason": "both involve angular momentum; 6.4 is the conservation law"
+        }
+      ],
+      "prerequisite_topics": ["6.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.5",
+      "topic_name": "Rolling",
+      "parent_id": "6",
+      "scope": ["rolling without slipping", "relationship between linear and angular speed", "energy of rolling objects"],
+      "out_of_scope": ["rolling with slipping requiring advanced friction analysis", "rolling on curved surfaces requiring calculus"],
+      "classification_hints": ["question involves a rolling object and the no-slip condition"],
+      "common_misconceptions": ["rolling objects have only translational kinetic energy"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.1",
+          "reason": "both involve rotational kinetic energy; 6.5 specifically addresses rolling motion"
+        }
+      ],
+      "prerequisite_topics": ["5.2", "6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.6",
+      "topic_name": "Motion of Orbiting Satellites",
+      "parent_id": "6",
+      "scope": ["circular orbits", "gravitational force as centripetal force", "orbital speed and period"],
+      "out_of_scope": ["elliptical orbits requiring calculus", "Kepler's laws beyond circular-orbit applications", "universal gravitation energy"],
+      "classification_hints": ["question treats a satellite in circular orbit using gravitational force"],
+      "common_misconceptions": ["satellites in orbit are weightless because there is no gravity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.9",
+          "reason": "both involve centripetal force; 6.6 applies to orbital motion"
+        }
+      ],
+      "prerequisite_topics": ["2.9"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7",
+      "topic_name": "Oscillations",
+      "parent_id": "",
+      "scope": ["defining simple harmonic motion", "frequency and period of SHM", "representing and analyzing SHM", "energy of simple harmonic oscillators"],
+      "out_of_scope": ["damped or driven oscillations", "calculus derivation of SHM equations", "pendulum on other planets beyond algebraic treatment"],
+      "classification_hints": ["question involves oscillating systems, springs, or simple pendulums"],
+      "common_misconceptions": ["period of a simple pendulum depends on mass", "amplitude affects period of a mass-spring system"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.8",
+          "reason": "both involve springs; 7 treats oscillatory motion"
+        }
+      ],
+      "prerequisite_topics": ["2", "3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.1",
+      "topic_name": "Defining Simple Harmonic Motion",
+      "parent_id": "7",
+      "scope": ["restoring force proportional to displacement", "equilibrium position", "examples: mass-spring and simple pendulum"],
+      "out_of_scope": ["damped oscillations", "nonlinear restoring forces"],
+      "classification_hints": ["question identifies or explains the condition for SHM"],
+      "common_misconceptions": ["any back-and-forth motion is SHM"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7.2",
+          "reason": "both describe SHM; 7.1 defines the condition, 7.2 quantifies period/frequency"
+        }
+      ],
+      "prerequisite_topics": ["2.8"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.2",
+      "topic_name": "Frequency and Period of SHM",
+      "parent_id": "7",
+      "scope": ["period and frequency of mass-spring system", "period of simple pendulum"],
+      "out_of_scope": ["physical pendulum", "torsion pendulum"],
+      "classification_hints": ["question asks for period or frequency of an oscillator"],
+      "common_misconceptions": ["period of pendulum depends on amplitude for small angles", "mass does not affect mass-spring period"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7.3",
+          "reason": "both analyze SHM; 7.2 focuses on period/frequency"
+        }
+      ],
+      "prerequisite_topics": ["7.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.3",
+      "topic_name": "Representing and Analyzing SHM",
+      "parent_id": "7",
+      "scope": ["graphs of displacement, velocity, and acceleration", "energy graphs for SHM"],
+      "out_of_scope": ["phase constants requiring calculus", "driven oscillator resonance curves"],
+      "classification_hints": ["question provides or asks for graphs of SHM quantities"],
+      "common_misconceptions": ["velocity is maximum at maximum displacement"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.3",
+          "reason": "both involve graphs; 7.3 is specific to oscillations"
+        }
+      ],
+      "prerequisite_topics": ["7.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.4",
+      "topic_name": "Energy of Simple Harmonic Oscillators",
+      "parent_id": "7",
+      "scope": ["exchange between kinetic and potential energy", "total mechanical energy in SHM"],
+      "out_of_scope": ["damped oscillator energy loss", "quantum harmonic oscillator"],
+      "classification_hints": ["question tracks energy forms in an oscillator"],
+      "common_misconceptions": ["total energy in SHM varies with position"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.4",
+          "reason": "both involve conservation of mechanical energy; 7.4 is in oscillators"
+        }
+      ],
+      "prerequisite_topics": ["3.4", "7.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8",
+      "topic_name": "Fluids",
+      "parent_id": "",
+      "scope": ["internal structure and density", "pressure", "fluids and Newton's laws", "fluids and conservation laws"],
+      "out_of_scope": ["fluid dynamics requiring calculus", "viscous flow", "Bernoulli equation derivations", "thermal properties of fluids"],
+      "classification_hints": ["question involves liquids, gases, pressure, buoyancy, or fluid flow"],
+      "common_misconceptions": ["pressure acts only downward", "objects float because they are light"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both may involve forces; Unit 8 applies Newton's laws to fluids"
+        }
+      ],
+      "prerequisite_topics": ["2", "3", "4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.1",
+      "topic_name": "Internal Structure and Density",
+      "parent_id": "8",
+      "scope": ["density", "mass density and particle model of fluids"],
+      "out_of_scope": ["molecular kinetic theory of gases", "atomic structure of matter"],
+      "classification_hints": ["question involves density or particle spacing in fluids"],
+      "common_misconceptions": ["density is the same as weight"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8.2",
+          "reason": "both describe fluid properties; 8.1 focuses on density"
+        }
+      ],
+      "prerequisite_topics": ["1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.2",
+      "topic_name": "Pressure",
+      "parent_id": "8",
+      "scope": ["pressure in fluids", "atmospheric pressure", "gauge pressure", "pressure variation with depth"],
+      "out_of_scope": ["pressure in moving fluids beyond qualitative treatment", "absolute pressure calculations in complex geometries"],
+      "classification_hints": ["question asks about pressure at a depth or pressure differences"],
+      "common_misconceptions": ["pressure in a fluid pushes only downward"],
+      "common_misclassifications": [
+        {
+          "confused_with": "8.3",
+          "reason": "both involve forces in fluids; 8.2 focuses on pressure as a scalar property"
+        }
+      ],
+      "prerequisite_topics": ["8.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.3",
+      "topic_name": "Fluids and Newton's Laws",
+      "parent_id": "8",
+      "scope": ["buoyant force", "Archimedes' principle", "free-body diagrams in fluids"],
+      "out_of_scope": ["derivation of buoyant force using surface integrals", "fluid drag with differential equations"],
+      "classification_hints": ["question involves buoyancy or forces on submerged objects"],
+      "common_misconceptions": ["buoyant force depends on depth of submersion", "floating objects experience no buoyant force"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.6",
+          "reason": "both involve gravitational force; 8.3 addresses buoyancy in fluids"
+        }
+      ],
+      "prerequisite_topics": ["2.5", "8.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "8.4",
+      "topic_name": "Fluids and Conservation Laws",
+      "parent_id": "8",
+      "scope": ["continuity equation for incompressible fluids", "conservation of mass and energy in fluid flow", "qualitative Bernoulli principle"],
+      "out_of_scope": ["quantitative Bernoulli equation derivations", "compressible flow", "turbulence"],
+      "classification_hints": ["question relates flow speed to cross-sectional area or qualitatively relates pressure and speed"],
+      "common_misconceptions": ["fluid speed is independent of pipe diameter", "Bernoulli principle means faster fluid has higher pressure"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.4",
+          "reason": "both involve conservation laws; 8.4 applies to fluid flow"
+        }
+      ],
+      "prerequisite_topics": ["3.4", "8.3"],
+      "overlap_links": []
+    }
+  ]
+}

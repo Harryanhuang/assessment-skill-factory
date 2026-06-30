@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Formulae and equations were reconstructed from text extraction; visual confirmation of symbols and rearrangements is recommended.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "p.11-28",
+      "target": "physics_content_specification_points",
+      "issue": "Specification point numbering and bold/P markers were reconstructed from text; visual review is needed to confirm which sub-points are bold/P.",
+      "required_fix": "Independent reviewer to sample 2-3 topic pages for marker accuracy."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.51-52",
+      "target": "formula_list",
+      "issue": "Equation formatting (fractions, subscripts, superscripts) was reconstructed from linear text.",
+      "required_fix": "Builder to verify formula list against original PDF before using in references."
+    }
+  ]
+}

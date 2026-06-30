@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_subject_guide",
+  "note": "Each sub-topic in the IB DP Chemistry guide has explicit Standard level and higher level (SL/HL) content and may also have Additional higher level (AHL) content. This file records the scope boundaries extracted from the syllabus content section (p.33-64).",
+  "level_definitions": {
+    "SL_HL": "Content assessed at both Standard Level and Higher Level.",
+    "AHL": "Additional Higher Level content assessed only at Higher Level.",
+    "SL_HL_only": "Sub-topic has no Additional Higher Level content; all content is SL/HL."
+  },
+  "subtopics": [
+    {"strand": "Structure", "topic_id": "1.1", "title": "Introduction to the particulate nature of matter", "sl_hl_hours": "2", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Structure", "topic_id": "1.2", "title": "The nuclear atom", "sl_hl_hours": "2", "ahl_hours": "1", "ahl_scope": "Structure 1.2.3 Mass spectra"},
+    {"strand": "Structure", "topic_id": "1.3", "title": "Electron configurations", "sl_hl_hours": "3", "ahl_hours": "3", "ahl_scope": "Structure 1.3.6 Ionization from convergence limit; Structure 1.3.7 Successive ionization energy"},
+    {"strand": "Structure", "topic_id": "1.4", "title": "Counting particles by mass: The mole", "sl_hl_hours": "7", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Structure", "topic_id": "1.5", "title": "Ideal gases", "sl_hl_hours": "3", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Structure", "topic_id": "2.1", "title": "The ionic model", "sl_hl_hours": "4", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Structure", "topic_id": "2.2", "title": "The covalent model", "sl_hl_hours": "10", "ahl_hours": "8", "ahl_scope": "Structure 2.2 AHL content including formal charge, VSEPR beyond basic shapes, delocalization, etc."},
+    {"strand": "Structure", "topic_id": "2.3", "title": "The metallic model", "sl_hl_hours": "2", "ahl_hours": "1", "ahl_scope": "Structure 2.3 AHL content"},
+    {"strand": "Structure", "topic_id": "2.4", "title": "From models to materials", "sl_hl_hours": "4", "ahl_hours": "1", "ahl_scope": "Structure 2.4 AHL content"},
+    {"strand": "Structure", "topic_id": "3.1", "title": "The periodic table: Classification of elements", "sl_hl_hours": "7", "ahl_hours": "4", "ahl_scope": "Structure 3.1 AHL content including transition elements, complex ions, etc."},
+    {"strand": "Structure", "topic_id": "3.2", "title": "Functional groups: Classification of organic compounds", "sl_hl_hours": "9", "ahl_hours": "11", "ahl_scope": "Structure 3.2 AHL content including advanced organic nomenclature, spectroscopy, etc."},
+    {"strand": "Reactivity", "topic_id": "1.1", "title": "Measuring enthalpy changes", "sl_hl_hours": "5", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Reactivity", "topic_id": "1.2", "title": "Energy cycles in reactions", "sl_hl_hours": "3", "ahl_hours": "5", "ahl_scope": "Reactivity 1.2 AHL content"},
+    {"strand": "Reactivity", "topic_id": "1.3", "title": "Energy from fuels", "sl_hl_hours": "4", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Reactivity", "topic_id": "1.4", "title": "Entropy and spontaneity", "sl_hl_hours": "0", "ahl_hours": "5", "ahl_scope": "entire sub-topic is AHL"},
+    {"strand": "Reactivity", "topic_id": "2.1", "title": "How much? The amount of chemical change", "sl_hl_hours": "7", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Reactivity", "topic_id": "2.2", "title": "How fast? The rate of chemical change", "sl_hl_hours": "9", "ahl_hours": "6", "ahl_scope": "Reactivity 2.2 AHL content including rate mechanisms, Arrhenius, etc."},
+    {"strand": "Reactivity", "topic_id": "2.3", "title": "How far? The extent of chemical change", "sl_hl_hours": "5", "ahl_hours": "4", "ahl_scope": "Reactivity 2.3 AHL content including buffer calculations, pKa/pKb, etc."},
+    {"strand": "Reactivity", "topic_id": "3.1", "title": "Proton transfer reactions", "sl_hl_hours": "8", "ahl_hours": "9", "ahl_scope": "Reactivity 3.1 AHL content including Lewis acid-base, buffers, indicators, etc."},
+    {"strand": "Reactivity", "topic_id": "3.2", "title": "Electron transfer reactions", "sl_hl_hours": "10", "ahl_hours": "5", "ahl_scope": "Reactivity 3.2 AHL content including standard electrode potentials, electrolysis of aqueous solutions, etc."},
+    {"strand": "Reactivity", "topic_id": "3.3", "title": "Electron sharing reactions", "sl_hl_hours": "2", "ahl_hours": "0", "ahl_scope": "none"},
+    {"strand": "Reactivity", "topic_id": "3.4", "title": "Electron-pair sharing reactions", "sl_hl_hours": "4", "ahl_hours": "7", "ahl_scope": "Reactivity 3.4 AHL content including SN1/SN2 mechanisms, electrophilic substitution, coordination complexes, etc."}
+  ],
+  "total_teaching_hours": {
+    "SL": {"structure": 53, "reactivity": 57, "total_assessed_content": 110},
+    "HL": {"structure": 74, "reactivity": 106, "total_assessed_content": 180}
+  },
+  "verification_notes": [
+    "Boundary markers are explicit in the PDF as 'Standard level and higher level: N hours' and 'Additional higher level: N hours' (or 'Additional higher level: None for ...').",
+    "Reactivity 1.4 is entirely AHL (no SL/HL hours).",
+    "Builder must use this boundary table to tag each topic_id with scope: SL_HL_only, SL_HL_plus_AHL, or AHL_only."
+  ]
+}

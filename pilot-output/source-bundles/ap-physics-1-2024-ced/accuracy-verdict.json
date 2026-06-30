@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ced",
+  "file_locked": true,
+  "coverage_status": "complete",
+  "traceability_status": "complete",
+  "dual_pass_checked": false,
+  "review_status": "sampled_pass",
+  "extraction_confidence": "medium",
+  "blocking_risks": [],
+  "reuse_status": "reusable",
+  "notes": "PDF is text-based, 228 pages, not encrypted, not a scan. Text extraction succeeded and page-map covers high-impact targets. Unit Guides section (p.21-133) was sampled rather than fully audited. Confidence remains medium because only single-channel text extraction was used and reviewer is the same agent as extractor. Accepted risks documented in source-review/review-verdict.json."
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.1"],
+      "evidence_note": "Title page states 'International GCSE Physics (9-1) Specification, Pearson Edexcel International GCSE in Physics (4PH1), First teaching September 2017, First examination June 2019, Issue 4'."
+    },
+    {
+      "target": "assessment.qualification_overview",
+      "page_refs": ["p.8"],
+      "evidence_note": "Qualification consists of two externally-assessed papers: Physics Paper 1 and Physics Paper 2."
+    },
+    {
+      "target": "assessment.papers.P1",
+      "page_refs": ["p.8"],
+      "evidence_note": "Paper 1: codes 4PH1/1P and 4SD0/1P, 61.1% of total IGCSE, 2 hours, 110 marks, availability November and June, assesses core content that is not bold and does not have a 'P' reference."
+    },
+    {
+      "target": "assessment.papers.P2",
+      "page_refs": ["p.9"],
+      "evidence_note": "Paper 2: code 4PH1/2P, 38.9% of total IGCSE, 1 hour 15 minutes, 70 marks, availability November and June, assesses all content including bold and 'P' reference."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO1",
+      "page_refs": ["p.31"],
+      "evidence_note": "AO1 Knowledge and understanding of physics: 38-42% of International GCSE."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO2",
+      "page_refs": ["p.31"],
+      "evidence_note": "AO2 Application of knowledge and understanding, analysis and evaluation of physics: 38-42%."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO3",
+      "page_refs": ["p.31"],
+      "evidence_note": "AO3 Experimental skills, analysis and evaluation of data and methods in physics: 19-21%."
+    },
+    {
+      "target": "assessment.ao_paper_relationship",
+      "page_refs": ["p.31"],
+      "evidence_note": "Paper 1: AO1 23.2-25.7%, AO2 23.2-25.7%, AO3 11.6-12.8%. Paper 2: AO1 14.8-16.3%, AO2 14.8-16.3%, AO3 7.4-8.2%."
+    },
+    {
+      "target": "topics.1.forces_and_motion",
+      "page_refs": ["p.11"],
+      "evidence_note": "Topic 1 Forces and motion: units, forces and motion, Newton's laws, moments, momentum, safety."
+    },
+    {
+      "target": "topics.2.electricity",
+      "page_refs": ["p.14"],
+      "evidence_note": "Topic 2 Electricity: units, mains electricity, current and charge, potential difference and resistance, series and parallel circuits, magnetic effect of current."
+    },
+    {
+      "target": "topics.3.waves",
+      "page_refs": ["p.16-17"],
+      "evidence_note": "Topic 3 Waves: units, properties of waves, sound and ultrasound, reflection and refraction, total internal reflection."
+    },
+    {
+      "target": "topics.4.energy_resources",
+      "page_refs": ["p.19-20"],
+      "evidence_note": "Topic 4 Energy resources and energy transfers: units, energy transfers, work and power, energy resources and electricity generation."
+    },
+    {
+      "target": "topics.5.solids_liquids_gases",
+      "page_refs": ["p.21-22"],
+      "evidence_note": "Topic 5 Solids, liquids and gases: units, density and pressure, change of state, ideal gas molecules."
+    },
+    {
+      "target": "topics.6.magnetism_electromagnetism",
+      "page_refs": ["p.23-24"],
+      "evidence_note": "Topic 6 Magnetism and electromagnetism: units, magnetism, electromagnetism, electromagnetic induction."
+    },
+    {
+      "target": "topics.7.radioactivity_particles",
+      "page_refs": ["p.25-26"],
+      "evidence_note": "Topic 7 Radioactivity and particles: units, radioactivity, fission and fusion."
+    },
+    {
+      "target": "topics.8.astrophysics",
+      "page_refs": ["p.27-28"],
+      "evidence_note": "Topic 8 Astrophysics: units, origins of the Universe, lifecycle of stars, red-shift, galaxies."
+    },
+    {
+      "target": "assessment.bold_p_reference_rule",
+      "page_refs": ["p.1"],
+      "evidence_note": "Specification statements in bold with a 'P' reference relate to content in International GCSE Physics only and not in International GCSE Science (Double Award)."
+    },
+    {
+      "target": "assessment.command_words",
+      "page_refs": ["p.47-48"],
+      "evidence_note": "Command word taxonomy: Add/Label, Calculate, Comment on, Complete, Deduce, Describe, Design, Determine, Discuss, Draw, Estimate, Evaluate, Explain, Give/State/Name, Give a reason, Identify, Justify, Plot, Predict, Show that, Sketch, State what is meant by, Suggest, Analyse the data/graph to explain, What/Why/Which."
+    },
+    {
+      "target": "references.formulae",
+      "page_refs": ["p.51-52"],
+      "evidence_note": "Appendix 7: Physics formulae for relationships (18 relationships)."
+    },
+    {
+      "target": "references.suggested_practicals",
+      "page_refs": ["p.49"],
+      "evidence_note": "Appendix 6: Suggested practical investigations list."
+    },
+    {
+      "target": "references.circuit_symbols",
+      "page_refs": ["p.53"],
+      "evidence_note": "Appendix 8: Electrical circuit symbols."
+    },
+    {
+      "target": "references.mathematical_skills",
+      "page_refs": ["p.45-46"],
+      "evidence_note": "Appendix 4: Mathematical skills required and assessed."
+    }
+  ],
+  "draft_notes": [
+    "Page numbers use printed/page numbers from the PDF footer.",
+    "Bold 'P' reference indicates Physics-only content; Paper 2 includes it, Paper 1 excludes it.",
+    "Topic sub-point numbering (e.g., 1.1, 1.2) was reconstructed from bullet-point lists; visual review recommended."
+  ]
+}

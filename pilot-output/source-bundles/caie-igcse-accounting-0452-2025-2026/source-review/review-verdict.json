@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata.",
+    "Page references use printed/footer page numbers, which are offset by +2 from physical PDF pages. Any downstream tool using physical page numbers must apply the offset."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "all",
+      "target": "source-index.page_numbering",
+      "issue": "Initial source-index incorrectly stated that footer page numbers align with physical PDF page numbers. Corrected to note the +2 offset.",
+      "required_fix": "Keep printed page numbers in page-map but document the physical-to-printed offset clearly."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.9-15",
+      "target": "topics.subject_content",
+      "issue": "Bullet-point grouping was reconstructed from text extraction; visual confirmation recommended.",
+      "required_fix": "Independent reviewer to sample 3-5 subject content pages for bullet continuity."
+    }
+  ]
+}

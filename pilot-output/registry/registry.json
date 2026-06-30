@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "updated_at": "2026-06-30",
+  "entries": [
+    {
+      "id": "caie-igcse-accounting-0452",
+      "path": "../assessment-skills/caie-igcse-accounting-0452",
+      "metadata_ref": "../assessment-skills/caie-igcse-accounting-0452/metadata.json",
+      "package_version": "2026.1",
+      "registered_at": "2026-06-30",
+      "registry_status": "reviewed",
+      "supersedes": [],
+      "migration_log": [
+        {
+          "event": "activation_candidate_reviewed",
+          "from_status": "reviewed",
+          "to_status": "reviewed",
+          "triggered_at": "2026-06-30",
+          "reason": "Final review passed and Pilot 1 classification pilot passed, but active is held until independent PDF source dual-pass review is completed."
+        }
+      ],
+      "notes": "First reviewed assessment skill package in the registry. Reviewer verdict: 通过 and Pilot 1 passed. Active requires source dual_pass_checked=true with independent reviewer evidence; lesson_use.supported=false so no Pilot 2 required."
+    }
+  ]
+}

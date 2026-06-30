@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_subject_guide",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Syllabus content section (p.33-64) was sampled rather than fully audited page-by-page.",
+    "SL/HL and AHL boundaries within topics were noted but not fully verified.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "p.33-64",
+      "target": "syllabus_content",
+      "issue": "Syllabus content section was sampled across Structure and Reactivity strands; full understandings/applications/skills lists for every sub-topic were not extracted.",
+      "required_fix": "Builder to use syllabus outline/roadmap as scaffold and re-sample specific sub-topics as needed for topics.json."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.33-64",
+      "target": "sl_hl_ahl_boundaries",
+      "issue": "SL/HL and AHL scope markers exist within each topic; text extraction did not always clearly tag boundary transitions.",
+      "required_fix": "Builder to verify SL/HL/AHL boundaries against original PDF before finalising topic scope."
+    }
+  ]
+}

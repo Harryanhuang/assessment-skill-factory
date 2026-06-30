@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "id": "caie-igcse-accounting-0452",
+  "assessment_type": "syllabus",
+  "system": "IGCSE",
+  "board_or_owner": "CAIE",
+  "subject": "Accounting",
+  "level": "IGCSE",
+  "assessment_code": "0452",
+  "valid_from": "2023",
+  "valid_to": "2025",
+  "package_version": "2026.1",
+  "source_provenance": [
+    {
+      "role": "primary_syllabus",
+      "title": "Cambridge IGCSE Accounting 0452 syllabus for 2023, 2024 and 2025",
+      "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-accounting-0452/",
+      "source_document_type": "syllabus",
+      "source_layout_profile": "standard_syllabus",
+      "source_format": "pdf",
+      "local_archive_ref": "<local-pdf-archive>/caie-accounting-0452-syllabus-2025-2026.pdf",
+      "file_checksum_sha256": "13c38ca542a483fee2386d8777cce37fec3fde327c5425dd7d6d7b9f7de4911b",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "Version 1, published September 2020",
+      "retrieved_at": "unknown",
+      "page_refs": ["p.1", "p.5-8", "p.9-15", "p.16-19"],
+      "extraction_tool": "pdftotext",
+      "extraction_method": "structured_extract",
+      "extraction_verified": true,
+      "extraction_note": "Structured extraction only; no full official text copied. Source review verdict: pass_with_risks.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": "Page references use printed/footer page numbers; physical PDF pages are offset by +2."
+    }
+  ],
+  "aliases": [],
+  "canonical_id": "caie-igcse-accounting-0452",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": "Generated from source evidence bundle caie-igcse-accounting-0452-2025-2026."
+}

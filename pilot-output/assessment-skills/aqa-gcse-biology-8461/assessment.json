@@ -1,0 +1,131 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "P1",
+      "name": "Paper 1",
+      "question_styles": ["multiple_choice", "structured_written", "short_answer", "calculation", "graph", "practical_method"],
+      "duration_minutes": 105,
+      "total_marks": 100,
+      "weighting_percent": 50,
+      "coverage_notes": "Topics 4.1-4.4: Cell biology, Organisation, Infection and response, Bioenergetics. Foundation and Higher Tier.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P2",
+      "name": "Paper 2",
+      "question_styles": ["multiple_choice", "structured_written", "short_answer", "calculation", "graph", "practical_method", "synoptic"],
+      "duration_minutes": 105,
+      "total_marks": 100,
+      "weighting_percent": 50,
+      "coverage_notes": "Topics 4.5-4.7: Homeostasis and response, Inheritance variation and evolution, Ecology. Foundation and Higher Tier.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "AO1",
+      "name": "Knowledge and understanding",
+      "description": "Demonstrate knowledge and understanding of scientific ideas, techniques and procedures.",
+      "weighting_qualification_percent": 40,
+      "weighting_by_paper": {"P1": "37-43", "P2": "37-43"},
+      "classification_hints": ["state", "define", "identify", "describe", "name", "give", "list"]
+    },
+    {
+      "ao_id": "AO2",
+      "name": "Application",
+      "description": "Apply knowledge and understanding of scientific ideas, enquiry, techniques and procedures.",
+      "weighting_qualification_percent": 40,
+      "weighting_by_paper": {"P1": "37-43", "P2": "37-43"},
+      "classification_hints": ["explain", "suggest", "calculate", "use", "apply", "compare", "describe in context"]
+    },
+    {
+      "ao_id": "AO3",
+      "name": "Analysis and evaluation",
+      "description": "Analyse information and ideas to interpret and evaluate, make judgements and draw conclusions, develop and improve experimental procedures.",
+      "weighting_qualification_percent": 20,
+      "weighting_by_paper": {"P1": "17-23", "P2": "17-23"},
+      "classification_hints": ["analyse", "evaluate", "interpret", "judge", "conclude", "improve", "plan", "investigate"]
+    }
+  ],
+  "working_scientifically": {
+    "overview": "Working scientifically underpins all specification content and is assessed through WS1-WS4.",
+    "areas": [
+      {"ws_id": "WS1", "name": "Development of scientific thinking", "description": "Scientific explanations, theories, models, peer review, risk, ethics, applications."},
+      {"ws_id": "WS2", "name": "Experimental skills and strategies", "description": "Planning, variables, apparatus, methods, measurements, fair tests, hazards."},
+      {"ws_id": "WS3", "name": "Analysis and evaluation", "description": "Presenting data, graphs, calculations, statistics, uncertainties, conclusions, evaluation."},
+      {"ws_id": "WS4", "name": "Scientific vocabulary, quantities, units, symbols and nomenclature", "description": "Correct use of SI units, prefixes, biological terminology and notation."}
+    ],
+    "notes": "WS/MS/AT references appear in the right column of the two-column specification; they are skill links, not standalone content topics."
+  },
+  "required_practicals": {
+    "count": 10,
+    "notes": "Required practical activities are embedded in subject content and listed in Section 8 of the specification. They provide contexts for WS2 and WS3 assessment.",
+    "examples": [
+      "Use of a light microscope",
+      "Osmosis in plant tissue",
+      "Food testing",
+      "Enzymes",
+      "Photosynthesis",
+      "Respiration rate",
+      "Reaction time",
+      "Field investigation of abundance/distribution",
+      "Plant responses",
+      "Decay"
+    ],
+    "foundation_higher": "All required practicals are common to Foundation and Higher Tier. Questions may be set in unfamiliar contexts."
+  },
+  "tiers_and_grades": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9 (allowed grade 3 if just below boundary)",
+    "notes": "Tier must be known for item routing; Foundation items may also appear on Higher papers but Higher-only content is not assessed at Foundation."
+  },
+  "command_words": {
+    "notes": "Command words are defined in the specification and affect AO demand. Classify items by the command word as well as the content.",
+    "examples": ["calculate", "compare", "describe", "evaluate", "explain", "give", "identify", "justify", "name", "plan", "sketch", "state", "suggest"]
+  },
+  "question_styles": [
+    {"style_id": "multiple_choice", "name": "Multiple choice", "typical_marks": 1, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "short_answer", "name": "Short answer", "typical_marks": 1, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "structured_written", "name": "Structured written", "typical_marks": 2, "ao_focus": ["AO1", "AO2", "AO3"]},
+    {"style_id": "calculation", "name": "Calculation", "typical_marks": 2, "ao_focus": ["AO2"]},
+    {"style_id": "graph", "name": "Graph / data handling", "typical_marks": 3, "ao_focus": ["AO2", "AO3"]},
+    {"style_id": "practical_method", "name": "Practical method / investigation", "typical_marks": 4, "ao_focus": ["AO2", "AO3"]},
+    {"style_id": "synoptic", "name": "Synoptic / extended response", "typical_marks": 6, "ao_focus": ["AO2", "AO3"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "Single concept recall or direct application; often one-step calculations or naming structures/processes."},
+    {"level": "standard", "description": "Multi-step application within one topic; explain a process, interpret a graph, or apply a practical method."},
+    {"level": "challenge", "description": "Cross-topic reasoning, evaluation of evidence, or unfamiliar application of practical skills."}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "exclude_from_questions": [
+      "A-Level Biology content",
+      "AQA Combined Science: Trilogy content that is not part of GCSE Biology 8461",
+      "Human Biology / AQA GCSE Biology Higher Tier only content when generating Foundation items",
+      "Unofficial command words or mark schemes"
+    ]
+  },
+  "marking_guidance": {
+    "command_words_ref": "references/page-map.json target assessment.command_words",
+    "notes": "Command words are defined in the specification. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

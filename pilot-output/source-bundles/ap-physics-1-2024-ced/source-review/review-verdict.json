@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ced",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Document is 228 pages; Unit Guides section (p.21-133) was sampled rather than fully audited page-by-page.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata.",
+    "Page references use printed/footer page numbers, which are offset from physical PDF pages due to front matter and blank pages."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "p.21-133",
+      "target": "unit_guides",
+      "issue": "Unit Guides section was sampled (Unit 1 and fragments of Units 2 and 5); full learning-objective / essential-knowledge lists for Units 2-8 were not extracted.",
+      "required_fix": "Builder should treat Unit Guides as the authoritative topic source and, if needed, re-sample specific units before finalising topics.json."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.177-182",
+      "target": "exam_info",
+      "issue": "Exam overview, FRQ types, task verbs, and skill weightings were extracted; full sample exam questions were not included.",
+      "required_fix": "No fix required for source bundle; builder should use exam info for assessment.json and not copy sample questions."
+    }
+  ]
+}

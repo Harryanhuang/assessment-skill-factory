@@ -1,0 +1,126 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.1"],
+      "evidence_note": "Title page states 'GCSE Biology (8461) Specification, For teaching from September 2016 onwards, For exams in 2018 onwards, Version 1.0 21 April 2016'."
+    },
+    {
+      "target": "assessment.qualification_structure",
+      "page_refs": ["p.8"],
+      "evidence_note": "Linear qualification; students sit all exams at the end of the course."
+    },
+    {
+      "target": "assessment.papers.P1",
+      "page_refs": ["p.8"],
+      "evidence_note": "Paper 1: Topics 1-4 (Cell biology; Organisation; Infection and response; Bioenergetics), written exam 1 hour 45 minutes, Foundation and Higher Tier, 100 marks, 50% of GCSE."
+    },
+    {
+      "target": "assessment.papers.P2",
+      "page_refs": ["p.8"],
+      "evidence_note": "Paper 2: Topics 5-7 (Homeostasis and response; Inheritance, variation and evolution; Ecology), written exam 1 hour 45 minutes, Foundation and Higher Tier, 100 marks, 50% of GCSE."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO1",
+      "page_refs": ["p.78"],
+      "evidence_note": "AO1: Demonstrate knowledge and understanding of scientific ideas, techniques and procedures. Overall 40%; per paper 37-43%."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO2",
+      "page_refs": ["p.78"],
+      "evidence_note": "AO2: Apply knowledge and understanding of scientific ideas, enquiry, techniques and procedures. Overall 40%; per paper 37-43%."
+    },
+    {
+      "target": "assessment.assessment_objectives.AO3",
+      "page_refs": ["p.78"],
+      "evidence_note": "AO3: Analyse information and ideas to interpret/evaluate, make judgements/draw conclusions, develop/improve experimental procedures. Overall 20%; per paper 17-23%."
+    },
+    {
+      "target": "assessment.component_scaling",
+      "page_refs": ["p.79"],
+      "evidence_note": "Paper 1 raw mark 100 scaled x1 to 100; Paper 2 raw mark 100 scaled x1 to 100; total scaled mark 200."
+    },
+    {
+      "target": "assessment.tiers",
+      "page_refs": ["p.80"],
+      "evidence_note": "Foundation Tier grades 1-5; Higher Tier grades 4-9 (allowed grade 3 if just below)."
+    },
+    {
+      "target": "assessment.working_scientifically.WS1",
+      "page_refs": ["p.9-10"],
+      "evidence_note": "WS 1.1-1.6 Development of scientific thinking."
+    },
+    {
+      "target": "assessment.working_scientifically.WS2",
+      "page_refs": ["p.11-12"],
+      "evidence_note": "WS 2.1-2.7 Experimental skills and strategies."
+    },
+    {
+      "target": "assessment.working_scientifically.WS3",
+      "page_refs": ["p.13-14"],
+      "evidence_note": "WS 3.1-3.8 Analysis and evaluation."
+    },
+    {
+      "target": "topics.4.1.cell_biology",
+      "page_refs": ["p.16-23"],
+      "evidence_note": "Topic 4.1 Cell biology: cell structure, cell specialisation, differentiation, microscopy, culturing microorganisms, cell division, transport in cells."
+    },
+    {
+      "target": "topics.4.2.organisation",
+      "page_refs": ["p.24-30"],
+      "evidence_note": "Topic 4.2 Organisation: principles of organisation, animal tissues/organs/systems, plant tissues/organs/systems."
+    },
+    {
+      "target": "topics.4.3.infection_and_response",
+      "page_refs": ["p.31-36"],
+      "evidence_note": "Topic 4.3 Infection and response: communicable diseases, viral/bacterial/fungal/protist diseases, human defence systems, vaccination, antibiotics/painkillers, drug development, monoclonal antibodies, plant disease."
+    },
+    {
+      "target": "topics.4.4.bioenergetics",
+      "page_refs": ["p.37-40"],
+      "evidence_note": "Topic 4.4 Bioenergetics: photosynthesis, respiration, response to exercise, metabolism."
+    },
+    {
+      "target": "topics.4.5.homeostasis_and_response",
+      "page_refs": ["p.41-50"],
+      "evidence_note": "Topic 4.5 Homeostasis and response: homeostasis, nervous system, hormonal coordination."
+    },
+    {
+      "target": "topics.4.6.inheritance_variation_evolution",
+      "page_refs": ["p.51-65"],
+      "evidence_note": "Topic 4.6 Inheritance, variation and evolution: reproduction, variation and evolution, genetic modification, evidence for evolution, classification."
+    },
+    {
+      "target": "topics.4.7.ecology",
+      "page_refs": ["p.66-75"],
+      "evidence_note": "Topic 4.7 Ecology: adaptations, interdependence, organisation of an ecosystem, biodiversity, trophic levels, food production."
+    },
+    {
+      "target": "topics.4.8.key_ideas",
+      "page_refs": ["p.76"],
+      "evidence_note": "Topic 4.8 Key ideas: summary of key concepts relevant across biology."
+    },
+    {
+      "target": "assessment.required_practicals",
+      "page_refs": ["p.86-91"],
+      "evidence_note": "10 required practical activities listed; Practicals 1,3,4,5,6,7,9 common with Combined Science; Practicals 2,8,10 Biology only."
+    },
+    {
+      "target": "assessment.apparatus_techniques",
+      "page_refs": ["p.85"],
+      "evidence_note": "Apparatus and techniques AT 1-8 (AT 8 Biology only)."
+    },
+    {
+      "target": "references.mathematical_requirements",
+      "page_refs": ["p.83"],
+      "evidence_note": "Mathematical requirements for GCSE Biology."
+    }
+  ],
+  "draft_notes": [
+    "Page numbers use printed/page numbers from the PDF footer.",
+    "Two-column layout: left column = assessable content; right column = Key opportunities for skills development.",
+    "Some right-column skill references may have merged with left-column content during text extraction; builder should verify."
+  ]
+}

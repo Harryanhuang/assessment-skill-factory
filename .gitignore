@@ -1,0 +1,32 @@
+# Local runtime state
+.omx/
+.codex/
+.claude/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python / Node / tooling cache
+__pycache__/
+*.pyc
+node_modules/
+.pytest_cache/
+.mypy_cache/
+
+# Official source files and rendered copyrighted pages
+*.pdf
+*.PDF
+pilot-output/**/rendered-pages/
+
+# Incomplete local-only experiments
+pilot-output/source-bundles/dse-biology-ca-guide/
+pilot-output/source-bundles/dse-mathematics-ca-guide/
+
+# Local env and secrets
+.env
+.env.*
+*.key
+*.pem

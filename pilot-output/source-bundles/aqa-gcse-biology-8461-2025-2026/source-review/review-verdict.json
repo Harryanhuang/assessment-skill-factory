@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "verdict": "pass_with_risks",
+  "review_status": "sampled_pass",
+  "accepted_risks": [
+    "Reviewer is the same agent as the extractor; independent re-review is recommended before the skill is switched to active.",
+    "Only single-channel text extraction was performed; rendered-page dual pass was not completed by an independent reviewer.",
+    "Two-column layout (content left, skill opportunities right) was not visually verified; some skill references may have merged with content.",
+    "Official URL and exact retrieved_at are not verified in local archive metadata."
+  ],
+  "blocking_risks": [],
+  "findings": [
+    {
+      "severity": "P2",
+      "page_ref": "p.9-76",
+      "target": "two_column_separation",
+      "issue": "Assessable content (left column) and Key opportunities for skills development (right column) were separated based on layout inference from pdftotext output, not visual review.",
+      "required_fix": "Independent reviewer to sample 2-3 two-column pages to confirm left/right separation before builder finalises topics.json."
+    },
+    {
+      "severity": "P2",
+      "page_ref": "p.86-91",
+      "target": "required_practicals",
+      "issue": "Only required practicals 1-4 were sampled; full list of 10 practicals and their AT/WS/MS links not fully audited.",
+      "required_fix": "Builder to verify full required practical list if used as assessment constraints."
+    }
+  ]
+}

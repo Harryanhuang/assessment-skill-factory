@@ -1,0 +1,528 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "The fundamentals of accounting",
+      "parent_id": "",
+      "scope": ["book-keeping vs accounting", "purpose of accounting", "accounting equation", "assets", "liabilities", "owner's equity"],
+      "out_of_scope": ["advanced conceptual frameworks beyond syllabus", "IFRS/IAS detailed standards"],
+      "classification_hints": ["question asks for definitions or purpose of accounting", "question tests accounting equation"],
+      "common_misconceptions": ["book-keeping and accounting are the same"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.1",
+          "reason": "both involve ledger accounts, but 1.2 focuses on the equation while 2.1 focuses on double entry processing"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.1",
+      "topic_name": "The purpose of accounting",
+      "parent_id": "1",
+      "scope": ["difference between book-keeping and accounting", "purposes of measuring profit and loss", "role of accounting in monitoring progress and decision-making"],
+      "out_of_scope": ["management accounting for internal decision-making beyond IGCSE scope"],
+      "classification_hints": ["question asks why accounting is needed or difference from book-keeping"],
+      "common_misconceptions": [],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "1.2",
+      "topic_name": "The accounting equation",
+      "parent_id": "1",
+      "scope": ["meaning of assets, liabilities and owner's equity", "apply the accounting equation"],
+      "out_of_scope": ["complex entity structures not covered in IGCSE"],
+      "classification_hints": ["question requires use of Assets = Capital + Liabilities"],
+      "common_misconceptions": ["liabilities are subtracted on the wrong side of the equation"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.1",
+          "reason": "both use ledger account concepts, but equation questions do not require full double entry recording"
+        }
+      ],
+      "prerequisite_topics": ["1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2",
+      "topic_name": "Sources and recording of data",
+      "parent_id": "",
+      "scope": ["double entry system", "business documents", "books of prime entry", "trade and cash discounts", "imprest system"],
+      "out_of_scope": ["folio columns", "three-column running-balance accounts"],
+      "classification_hints": ["question involves recording transactions from documents"],
+      "common_misconceptions": ["trade discount and cash discount are recorded the same way"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both may involve journal entries, but 2.3 records normal transactions while 3.2 corrects errors"
+        }
+      ],
+      "prerequisite_topics": ["1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.1",
+      "topic_name": "The double entry system of book-keeping",
+      "parent_id": "2",
+      "scope": ["outline double entry system", "process accounting data", "prepare ledger accounts", "post transactions", "balance ledger accounts", "interpret balances", "division of ledger"],
+      "out_of_scope": ["folio columns", "three-column running-balance accounts"],
+      "classification_hints": ["question asks to prepare or balance ledger accounts"],
+      "common_misconceptions": ["debit always means increase"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.3",
+          "reason": "both involve recording transactions; 2.1 focuses on ledger accounts, 2.3 on books of prime entry"
+        }
+      ],
+      "prerequisite_topics": ["1.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.2",
+      "topic_name": "Business documents",
+      "parent_id": "2",
+      "scope": ["invoice, debit note, credit note, statement of account, cheque, receipt", "complete pro-forma documents", "use as sources of information"],
+      "out_of_scope": ["complex commercial terms not in syllabus"],
+      "classification_hints": ["question names or requires completion of business documents"],
+      "common_misconceptions": ["debit note and credit note have the same effect"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "2.3",
+      "topic_name": "Books of prime entry",
+      "parent_id": "2",
+      "scope": ["cash book, petty cash book, sales/purchases/returns journals, general journal", "trade discount and cash discounts", "imprest system of petty cash", "post ledger entries"],
+      "out_of_scope": ["three-column cash book beyond syllabus"],
+      "classification_hints": ["question asks which book of prime entry to use or requires posting from books of prime entry"],
+      "common_misconceptions": ["cash discount is recorded in the sales journal"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.1",
+          "reason": "both involve recording; 2.3 focuses on prime entry books before ledger"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3",
+      "topic_name": "Verification of accounting records",
+      "parent_id": "",
+      "scope": ["trial balance", "correction of errors", "bank reconciliation", "control accounts", "suspense accounts"],
+      "out_of_scope": ["control accounts as part of double entry system", "reconciling control account balances with sales/purchases ledger balances"],
+      "classification_hints": ["question involves checking or correcting records"],
+      "common_misconceptions": ["all errors affect the trial balance"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2",
+          "reason": "both involve ledger entries; verification focuses on checking correctness"
+        }
+      ],
+      "prerequisite_topics": ["2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.1",
+      "topic_name": "The trial balance",
+      "parent_id": "3",
+      "scope": ["statement of ledger balances on a particular date", "uses and limitations", "prepare/amend trial balance", "errors not affecting trial balance"],
+      "out_of_scope": ["errors affecting trial balance are covered in 3.2"],
+      "classification_hints": ["question asks to prepare or amend a trial balance"],
+      "common_misconceptions": ["a trial balance proves there are no errors"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both deal with errors; 3.1 identifies errors not affecting trial balance, 3.2 corrects them"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.2",
+      "topic_name": "Correction of errors",
+      "parent_id": "3",
+      "scope": ["correct errors by journal entries", "use suspense account as temporary measure", "adjust profit/loss and statement of financial position"],
+      "out_of_scope": ["errors not in the syllabus list"],
+      "classification_hints": ["question asks to correct errors using journals or suspense account"],
+      "common_misconceptions": ["suspense account is a permanent account"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.1",
+          "reason": "both deal with errors; 3.2 focuses on correction"
+        }
+      ],
+      "prerequisite_topics": ["3.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.3",
+      "topic_name": "Bank reconciliation",
+      "parent_id": "3",
+      "scope": ["use and purpose of bank statement", "update cash book", "prepare bank reconciliation statement"],
+      "out_of_scope": ["complex bank adjustments not listed in syllabus"],
+      "classification_hints": ["question provides bank statement and cash book requiring reconciliation"],
+      "common_misconceptions": ["unpresented cheques are added to the bank statement balance only"],
+      "common_misclassifications": [
+        {
+          "confused_with": "3.2",
+          "reason": "both adjust the cash book; bank reconciliation is a specific verification technique"
+        }
+      ],
+      "prerequisite_topics": ["2.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "3.4",
+      "topic_name": "Control accounts",
+      "parent_id": "3",
+      "scope": ["purposes of purchases/sales ledger control accounts", "sources of information", "prepare control accounts"],
+      "out_of_scope": ["control accounts as part of double entry system", "reconciliation of control account balances with ledger balances"],
+      "classification_hints": ["question asks to prepare sales/purchases ledger control account"],
+      "common_misconceptions": ["control accounts are part of the double entry system"],
+      "common_misclassifications": [
+        {
+          "confused_with": "2.1",
+          "reason": "both involve ledger accounts; control accounts are memorandum accounts for verification"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4",
+      "topic_name": "Accounting procedures",
+      "parent_id": "",
+      "scope": ["capital vs revenue expenditure and receipts", "depreciation and disposal", "accruals and prepayments", "irrecoverable debts", "provision for doubtful debts", "inventory valuation"],
+      "out_of_scope": ["revaluation method details beyond syllabus", "complex impairment under IFRS"],
+      "classification_hints": ["question involves year-end adjustments or asset accounting"],
+      "common_misconceptions": ["capital expenditure is recorded as an expense immediately"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5",
+          "reason": "both involve financial statements; 4 covers adjustments, 5 covers preparation"
+        }
+      ],
+      "prerequisite_topics": ["2", "3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1",
+      "topic_name": "Capital and revenue expenditure and receipts",
+      "parent_id": "4",
+      "scope": ["distinguish and account for capital/revenue expenditure and receipts", "effect on profit and asset valuations"],
+      "out_of_scope": ["complex capitalisation criteria"],
+      "classification_hints": ["question asks to classify expenditure/receipts"],
+      "common_misconceptions": ["revenue expenditure increases asset value"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2",
+      "topic_name": "Accounting for depreciation and disposal of non-current assets",
+      "parent_id": "4",
+      "scope": ["define depreciation", "reasons for depreciation", "straight-line, reducing balance, revaluation methods", "ledger accounts and journal entries for depreciation", "sale of non-current assets including disposal accounts"],
+      "out_of_scope": ["revaluation method beyond syllabus requirements"],
+      "classification_hints": ["question involves depreciation calculation or disposal of asset"],
+      "common_misconceptions": ["depreciation is a cash expense"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both may involve financial statements; 4.2 focuses on non-current asset adjustment"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3",
+      "topic_name": "Other payables and other receivables",
+      "parent_id": "4",
+      "scope": ["matching costs and revenues", "accrued and prepaid expenses", "accrued and prepaid incomes"],
+      "out_of_scope": ["complex contract liabilities"],
+      "classification_hints": ["question requires adjusting for accruals or prepayments"],
+      "common_misconceptions": ["accrued expenses are assets"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both involve year-end adjustments; 4.3 is the adjustment technique"
+        }
+      ],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.4",
+      "topic_name": "Irrecoverable debts and provision for doubtful debts",
+      "parent_id": "4",
+      "scope": ["meaning of irrecoverable debts and recovery", "ledger accounts/journal entries", "reasons for provision", "creation and adjustments to provision"],
+      "out_of_scope": ["detailed IFRS 9 expected credit loss model"],
+      "classification_hints": ["question involves bad debts or provision for doubtful debts"],
+      "common_misconceptions": ["provision for doubtful debts is an expense in the same way as irrecoverable debts"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.5",
+      "topic_name": "Valuation of inventory",
+      "parent_id": "4",
+      "scope": ["lower of cost and net realisable value", "prepare inventory valuation statements", "effect on gross profit, profit, equity and asset valuation"],
+      "out_of_scope": ["FIFO/LIFO/AVCO inventory costing methods not required at IGCSE"],
+      "classification_hints": ["question asks to value inventory or explain effect of valuation"],
+      "common_misconceptions": ["inventory should always be valued at selling price"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5",
+      "topic_name": "Preparation of financial statements",
+      "parent_id": "",
+      "scope": ["sole traders", "partnerships", "limited companies", "clubs and societies", "manufacturing accounts", "incomplete records"],
+      "out_of_scope": ["partnership admission/departure/dissolution", "cumulative/non-cumulative preference shares details", "share premium", "capital redemption reserve"],
+      "classification_hints": ["question asks to prepare a full set of financial statements"],
+      "common_misconceptions": ["all businesses use the same financial statement format"],
+      "common_misclassifications": [
+        {
+          "confused_with": "4",
+          "reason": "both involve final accounts; 5 focuses on statement preparation"
+        }
+      ],
+      "prerequisite_topics": ["1", "2", "3", "4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.1",
+      "topic_name": "Sole traders",
+      "parent_id": "5",
+      "scope": ["advantages/disadvantages", "trading and service businesses", "income statements and statements of financial position", "year-end adjustments"],
+      "out_of_scope": ["taxation of sole traders"],
+      "classification_hints": ["question concerns a single owner business"],
+      "common_misconceptions": ["drawings are an expense"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.2",
+      "topic_name": "Partnerships",
+      "parent_id": "5",
+      "scope": ["advantages/disadvantages", "partnership agreement", "appropriation account", "income statements/appropriation accounts/statements of financial position", "interest on loans/capital/drawings, salaries, profit share", "capital and current accounts"],
+      "out_of_scope": ["admission/departure of a partner", "dissolution of a partnership", "changes to profit sharing ratio"],
+      "classification_hints": ["question involves two or more partners sharing profits"],
+      "common_misconceptions": ["partners' salaries are expenses in the income statement"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both prepare financial statements; partnership has appropriation account"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.3",
+      "topic_name": "Limited companies",
+      "parent_id": "5",
+      "scope": ["limited liability", "equity", "capital structure", "issued/called-up/paid-up capital", "share capital vs loan capital (debentures)", "income statements, statements of changes in equity, statements of financial position"],
+      "out_of_scope": ["cumulative/non-cumulative preference shares", "rights issues", "share premium", "capital redemption reserve"],
+      "classification_hints": ["question involves limited company financial statements"],
+      "common_misconceptions": ["debentures are part of equity"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.2",
+          "reason": "both involve business structures; limited company uses share capital and debentures"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.4",
+      "topic_name": "Clubs and societies",
+      "parent_id": "5",
+      "scope": ["receipts and payments accounts vs income and expenditure accounts", "prepare accounts", "accumulated fund"],
+      "out_of_scope": ["complex club governance"],
+      "classification_hints": ["question concerns a not-for-profit organisation"],
+      "common_misconceptions": ["accumulated fund is the same as capital"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both prepare financial statements; clubs use receipts/payments and accumulated fund"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.5",
+      "topic_name": "Manufacturing accounts",
+      "parent_id": "5",
+      "scope": ["direct and indirect costs", "direct material, direct labour, prime cost, factory overheads", "work in progress adjustments", "factory cost of production", "manufacturing accounts, income statements, statements of financial position"],
+      "out_of_scope": ["process costing", "job costing"],
+      "classification_hints": ["question involves a manufacturing business and cost of production"],
+      "common_misconceptions": ["factory overheads are part of prime cost"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both prepare financial statements; manufacturing includes cost of production"
+        }
+      ],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "5.6",
+      "topic_name": "Incomplete records",
+      "parent_id": "5",
+      "scope": ["disadvantages of incomplete records", "opening and closing statements of affairs", "calculate profit/loss from changes in capital", "calculate sales/purchases/gross profit/trade receivables/trade payables from incomplete info", "prepare financial statements from incomplete records", "mark-up, margin, inventory turnover"],
+      "out_of_scope": ["incomplete records for partnerships or companies"],
+      "classification_hints": ["question states some records are missing and asks to calculate missing figures"],
+      "common_misconceptions": ["mark-up and margin are the same percentage"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5.1",
+          "reason": "both prepare financial statements; incomplete records require reverse calculations"
+        }
+      ],
+      "prerequisite_topics": ["5.1", "6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6",
+      "topic_name": "Analysis and interpretation",
+      "parent_id": "",
+      "scope": ["accounting ratios", "interpretation of ratios", "inter-firm comparison", "interested parties", "limitations of accounting statements"],
+      "out_of_scope": ["cash flow analysis", "discounted cash flow"],
+      "classification_hints": ["question asks to calculate or interpret ratios"],
+      "common_misconceptions": ["a high current ratio is always good"],
+      "common_misclassifications": [
+        {
+          "confused_with": "5",
+          "reason": "both use financial statement data; 6 focuses on analysis rather than preparation"
+        }
+      ],
+      "prerequisite_topics": ["5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.1",
+      "topic_name": "Calculation and understanding of accounting ratios",
+      "parent_id": "6",
+      "scope": ["gross margin", "mark up", "profit margin", "ROCE", "current ratio", "liquid (acid test) ratio", "rate of inventory turnover", "trade receivables turnover (days)", "trade payables turnover (days)"],
+      "out_of_scope": ["gearing ratio", "dividend cover", "EPS"],
+      "classification_hints": ["question asks to calculate a ratio"],
+      "common_misconceptions": ["ROCE uses profit after interest"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.2",
+      "topic_name": "Interpretation of accounting ratios",
+      "parent_id": "6",
+      "scope": ["compare results for different years", "recommendations for improving profitability and working capital", "gross margin vs profit margin", "relationship to inventory/turnover/revenue/expenses/equity"],
+      "out_of_scope": ["industry benchmarking beyond syllabus"],
+      "classification_hints": ["question asks to comment on ratios"],
+      "common_misconceptions": ["higher profit margin always means better management"],
+      "common_misclassifications": [
+        {
+          "confused_with": "6.1",
+          "reason": "both involve ratios; 6.1 is calculation, 6.2 is interpretation"
+        }
+      ],
+      "prerequisite_topics": ["6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.3",
+      "topic_name": "Inter-firm comparison",
+      "parent_id": "6",
+      "scope": ["problems of inter-firm comparison", "apply accounting ratios to inter-firm comparison"],
+      "out_of_scope": ["sector-specific ratio databases"],
+      "classification_hints": ["question compares two different businesses"],
+      "common_misconceptions": ["ratios can be directly compared without considering business differences"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["6.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.4",
+      "topic_name": "Interested parties",
+      "parent_id": "6",
+      "scope": ["owners, managers, trade payables, banks, investors, club members, governments/tax authorities"],
+      "out_of_scope": ["stakeholder theory beyond syllabus"],
+      "classification_hints": ["question asks who uses accounting information and why"],
+      "common_misconceptions": ["all users want the same information"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["6.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "6.5",
+      "topic_name": "Limitations of accounting statements",
+      "parent_id": "6",
+      "scope": ["historic cost", "difficulties of definition", "non-financial aspects"],
+      "out_of_scope": ["fair value accounting debates"],
+      "classification_hints": ["question asks why accounting information has limitations"],
+      "common_misconceptions": ["financial statements show the current value of the business"],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["6"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7",
+      "topic_name": "Accounting principles and policies",
+      "parent_id": "",
+      "scope": ["accounting principles", "accounting policies", "influence of international accounting standards"],
+      "out_of_scope": ["detailed IFRS standards"],
+      "classification_hints": ["question asks about accounting concepts or policies"],
+      "common_misconceptions": ["prudence means always underestimating profit"],
+      "common_misclassifications": [
+        {
+          "confused_with": "1.1",
+          "reason": "both involve concepts; 7 focuses on principles and policies"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.1",
+      "topic_name": "Accounting principles",
+      "parent_id": "7",
+      "scope": ["matching", "historic cost", "business entity", "materiality", "consistency", "money measurement", "duality", "prudence", "going concern", "realisation"],
+      "out_of_scope": ["substance over form debates"],
+      "classification_hints": ["question names or applies a specific accounting principle"],
+      "common_misconceptions": ["consistency means never changing a policy"],
+      "common_misclassifications": [],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "7.2",
+      "topic_name": "Accounting policies",
+      "parent_id": "7",
+      "scope": ["influence of international accounting standards", "objectives in selecting policies: comparability, relevance, reliability, understandability"],
+      "out_of_scope": ["specific IFRS policy choices"],
+      "classification_hints": ["question asks why a particular accounting policy is chosen"],
+      "common_misconceptions": ["accounting policies can be changed freely to manipulate profit"],
+      "common_misclassifications": [
+        {
+          "confused_with": "7.1",
+          "reason": "both involve concepts; 7.2 focuses on policy selection"
+        }
+      ],
+      "prerequisite_topics": ["7.1"],
+      "overlap_links": []
+    }
+  ]
+}

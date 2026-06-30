@@ -1,0 +1,15 @@
+{
+  "schema_version": "1",
+  "registry_status": "reviewed",
+  "entry": {
+    "id": "",
+    "path": "",
+    "metadata_ref": "",
+    "package_version": "",
+    "registered_at": "",
+    "registry_status": "reviewed",
+    "supersedes": [],
+    "migration_log": [],
+    "notes": "Do not set registry_status=active until reviewer verdict is 通过, source dual_pass_checked=true, high-impact rendered pages are reviewed, and all Pilot 2 enabled modes pass."
+  }
+}

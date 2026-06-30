@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "id": "ib-dp-chemistry-sl-hl",
+  "assessment_type": "syllabus",
+  "system": "IB DP",
+  "board_or_owner": "International Baccalaureate Organization",
+  "subject": "Chemistry",
+  "level": "Diploma Programme (SL / HL)",
+  "assessment_code": "none",
+  "valid_from": "2023",
+  "valid_to": "ongoing",
+  "package_version": "2026.1",
+  "source_provenance": [
+    {
+      "role": "primary_subject_guide",
+      "title": "IB DP Chemistry Guide",
+      "url": "https://resources.ibo.org/dp/chemistry/guide",
+      "source_document_type": "subject_guide",
+      "source_layout_profile": "ib_dp_subject_guide",
+      "source_format": "pdf",
+      "local_archive_ref": "<local-pdf-archive>/ib-dp-chemistry-guide-first-assessment-2025.pdf",
+      "file_checksum_sha256": "1ddcf0d04848117c99eb1c417d9b69335dc5a4bdd0abb1cdc10fd370fffde458",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "Published February 2023, First assessment 2025",
+      "retrieved_at": "unknown",
+      "page_refs": ["p.1", "p.21-26", "p.33-64", "p.67-70", "p.71-80", "p.81-82"],
+      "extraction_tool": "pdftotext",
+      "extraction_method": "structured_extract",
+      "extraction_verified": true,
+      "extraction_note": "Structured extraction only; no full official text copied. SL/HL/AHL boundaries extracted to references/sl-hl-ahl-boundaries.json.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": "Page references use printed/page numbers from the PDF footer. Source review verdict: pass_with_risks."
+    }
+  ],
+  "aliases": ["ib-dp-chemistry", "ib-chemistry-sl-hl"],
+  "canonical_id": "ib-dp-chemistry-sl-hl",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": "Generated from source evidence bundle ib-dp-chemistry-guide-first-assessment-2025. Covers Structure 1-3 and Reactivity 1-3 for SL and HL, with AHL content tagged only at HL."
+}

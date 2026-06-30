@@ -1,0 +1,430 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "4.1",
+      "topic_name": "Cell biology",
+      "parent_id": null,
+      "scope": ["Cell structure", "Cell specialisation and differentiation", "Microscopy", "Culturing microorganisms", "Cell division", "Transport in cells"],
+      "out_of_scope": ["A-Level organelle ultrastructure", "Prokaryotic vs eukaryotic comparisons beyond GCSE level", "Detailed protein synthesis mechanisms"],
+      "classification_hints": ["Question mentions cells, organelles, microscopes, mitosis, osmosis, diffusion, active transport or cell cultures."],
+      "common_misconceptions": ["Students often confuse osmosis with diffusion; they may also think cells 'use up' energy during diffusion."],
+      "common_misclassifications": [
+        {"confused_with": "4.2", "reason": "Tissues and organs are built from cells, but the question focus must be on cellular processes or structures to stay in 4.1."},
+        {"confused_with": "4.4", "reason": "Respiration and photosynthesis are cellular processes, but 4.4 focuses on the whole-organism bioenergetics context."}
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.1",
+      "topic_name": "Cell structure",
+      "parent_id": "4.1",
+      "scope": ["Eukaryotic animal and plant cells", "Nucleus, cytoplasm, cell membrane, mitochondria, ribosomes", "Plant cell wall, chloroplasts, permanent vacuole", "Prokaryotic cells: chromosome, plasmids, flagella"],
+      "out_of_scope": ["Detailed structure of membrane systems", "Endosymbiotic theory"],
+      "classification_hints": ["Question asks to label or compare cell structures."],
+      "common_misconceptions": ["Students may think all cells have a cell wall."],
+      "common_misclassifications": [
+        {"confused_with": "4.1.2", "reason": "Both involve cell structure; 4.1.2 focuses on how structure relates to function in specialised cells."}
+      ],
+      "prerequisite_topics": ["4.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.2",
+      "topic_name": "Cell specialisation and differentiation",
+      "parent_id": "4.1",
+      "scope": ["Specialised animal cells", "Specialised plant cells", "Differentiation as change in gene expression", "Stem cells in animals and plants"],
+      "out_of_scope": ["Therapeutic cloning details", "Embryonic stem cell ethics beyond GCSE scope"],
+      "classification_hints": ["Question asks how a cell is adapted to its function or about stem cell potential."],
+      "common_misconceptions": ["Students may believe specialised cells lose their DNA."],
+      "common_misclassifications": [
+        {"confused_with": "4.2.2", "reason": "Tissue organisation also involves specialised cells; 4.1.2 focuses on the cell itself."}
+      ],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.3",
+      "topic_name": "Microscopy",
+      "parent_id": "4.1",
+      "scope": ["Light microscopes", "Magnification and resolution", "Preparing and observing slides", "Calculating magnification from scale bars or image size"],
+      "out_of_scope": ["Electron microscopy", "Staining protocols not required by the specification"],
+      "classification_hints": ["Question involves microscope use, magnification calculation, or observing cells."],
+      "common_misconceptions": ["Students may confuse magnification with resolution."],
+      "common_misclassifications": [
+        {"confused_with": "4.1.4", "reason": "Both are practical skills; 4.1.4 focuses on culturing microorganisms."}
+      ],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.4",
+      "topic_name": "Culturing microorganisms",
+      "parent_id": "4.1",
+      "scope": ["Aseptic technique", "Calculating population size using serial dilution", "Required practical: use of a light microscope"],
+      "out_of_scope": ["Industrial fermentation design", "Genetic modification of bacteria"],
+      "classification_hints": ["Question involves bacterial growth, colonies, aseptic technique or population calculations."],
+      "common_misconceptions": ["Students may think all bacteria are pathogens."],
+      "common_misclassifications": [
+        {"confused_with": "4.3", "reason": "Microorganisms are also discussed in infection; 4.1.4 focuses on growth and culture technique."}
+      ],
+      "prerequisite_topics": ["4.1.1", "4.1.3"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.5",
+      "topic_name": "Cell division",
+      "parent_id": "4.1",
+      "scope": ["Chromosomes and the cell cycle", "Mitosis", "Stem cells and meristems", "Cell division in growth, repair and asexual reproduction"],
+      "out_of_scope": ["Meiosis details", "Cancer as a separate topic (covered in 4.2)"],
+      "classification_hints": ["Question asks about stages of the cell cycle, mitosis, or growth by cell division."],
+      "common_misconceptions": ["Students may confuse mitosis and meiosis."],
+      "common_misclassifications": [
+        {"confused_with": "4.6.1", "reason": "Reproduction involves cell division; 4.1.5 focuses on the process itself."}
+      ],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.1.6",
+      "topic_name": "Transport in cells",
+      "parent_id": "4.1",
+      "scope": ["Diffusion", "Osmosis", "Active transport", "Exchange surfaces and surface area to volume ratio"],
+      "out_of_scope": ["Detailed membrane protein models", "Facilitated diffusion beyond GCSE"],
+      "classification_hints": ["Question asks about movement of substances across membranes or exchange surface adaptations."],
+      "common_misconceptions": ["Students often think osmosis is only about water moving into cells."],
+      "common_misclassifications": [
+        {"confused_with": "4.2.3", "reason": "Gas exchange and absorption involve diffusion; 4.1.6 focuses on the mechanism at the cellular level."}
+      ],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2",
+      "topic_name": "Organisation",
+      "parent_id": null,
+      "scope": ["Principles of organisation", "Animal tissues, organs and systems", "Plant tissues, organs and systems"],
+      "out_of_scope": ["Human physiology beyond GCSE level", "Detailed histology"],
+      "classification_hints": ["Question concerns tissues, organs, organ systems, or whole-organism structure and function."],
+      "common_misconceptions": ["Students may confuse tissue with organ."],
+      "common_misclassifications": [
+        {"confused_with": "4.1", "reason": "Cells build tissues, but 4.2 focuses on organisation above the cell level."}
+      ],
+      "prerequisite_topics": ["4.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2.1",
+      "topic_name": "Principles of organisation",
+      "parent_id": "4.2",
+      "scope": ["Cell -> tissue -> organ -> organ system", "Examples of organisation in animals and plants"],
+      "out_of_scope": ["Ecological levels of organisation"],
+      "classification_hints": ["Question asks about levels of organisation or definitions of tissue/organ/system."],
+      "common_misconceptions": ["Students may include organelles as a level of organisation."],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2.2",
+      "topic_name": "Animal tissues, organs and organ systems",
+      "parent_id": "4.2",
+      "scope": ["Digestive system", "Heart and blood vessels", "Blood", "Coronary heart disease", "Health and disease risk factors", "Cancer"],
+      "out_of_scope": ["Detailed biochemistry of digestion", "Surgical or pharmacological treatments beyond GCSE"],
+      "classification_hints": ["Question asks about human organ systems, tissues, or lifestyle/disease links."],
+      "common_misconceptions": ["Students may think arteries carry oxygenated blood only."],
+      "common_misclassifications": [
+        {"confused_with": "4.3", "reason": "Disease is involved in both; 4.2.2 focuses on non-communicable disease and organ function."}
+      ],
+      "prerequisite_topics": ["4.2.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.2.3",
+      "topic_name": "Plant tissues, organs and organ systems",
+      "parent_id": "4.2",
+      "scope": ["Plant organs", "Transpiration and translocation", "Root hair cells", "Xylem and phloem"],
+      "out_of_scope": ["Detailed pressure-flow mechanism of translocation", "Plant hormones except as in 4.5"],
+      "classification_hints": ["Question concerns plant structure, transport, or water movement."],
+      "common_misconceptions": ["Students may think phloem transports water."],
+      "common_misclassifications": [
+        {"confused_with": "4.1.6", "reason": "Water movement in plants relies on osmosis; 4.2.3 focuses on whole-plant transport systems."}
+      ],
+      "prerequisite_topics": ["4.1.6"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3",
+      "topic_name": "Infection and response",
+      "parent_id": null,
+      "scope": ["Communicable diseases", "Viral, bacterial, fungal and protist diseases", "Human defence systems", "Vaccination", "Antibiotics and painkillers", "Drug development", "Monoclonal antibodies", "Plant disease"],
+      "out_of_scope": ["Immunology beyond GCSE", "Detailed mechanisms of monoclonal antibody production"],
+      "classification_hints": ["Question mentions pathogens, immune response, vaccination, antibiotics, or disease transmission."],
+      "common_misconceptions": ["Students may think antibiotics kill viruses."],
+      "common_misclassifications": [
+        {"confused_with": "4.2.2", "reason": "Disease is shared; 4.3 focuses on communicable disease and infection response."}
+      ],
+      "prerequisite_topics": ["4.1", "4.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3.1",
+      "topic_name": "Communicable diseases",
+      "parent_id": "4.3",
+      "scope": ["Pathogens: viruses, bacteria, fungi, protists", "Transmission routes", "Human defence systems: skin, platelets, white blood cells"],
+      "out_of_scope": ["Specific immune cell types beyond GCSE"],
+      "classification_hints": ["Question asks how a disease spreads or how the body defends itself."],
+      "common_misconceptions": ["Students may think all white blood cells produce antibodies."],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3.2",
+      "topic_name": "Vaccination, drugs and monoclonal antibodies",
+      "parent_id": "4.3",
+      "scope": ["Vaccination", "Antibiotics and painkillers", "Drug development stages", "Monoclonal antibodies: uses and basic principle"],
+      "out_of_scope": ["Clinical trial statistical analysis", "Production protocols for monoclonal antibodies"],
+      "classification_hints": ["Question asks about vaccines, antibiotics, drug testing or monoclonal antibodies."],
+      "common_misconceptions": ["Students may think vaccines treat existing infections."],
+      "common_misclassifications": [
+        {"confused_with": "4.3.1", "reason": "Both involve disease; this topic focuses on prevention and treatment."}
+      ],
+      "prerequisite_topics": ["4.3.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.3.3",
+      "topic_name": "Plant disease",
+      "parent_id": "4.3",
+      "scope": ["Detection of plant disease", "Plant defence responses", "Examples of plant pathogens"],
+      "out_of_scope": ["Detailed plant immune signalling"],
+      "classification_hints": ["Question concerns plant pathogens, symptoms or defences."],
+      "common_misconceptions": ["Students may think plants do not have defences."],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4.3.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.4",
+      "topic_name": "Bioenergetics",
+      "parent_id": null,
+      "scope": ["Photosynthesis", "Respiration", "Response to exercise", "Metabolism"],
+      "out_of_scope": ["Detailed biochemical pathways", "Anaerobic respiration in microorganisms for biotechnology"],
+      "classification_hints": ["Question involves photosynthesis, respiration, exercise or metabolic reactions."],
+      "common_misconceptions": ["Students may think plants only respire at night."],
+      "common_misclassifications": [
+        {"confused_with": "4.1", "reason": "Respiration and photosynthesis occur in cells; 4.4 treats them as organism-level processes."}
+      ],
+      "prerequisite_topics": ["4.1", "4.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.4.1",
+      "topic_name": "Photosynthesis",
+      "parent_id": "4.4",
+      "scope": ["Photosynthesis equation", "Rate of photosynthesis: limiting factors", "Required practical: effect of light intensity on photosynthesis"],
+      "out_of_scope": ["Light-dependent and light-independent reactions detail", "Calvin cycle"],
+      "classification_hints": ["Question asks about photosynthesis, limiting factors or related practical."],
+      "common_misconceptions": ["Students may think plants get most of their mass from soil."],
+      "common_misclassifications": [
+        {"confused_with": "4.4.2", "reason": "Both are bioenergetics; 4.4.1 is about energy capture, 4.4.2 about energy release."}
+      ],
+      "prerequisite_topics": ["4.1.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.4.2",
+      "topic_name": "Respiration",
+      "parent_id": "4.4",
+      "scope": ["Aerobic respiration equation", "Anaerobic respiration in animals and plants", "Response to exercise", "Metabolism"],
+      "out_of_scope": ["Krebs cycle", "Electron transport chain"],
+      "classification_hints": ["Question asks about respiration, oxygen debt, exercise or metabolic rate."],
+      "common_misconceptions": ["Students may confuse breathing with respiration."],
+      "common_misclassifications": [
+        {"confused_with": "4.2.2", "reason": "Exercise response involves the circulatory and breathing systems; 4.4.2 focuses on energy release."}
+      ],
+      "prerequisite_topics": ["4.2.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.5",
+      "topic_name": "Homeostasis and response",
+      "parent_id": null,
+      "scope": ["Homeostasis", "Nervous system", "Hormonal coordination"],
+      "out_of_scope": ["Detailed kidney nephron physiology", "Endocrine disorders beyond GCSE"],
+      "classification_hints": ["Question concerns control systems, receptors, effectors, hormones or nerve impulses."],
+      "common_misconceptions": ["Students may think hormones travel through nerves."],
+      "common_misclassifications": [
+        {"confused_with": "4.2.2", "reason": "The nervous and endocrine systems are organ systems; 4.5 focuses on control and coordination."}
+      ],
+      "prerequisite_topics": ["4.1", "4.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.5.1",
+      "topic_name": "Homeostasis",
+      "parent_id": "4.5",
+      "scope": ["Definition of homeostasis", "Control of body temperature", "Control of blood glucose", "Diabetes"],
+      "out_of_scope": ["Detailed feedback loop mathematics", "Insulin pump technology"],
+      "classification_hints": ["Question asks about maintaining internal environment or blood glucose regulation."],
+      "common_misconceptions": ["Students may think homeostasis keeps conditions absolutely constant."],
+      "common_misclassifications": [
+        {"confused_with": "4.5.3", "reason": "Blood glucose involves hormones; 4.5.1 is the overarching control concept."}
+      ],
+      "prerequisite_topics": ["4.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.5.2",
+      "topic_name": "The human nervous system",
+      "parent_id": "4.5",
+      "scope": ["Structure and function", "Reflex actions", "The brain", "The eye"],
+      "out_of_scope": ["Detailed neurotransmitter mechanisms", "Brain imaging interpretation"],
+      "classification_hints": ["Question involves neurons, reflex arcs, the eye or brain structure."],
+      "common_misconceptions": ["Students may think electrical impulses travel through hormones."],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4.5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.5.3",
+      "topic_name": "Hormonal coordination in humans",
+      "parent_id": "4.5",
+      "scope": ["Hormones and glands", "Menstrual cycle", "Contraception", "Use of plant hormones"],
+      "out_of_scope": ["IVF protocols in detail", "Hormone replacement therapy beyond GCSE"],
+      "classification_hints": ["Question asks about hormones, menstrual cycle, contraception or plant growth substances."],
+      "common_misconceptions": ["Students may confuse FSH and LH roles in the menstrual cycle."],
+      "common_misclassifications": [
+        {"confused_with": "4.5.2", "reason": "Both are coordination systems; 4.5.3 uses hormones rather than nerve impulses."}
+      ],
+      "prerequisite_topics": ["4.5.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.6",
+      "topic_name": "Inheritance, variation and evolution",
+      "parent_id": null,
+      "scope": ["Reproduction", "Variation and evolution", "Genetic modification", "Evidence for evolution", "Classification"],
+      "out_of_scope": ["Population genetics calculations", "Detailed embryology"],
+      "classification_hints": ["Question involves inheritance, DNA, genes, alleles, natural selection, GM or classification."],
+      "common_misconceptions": ["Students may think acquired characteristics can be inherited."],
+      "common_misclassifications": [
+        {"confused_with": "4.1.5", "reason": "Cell division supports reproduction; 4.6 focuses on inheritance patterns."}
+      ],
+      "prerequisite_topics": ["4.1", "4.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.6.1",
+      "topic_name": "Reproduction",
+      "parent_id": "4.6",
+      "scope": ["Sexual and asexual reproduction", "Meiosis", "DNA and the genome", "Genetic inheritance", "Inherited disorders", "Sex determination"],
+      "out_of_scope": ["Detailed crossing-over mechanisms", "Epigenetics"],
+      "classification_hints": ["Question asks about inheritance, Punnett squares, genetic crosses or sex determination."],
+      "common_misconceptions": ["Students may confuse dominant and recessive alleles."],
+      "common_misclassifications": [
+        {"confused_with": "4.6.2", "reason": "Variation and evolution build on inheritance; 4.6.1 focuses on reproductive and genetic mechanisms."}
+      ],
+      "prerequisite_topics": ["4.1.5"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.6.2",
+      "topic_name": "Variation and evolution",
+      "parent_id": "4.6",
+      "scope": ["Variation: genetic and environmental", "Natural selection", "Selective breeding", "Genetic engineering", "Cloning"],
+      "out_of_scope": ["Speciation mechanisms beyond GCSE", "Gene editing technologies detail"],
+      "classification_hints": ["Question asks about natural selection, selective breeding, genetic modification or cloning."],
+      "common_misconceptions": ["Students may think evolution is directed toward a goal."],
+      "common_misclassifications": [
+        {"confused_with": "4.6.3", "reason": "Genetic modification is also technology; 4.6.2 focuses on variation and selection."}
+      ],
+      "prerequisite_topics": ["4.6.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.6.3",
+      "topic_name": "Evidence for evolution and classification",
+      "parent_id": "4.6",
+      "scope": ["Fossils", "Extinction", "Antibiotic-resistant bacteria", "Classification systems", "Evolutionary trees"],
+      "out_of_scope": ["Phylogenetic tree construction algorithms", "Molecular clock analysis"],
+      "classification_hints": ["Question involves fossils, extinction, resistance or classification of organisms."],
+      "common_misconceptions": ["Students may think fossils are the only evidence for evolution."],
+      "common_misclassifications": [
+        {"confused_with": "4.7", "reason": "Ecology also studies organisms and environment; 4.6.3 focuses on evolutionary evidence and taxonomy."}
+      ],
+      "prerequisite_topics": ["4.6.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.7",
+      "topic_name": "Ecology",
+      "parent_id": null,
+      "scope": ["Adaptations", "Interdependence", "Organisation of an ecosystem", "Biodiversity", "Trophic levels", "Food production"],
+      "out_of_scope": ["Ecosystem modelling", "Climate change policy"],
+      "classification_hints": ["Question mentions ecosystems, food chains, biodiversity, sampling, or farming impacts."],
+      "common_misconceptions": ["Students may think food chains begin with consumers."],
+      "common_misclassifications": [
+        {"confused_with": "4.6.3", "reason": "Both involve organisms and environment; 4.7 focuses on interactions and energy flow."}
+      ],
+      "prerequisite_topics": ["4.2", "4.4"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.7.1",
+      "topic_name": "Adaptations, interdependence and competition",
+      "parent_id": "4.7",
+      "scope": ["Abiotic and biotic factors", "Adaptations", "Competition", "Predator-prey relationships"],
+      "out_of_scope": ["Population dynamics modelling"],
+      "classification_hints": ["Question asks about adaptations or factors affecting organisms."],
+      "common_misconceptions": ["Students may think competition is only between different species."],
+      "common_misclassifications": [],
+      "prerequisite_topics": ["4.7"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.7.2",
+      "topic_name": "Organisation of an ecosystem",
+      "parent_id": "4.7",
+      "scope": ["Food chains and food webs", "Trophic levels", "Pyramids of biomass", "Required practical: field investigation of abundance/distribution"],
+      "out_of_scope": ["Ecological pyramids of energy and numbers beyond GCSE"],
+      "classification_hints": ["Question involves food chains, biomass pyramids or sampling methods."],
+      "common_misconceptions": ["Students may confuse biomass with population size."],
+      "common_misclassifications": [
+        {"confused_with": "4.7.3", "reason": "Both are ecology; 4.7.2 focuses on energy flow and feeding relationships."}
+      ],
+      "prerequisite_topics": ["4.7.1"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.7.3",
+      "topic_name": "Biodiversity and the effect of human interaction",
+      "parent_id": "4.7",
+      "scope": ["Biodiversity", "Maintaining biodiversity", "Food security", "Sustainable food production", "Impact of human activities"],
+      "out_of_scope": ["International conservation policy detail"],
+      "classification_hints": ["Question asks about conservation, sustainability, or human impact on ecosystems."],
+      "common_misconceptions": ["Students may think sustainable farming means no farming."],
+      "common_misclassifications": [
+        {"confused_with": "4.7.2", "reason": "Human impact can alter food webs; 4.7.3 focuses on biodiversity and sustainability."}
+      ],
+      "prerequisite_topics": ["4.7.2"],
+      "overlap_links": []
+    },
+    {
+      "topic_id": "4.8",
+      "topic_name": "Key ideas",
+      "parent_id": null,
+      "scope": ["Summary of key concepts that connect topics across biology", "Synoptic links between specification content"],
+      "out_of_scope": ["New content not covered elsewhere in the specification"],
+      "classification_hints": ["Question explicitly draws together ideas from multiple topics or asks for overarching biological principles."],
+      "common_misconceptions": ["Students may treat key ideas as a separate topic rather than a synoptic lens."],
+      "common_misclassifications": [
+        {"confused_with": "4.1-4.7", "reason": "Key ideas overlap with all topics; classify to the most specific topic unless the item is explicitly synoptic."}
+      ],
+      "prerequisite_topics": ["4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7"],
+      "overlap_links": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "reviewer": "",
+  "reviewed_at": "",
+  "verdict": "fail",
+  "review_status": "not_reviewed",
+  "accepted_risks": [],
+  "blocking_risks": [
+    "Review not yet performed."
+  ],
+  "page_ref_convention": {
+    "human_refs": "printed_page",
+    "rendered_refs": "physical_page",
+    "known_offsets": []
+  },
+  "reviewed_pages": [
+    {
+      "printed_page_ref": "",
+      "physical_page": 0,
+      "rendered_file": "",
+      "review_focus": "",
+      "result": "not_reviewed"
+    }
+  ],
+  "corrections_applied": [],
+  "open_questions": [],
+  "findings": [
+    {
+      "severity": "P1",
+      "page_ref": "",
+      "target": "",
+      "issue": "",
+      "required_fix": ""
+    }
+  ]
+}

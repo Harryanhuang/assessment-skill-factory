@@ -1,0 +1,111 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ced",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.1"],
+      "evidence_note": "Title page states 'AP Physics 1: Algebra-Based Course and Exam Description, Effective Fall 2024'."
+    },
+    {
+      "target": "assessment.course_description",
+      "page_refs": ["p.6"],
+      "evidence_note": "AP Physics 1 is an algebra-based, introductory college-level physics course; 8 content areas listed; prerequisites Geometry + concurrent Algebra II; 25% instructional time in hands-on lab work."
+    },
+    {
+      "target": "assessment.science_practices",
+      "page_refs": ["p.13-14"],
+      "evidence_note": "Three science practices: Practice 1 Creating Representations (skills 1.A, 1.B, 1.C), Practice 2 Mathematical Routines (skills 2.A, 2.B, 2.C, 2.D), Practice 3 Scientific Questioning and Argumentation (skills 3.A, 3.B, 3.C)."
+    },
+    {
+      "target": "assessment.units.weightings",
+      "page_refs": ["p.16"],
+      "evidence_note": "8 units with multiple-choice exam weightings: Unit 1 Kinematics 10-15%, Unit 2 Force and Translational Dynamics 18-23%, Unit 3 Work/Energy/Power 18-23%, Unit 4 Linear Momentum 10-15%, Unit 5 Torque and Rotational Dynamics 10-15%, Unit 6 Energy and Momentum of Rotating Systems 5-8%, Unit 7 Oscillations 5-8%, Unit 8 Fluids 10-15%."
+    },
+    {
+      "target": "topics.unit_1",
+      "page_refs": ["p.17", "p.25-28"],
+      "evidence_note": "Unit 1 Kinematics topics: 1.1 Scalars and Vectors in One Dimension, 1.2 Displacement Velocity and Acceleration, 1.3 Representing Motion, 1.4 Reference Frames and Relative Motion, 1.5 Vectors and Motion in Two Dimensions."
+    },
+    {
+      "target": "topics.unit_2",
+      "page_refs": ["p.17"],
+      "evidence_note": "Unit 2 Force and Translational Dynamics topics: 2.1 Systems and Center of Mass, 2.2 Forces and Free-Body Diagrams, 2.3 Newton's Third Law, 2.4 Newton's First Law, 2.5 Newton's Second Law, 2.6 Gravitational Force, 2.7 Kinetic and Static Friction, 2.8 Spring Forces, 2.9 Circular Motion."
+    },
+    {
+      "target": "topics.unit_3",
+      "page_refs": ["p.18"],
+      "evidence_note": "Unit 3 Work, Energy, and Power topics: 3.1 Translational Kinetic Energy, 3.2 Work, 3.3 Potential Energy, 3.4 Conservation of Energy, 3.5 Power."
+    },
+    {
+      "target": "topics.unit_4",
+      "page_refs": ["p.18"],
+      "evidence_note": "Unit 4 Linear Momentum topics: 4.1 Linear Momentum, 4.2 Change in Momentum and Impulse, 4.3 Conservation of Linear Momentum, 4.4 Elastic and Inelastic Collisions."
+    },
+    {
+      "target": "topics.unit_5",
+      "page_refs": ["p.18"],
+      "evidence_note": "Unit 5 Torque and Rotational Dynamics topics: 5.1 Rotational Kinematics, 5.2 Connecting Linear and Rotational Motion, 5.3 Torque, 5.4 Rotational Inertia, 5.5 Rotational Equilibrium and Newton's First Law in Rotational Form, 5.6 Newton's Second Law in Rotational Form."
+    },
+    {
+      "target": "topics.unit_6",
+      "page_refs": ["p.19"],
+      "evidence_note": "Unit 6 Energy and Momentum of Rotating Systems topics: 6.1 Rotational Kinetic Energy, 6.2 Torque and Work, 6.3 Angular Momentum and Angular Impulse, 6.4 Conservation of Angular Momentum, 6.5 Rolling, 6.6 Motion of Orbiting Satellites."
+    },
+    {
+      "target": "topics.unit_7",
+      "page_refs": ["p.19"],
+      "evidence_note": "Unit 7 Oscillations topics: 7.1 Defining Simple Harmonic Motion (SHM), 7.2 Frequency and Period of SHM, 7.3 Representing and Analyzing SHM, 7.4 Energy of Simple Harmonic Oscillators."
+    },
+    {
+      "target": "topics.unit_8",
+      "page_refs": ["p.19"],
+      "evidence_note": "Unit 8 Fluids topics: 8.1 Internal Structure and Density, 8.2 Pressure, 8.3 Fluids and Newton's Laws, 8.4 Fluids and Conservation Laws."
+    },
+    {
+      "target": "assessment.papers.section_I",
+      "page_refs": ["p.177"],
+      "evidence_note": "Section I: 40 multiple-choice questions, 50% weighting, 80 minutes."
+    },
+    {
+      "target": "assessment.papers.section_II",
+      "page_refs": ["p.177"],
+      "evidence_note": "Section II: 4 free-response questions, 50% weighting, 100 minutes. Question types: Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, Qualitative/Quantitative Translation."
+    },
+    {
+      "target": "assessment.skill_weightings",
+      "page_refs": ["p.179-180"],
+      "evidence_note": "Approximate MCQ and FRQ weightings by skill (1.A, 1.B, 1.C, 2.A, 2.B, 2.C, 2.D, 3.A, 3.B, 3.C)."
+    },
+    {
+      "target": "assessment.question_styles",
+      "page_refs": ["p.177", "p.180-181"],
+      "evidence_note": "FRQ question styles: Mathematical Routines (10 pts, 20-25 min), Translation Between Representations (12 pts, 25-30 min), Experimental Design and Analysis (10 pts, 25-30 min), Qualitative/Quantitative Translation (8 pts, 15-20 min)."
+    },
+    {
+      "target": "assessment.command_verbs",
+      "page_refs": ["p.182"],
+      "evidence_note": "Task verbs used in free-response questions: Calculate, Compare, Derive, Describe, Determine, Draw, Estimate, Indicate, Justify, Label, Plot, Rank, Sketch, Verify."
+    },
+    {
+      "target": "assessment.laboratory_requirement",
+      "page_refs": ["p.6"],
+      "evidence_note": "25% of instructional time must be spent in hands-on laboratory work with inquiry-based investigations."
+    },
+    {
+      "target": "references.equation_sheet",
+      "page_refs": ["p.217"],
+      "evidence_note": "Table of Information: Equations in Appendix."
+    },
+    {
+      "target": "references.vocabulary",
+      "page_refs": ["p.213"],
+      "evidence_note": "Vocabulary and Definitions of Important Ideas in AP Physics."
+    }
+  ],
+  "draft_notes": [
+    "Page numbers use printed/footer page numbers. Physical PDF pages are offset from printed pages due to front matter/blank pages.",
+    "Unit Guides section (p.21-133) not fully sampled; topic lists derived primarily from Course at a Glance (p.17-19).",
+    "CED footer uses 'V.1 | N' format for page numbers; the '.1' is part of the version marker, not a sub-page."
+  ]
+}

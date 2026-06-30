@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "id": "hkdse-english-ca",
+  "assessment_type": "syllabus",
+  "system": "HKDSE",
+  "board_or_owner": "CDC/HKEAA",
+  "subject": "English Language",
+  "level": "Senior Secondary (S4-S6)",
+  "assessment_code": "none",
+  "valid_from": "2021",
+  "valid_to": "ongoing",
+  "package_version": "2026.1",
+  "source_provenance": [
+    {
+      "role": "primary_ca_guide",
+      "title": "HKDSE English Language Curriculum and Assessment Guide (Secondary 4 - 6)",
+      "url": "https://www.edb.gov.hk/en/curriculum-development/kla/eng-edu/senior-secondary-edu/curriculum-documents.html",
+      "source_document_type": "course_and_assessment_guide",
+      "source_layout_profile": "dse_curriculum_assessment_guide",
+      "source_format": "pdf",
+      "local_archive_ref": "<local-pdf-archive>/hkdse-english-ca-guide.pdf",
+      "file_checksum_sha256": "f0cf0506a81807c1cbb681964b64c4bee2f025f2cade00b97d027a0cadb16e8c",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "2021 edition, effective from Secondary 4 in the 2021/22 school year",
+      "retrieved_at": "unknown",
+      "page_refs": ["p.i", "p.5-7", "p.8-9", "p.10-12", "p.13-18", "p.63", "p.69-72", "p.79-83", "p.89", "p.91-94"],
+      "extraction_tool": "pdftotext",
+      "extraction_method": "structured_extract",
+      "extraction_verified": false,
+      "extraction_note": "Structured extraction only; no full official text copied. Source review verdict: pass_with_risks; extraction_confidence: medium.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": "Page references use printed/footer page numbers; physical PDF pages are offset by approximately +2 for the main body. Live examination regulations and frameworks supersede the guide for exam-specific rules."
+    }
+  ],
+  "aliases": [],
+  "canonical_id": "hkdse-english-ca",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": "Generated from source evidence bundle hkdse-english-ca-guide."
+}

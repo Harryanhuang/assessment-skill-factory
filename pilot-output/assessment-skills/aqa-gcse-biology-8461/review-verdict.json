@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "skill_id": "aqa-gcse-biology-8461",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "dimensions": {
+    "source_match": {"rating": "pass", "notes": "Metadata identity matches source bundle: AQA GCSE Biology 8461, Version 1.0 21 April 2016, valid from 2016 ongoing. Checksum and local archive ref recorded."},
+    "source_traceability": {"rating": "pass", "notes": "High-impact conclusions map to page-map references. Page references use printed/footer page numbers. Source bundle accuracy-verdict is medium due to single-channel extraction and same-agent review; builder has accepted these risks and they are recorded as P2."},
+    "topic_tree": {"rating": "pass", "notes": "Topics cover all 8 specification sections 4.1-4.8 with stable topic_ids. Scope/out_of_scope present. Required practicals and WS/MS/AT are treated as assessment/skill links, not regular topics."},
+    "assessment_model": {"rating": "pass", "notes": "Paper 1/Paper 2 structure, AO weightings, Foundation/Higher tiers, command words, question styles, difficulty ladder, confidence thresholds and generation_constraints all present. lesson_use correctly disabled for v1."},
+    "out_of_scope": {"rating": "pass", "notes": "Out-of-scope rules clear: A-Level Biology, Combined Science content outside 8461, Foundation/Higher mismatches."},
+    "examples": {"rating": "pass", "notes": "3 correct classification, 2 misclassification, 2 out-of-scope, 1 cross-topic examples provided. Meets minimum requirement for classification use."},
+    "portability": {"rating": "pass", "notes": "No platform-specific dependencies. SKILL.md and templates do not mention EduFlow, Feishu, ClaudeTeam or any runtime."}
+  },
+  "conclusion": "通过",
+  "p0": [],
+  "p1": [],
+  "p2": [
+    {
+      "target": "metadata.source_provenance.retrieved_at",
+      "issue": "retrieved_at is 'unknown'; should be recorded when official source is re-downloaded or confirmed."
+    },
+    {
+      "target": "topics.json.two_column_separation",
+      "issue": "Two-column layout (left assessable content, right WS/MS/AT skill opportunities) was inferred from pdftotext output, not visually verified."
+    },
+    {
+      "target": "topics.json.required_practicals",
+      "issue": "Only a summary list of 10 required practicals is included; full AT/WS/MS links and practical details were not fully audited."
+    },
+    {
+      "target": "source bundle",
+      "issue": "Source extraction_confidence is medium (single-channel text extraction, same-agent review). Reviewer accepts this risk for validated status; independent re-review recommended before active."
+    }
+  ],
+  "needs_v2": false
+}

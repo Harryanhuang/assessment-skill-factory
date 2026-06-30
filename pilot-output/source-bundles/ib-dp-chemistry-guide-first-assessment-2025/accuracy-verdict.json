@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_subject_guide",
+  "file_locked": true,
+  "coverage_status": "complete",
+  "traceability_status": "complete",
+  "dual_pass_checked": false,
+  "review_status": "sampled_pass",
+  "extraction_confidence": "medium",
+  "blocking_risks": [],
+  "reuse_status": "reusable",
+  "notes": "PDF is text-based, 89 pages, not encrypted, not a scan. Text extraction succeeded and page-map covers high-impact targets. Confidence remains medium because only single-channel text extraction was used, the syllabus content section was sampled rather than fully audited, and reviewer is the same agent as extractor. Accepted risks documented in source-review/review-verdict.json."
+}

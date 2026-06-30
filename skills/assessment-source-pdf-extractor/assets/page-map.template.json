@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "mappings": [
+    {
+      "target": "topics.EXAMPLE.scope",
+      "page_refs": ["p.12", "Section 3.1"],
+      "evidence_note": "Short evidence only; do not copy official text."
+    }
+  ],
+  "draft_notes": [
+    {
+      "target": "assessment.papers.P1.scope",
+      "page_refs": [],
+      "note": "Page refs to be added after visual review."
+    }
+  ]
+}

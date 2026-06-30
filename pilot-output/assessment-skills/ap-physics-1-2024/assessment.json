@@ -1,0 +1,96 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "Section_I",
+      "name": "Multiple-Choice Questions",
+      "question_styles": ["mcq"],
+      "duration_minutes": 80,
+      "total_marks": 40,
+      "weighting_percent": 50,
+      "coverage_notes": "40 discrete multiple-choice questions covering all 8 units and science practices.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": true
+    },
+    {
+      "paper_id": "Section_II",
+      "name": "Free-Response Questions",
+      "question_styles": ["mathematical_routines", "translation_between_representations", "experimental_design_and_analysis", "qualitative_quantitative_translation"],
+      "duration_minutes": 100,
+      "total_marks": 40,
+      "weighting_percent": 50,
+      "coverage_notes": "4 free-response questions: Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, Qualitative/Quantitative Translation.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": true
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "SP.1",
+      "name": "Creating Representations",
+      "description": "Create representations of physical situations using diagrams, graphs, or equations.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"Section_I": null, "Section_II": null},
+      "classification_hints": ["draw", "sketch", "plot", "label", "represent"]
+    },
+    {
+      "ao_id": "SP.2",
+      "name": "Mathematical Routines",
+      "description": "Use qualitative and quantitative reasoning, calculate, compare, estimate, and predict functional dependence.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"Section_I": null, "Section_II": null},
+      "classification_hints": ["calculate", "compare", "estimate", "justify quantitatively", "predict"]
+    },
+    {
+      "ao_id": "SP.3",
+      "name": "Scientific Questioning and Argumentation",
+      "description": "Identify experimental procedures, recognize patterns and trends, and develop scientific arguments.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"Section_I": null, "Section_II": null},
+      "classification_hints": ["design", "describe procedure", "identify trend", "justify claim", "explain"]
+    }
+  ],
+  "question_styles": [
+    {"style_id": "mcq", "name": "Multiple Choice", "typical_marks": 1, "ao_focus": ["SP.1", "SP.2", "SP.3"]},
+    {"style_id": "mathematical_routines", "name": "Mathematical Routines", "typical_marks": 10, "ao_focus": ["SP.2"]},
+    {"style_id": "translation_between_representations", "name": "Translation Between Representations", "typical_marks": 12, "ao_focus": ["SP.1", "SP.2"]},
+    {"style_id": "experimental_design_and_analysis", "name": "Experimental Design and Analysis", "typical_marks": 10, "ao_focus": ["SP.3"]},
+    {"style_id": "qualitative_quantitative_translation", "name": "Qualitative/Quantitative Translation", "typical_marks": 8, "ao_focus": ["SP.2", "SP.3"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single concept recall or direct application (e.g., state a definition, calculate a single kinematic quantity)"},
+    {"level": "standard", "description": "multi-step application within one unit (e.g., apply Newton's second law with friction and solve for acceleration)"},
+    {"level": "challenge", "description": "cross-unit reasoning or exam-style synthesis (e.g., combine energy conservation with momentum in a collision, or design and justify an experiment)"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "exclude_from_questions": [
+      "calculus-based derivations or solutions",
+      "AP Physics 2 topics: thermodynamics, electrostatics, circuits, magnetism, optics, modern physics",
+      "universal gravitation law calculations",
+      "electric or magnetic forces",
+      "damped or driven oscillations",
+      "quantitative Bernoulli equation derivations",
+      "relativistic kinematics or energy"
+    ]
+  },
+  "marking_guidance": {
+    "command_words_ref": "references/page-map.json target assessment.command_verbs",
+    "notes": "Task verbs used in free-response questions are listed in the CED p.182. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

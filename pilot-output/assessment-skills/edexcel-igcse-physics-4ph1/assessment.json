@@ -1,0 +1,105 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "P1",
+      "name": "Physics Paper 1",
+      "question_styles": ["multiple_choice", "structured_written", "calculation", "short_explanation", "graph_interpretation"],
+      "duration_minutes": 120,
+      "total_marks": 110,
+      "weighting_percent": 61.1,
+      "coverage_notes": "Assesses content that is not bold and does not have a 'P' reference (core content shared with International GCSE Science).",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P2",
+      "name": "Physics Paper 2",
+      "question_styles": ["multiple_choice", "structured_written", "calculation", "short_explanation", "graph_interpretation", "extended_answer"],
+      "duration_minutes": 75,
+      "total_marks": 70,
+      "weighting_percent": 38.9,
+      "coverage_notes": "Assesses all content including bold and 'P' reference material (Physics-only content not in Double Award).",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "AO1",
+      "name": "Knowledge and understanding of physics",
+      "description": "Demonstrate knowledge and understanding of scientific ideas, techniques and procedures.",
+      "weighting_qualification_percent_min": 38,
+      "weighting_qualification_percent_max": 42,
+      "weighting_by_paper": {"P1": "23.2-25.7", "P2": "14.8-16.3"},
+      "classification_hints": ["recall", "define", "state", "name", "describe", "identify"]
+    },
+    {
+      "ao_id": "AO2",
+      "name": "Application of knowledge and understanding, analysis and evaluation of physics",
+      "description": "Apply knowledge and understanding of scientific ideas, techniques and procedures.",
+      "weighting_qualification_percent_min": 38,
+      "weighting_qualification_percent_max": 42,
+      "weighting_by_paper": {"P1": "23.2-25.7", "P2": "14.8-16.3"},
+      "classification_hints": ["calculate", "explain", "apply", "analyse", "compare", "interpret data"]
+    },
+    {
+      "ao_id": "AO3",
+      "name": "Experimental skills, analysis and evaluation of data and methods in physics",
+      "description": "Analyse information and ideas to interpret and evaluate, make judgements and draw conclusions.",
+      "weighting_qualification_percent_min": 19,
+      "weighting_qualification_percent_max": 21,
+      "weighting_by_paper": {"P1": "11.6-12.8", "P2": "7.4-8.2"},
+      "classification_hints": ["plan", "evaluate method", "analyse data", "identify errors", "suggest improvements"]
+    }
+  ],
+  "question_styles": [
+    {"style_id": "multiple_choice", "name": "Multiple Choice", "typical_marks": 1, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "structured_written", "name": "Structured Written", "typical_marks": 2, "ao_focus": ["AO1", "AO2", "AO3"]},
+    {"style_id": "calculation", "name": "Calculation", "typical_marks": 2, "ao_focus": ["AO2"]},
+    {"style_id": "short_explanation", "name": "Short Explanation", "typical_marks": 2, "ao_focus": ["AO1", "AO2"]},
+    {"style_id": "graph_interpretation", "name": "Graph Interpretation", "typical_marks": 3, "ao_focus": ["AO2", "AO3"]},
+    {"style_id": "extended_answer", "name": "Extended Answer", "typical_marks": 6, "ao_focus": ["AO2", "AO3"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single concept recall or direct formula substitution (e.g., state a law, calculate current from charge and time)"},
+    {"level": "standard", "description": "multi-step application within one topic (e.g., combine Ohm's law with series/parallel rules, interpret a motion graph)"},
+    {"level": "challenge", "description": "cross-topic reasoning or exam-style synthesis (e.g., energy transfer in a motor circuit with efficiency and power calculations)"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "respect_bold_p_reference": true,
+    "paper_scope": {
+      "P1": "non-bold, non-P content only",
+      "P2": "all content including bold/P"
+    },
+    "exclude_from_questions": [
+      "A-Level Physics content",
+      "university physics derivations",
+      "Double Award Science content not in 4PH1",
+      "concepts explicitly marked out_of_scope in topics.json"
+    ]
+  },
+  "marking_guidance": {
+    "command_words_ref": "references/page-map.json target assessment.command_words",
+    "command_words": [
+      "Add/Label", "Calculate", "Comment on", "Complete", "Deduce", "Describe", "Design", "Determine", "Discuss", "Draw", "Estimate", "Evaluate", "Explain", "Give/State/Name", "Give a reason", "Identify", "Justify", "Plot", "Predict", "Show that", "Sketch", "State what is meant by", "Suggest", "Analyse the data/graph to explain", "What/Why/Which"
+    ],
+    "notes": "Command words are defined in the specification p.47-48. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

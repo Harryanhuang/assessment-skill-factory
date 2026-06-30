@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "file_locked": false,
+  "identity_status": "unknown",
+  "coverage_status": "unknown",
+  "traceability_status": "unknown",
+  "page_ref_status": "unknown",
+  "rendered_pages_status": "not_created",
+  "dual_pass_checked": false,
+  "independent_reviewer_required": true,
+  "review_status": "not_reviewed",
+  "extraction_confidence": "low",
+  "blocking_risks": [],
+  "identity_risks": [],
+  "page_ref_risks": [],
+  "reuse_status": "not_reusable"
+}

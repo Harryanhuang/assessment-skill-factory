@@ -1,0 +1,210 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "SL_P1A",
+      "name": "Paper 1A Multiple Choice",
+      "level": "SL",
+      "question_styles": ["mcq"],
+      "duration_minutes": 45,
+      "total_marks": 30,
+      "weighting_percent": 20,
+      "coverage_notes": "SL core and HL-common content only; no AHL-only content. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    },
+    {
+      "paper_id": "SL_P1B",
+      "name": "Paper 1B Data-based Questions",
+      "level": "SL",
+      "question_styles": ["data_based", "structured_written"],
+      "duration_minutes": 45,
+      "total_marks": 25,
+      "weighting_percent": 16,
+      "coverage_notes": "SL core and HL-common content only; data analysis and experimental techniques. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    },
+    {
+      "paper_id": "SL_P2",
+      "name": "Paper 2 Structured Questions",
+      "level": "SL",
+      "question_styles": ["structured_written", "extended_response", "calculation"],
+      "duration_minutes": 90,
+      "total_marks": 50,
+      "weighting_percent": 44,
+      "coverage_notes": "SL core and HL-common content only; short-answer and extended-response. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    },
+    {
+      "paper_id": "HL_P1A",
+      "name": "Paper 1A Multiple Choice",
+      "level": "HL",
+      "question_styles": ["mcq"],
+      "duration_minutes": 60,
+      "total_marks": 40,
+      "weighting_percent": 20,
+      "coverage_notes": "All SL/HL and AHL content. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    },
+    {
+      "paper_id": "HL_P1B",
+      "name": "Paper 1B Data-based Questions",
+      "level": "HL",
+      "question_styles": ["data_based", "structured_written"],
+      "duration_minutes": 60,
+      "total_marks": 35,
+      "weighting_percent": 16,
+      "coverage_notes": "All SL/HL and AHL content; data analysis and experimental techniques. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    },
+    {
+      "paper_id": "HL_P2",
+      "name": "Paper 2 Structured Questions",
+      "level": "HL",
+      "question_styles": ["structured_written", "extended_response", "calculation"],
+      "duration_minutes": 150,
+      "total_marks": 90,
+      "weighting_percent": 44,
+      "coverage_notes": "All SL/HL and AHL content; short-answer and extended-response. Data booklet required.",
+      "calculator_allowed": true,
+      "formula_sheet_allowed": false,
+      "data_booklet_required": true
+    }
+  ],
+  "internal_assessment": {
+    "name": "Scientific investigation",
+    "weighting_percent": 20,
+    "total_marks": 24,
+    "duration_notes": "10 hours recommended; internally assessed and externally moderated.",
+    "criteria": ["Research design", "Data analysis", "Conclusion", "Evaluation"],
+    "coverage_notes": "AO1-AO4; not part of external paper topic classification."
+  },
+  "assessment_objectives": [
+    {
+      "ao_id": "AO1",
+      "name": "Demonstrate knowledge",
+      "description": "Demonstrate knowledge of: terminology, facts and concepts; skills, techniques and methodologies.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {
+        "SL_P1A": 50,
+        "SL_P1B": 50,
+        "SL_P2": 50,
+        "HL_P1A": 50,
+        "HL_P1B": 50,
+        "HL_P2": 50
+      },
+      "classification_hints": ["state", "define", "draw", "list", "recall terminology"]
+    },
+    {
+      "ao_id": "AO2",
+      "name": "Understand and apply knowledge",
+      "description": "Understand and apply knowledge of: terminology and concepts; skills, techniques and methodologies.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {
+        "SL_P1A": 50,
+        "SL_P1B": 50,
+        "SL_P2": 50,
+        "HL_P1A": 50,
+        "HL_P1B": 50,
+        "HL_P2": 50
+      },
+      "classification_hints": ["annotate", "calculate", "describe", "estimate", "outline", "apply"]
+    },
+    {
+      "ao_id": "AO3",
+      "name": "Analyse, evaluate and synthesize",
+      "description": "Analyse, evaluate, and synthesize: experimental procedures; primary and secondary data; trends, patterns and predictions.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {
+        "SL_P1A": 50,
+        "SL_P1B": 50,
+        "SL_P2": 50,
+        "HL_P1A": 50,
+        "HL_P1B": 50,
+        "HL_P2": 50
+      },
+      "classification_hints": ["comment", "compare", "contrast", "deduce", "determine", "discuss", "evaluate", "explain", "predict", "sketch", "suggest"]
+    },
+    {
+      "ao_id": "AO4",
+      "name": "Investigative skills",
+      "description": "Demonstrate the application of skills necessary to carry out insightful and ethical investigations.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {
+        "SL_P1A": 0,
+        "SL_P1B": 0,
+        "SL_P2": 0,
+        "HL_P1A": 0,
+        "HL_P1B": 0,
+        "HL_P2": 0
+      },
+      "classification_hints": ["design", "investigate", "collect and process data", "evaluate method"]
+    }
+  ],
+  "ao_component_mapping": {
+    "notes": "AO1-AO3 are assessed in Paper 1 and Paper 2. AO1-AO4 are assessed in the scientific investigation. Paper 1 and Paper 2 each approximately 50% AO1+AO2 and 50% AO3.",
+    "paper_1_and_2": ["AO1", "AO2", "AO3"],
+    "internal_assessment": ["AO1", "AO2", "AO3", "AO4"]
+  },
+  "command_terms_by_ao": {
+    "AO1": ["Draw", "State"],
+    "AO2": ["Annotate", "Calculate", "Describe", "Estimate", "Outline"],
+    "AO3": ["Comment", "Compare", "Contrast", "Deduce", "Determine", "Discuss", "Evaluate", "Explain", "Predict", "Sketch", "Suggest"]
+  },
+  "question_styles": [
+    {"style_id": "mcq", "name": "Multiple Choice", "typical_marks": 1, "ao_focus": ["AO1", "AO2", "AO3"]},
+    {"style_id": "data_based", "name": "Data-based", "typical_marks": 2, "ao_focus": ["AO3", "AO4"]},
+    {"style_id": "structured_written", "name": "Structured Written", "typical_marks": 4, "ao_focus": ["AO1", "AO2", "AO3"]},
+    {"style_id": "extended_response", "name": "Extended Response", "typical_marks": 8, "ao_focus": ["AO3"]},
+    {"style_id": "calculation", "name": "Calculation", "typical_marks": 2, "ao_focus": ["AO2", "AO3"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single concept recall or direct application (e.g., state a definition, balance a simple equation)"},
+    {"level": "standard", "description": "multi-step application within one topic (e.g., calculate enthalpy change from calorimetry data, determine molecular shape using VSEPR)"},
+    {"level": "challenge", "description": "cross-topic reasoning or exam-style synthesis (e.g., combine equilibrium, acid-base and organic mechanism reasoning; AHL-only multi-step problem)"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "exclude_from_questions": [
+      "pre-DP science topics not in the DP syllabus",
+      "AP Chemistry framework-specific language not used by IB",
+      "AHL-only content when target level is SL",
+      "full official mark schemes",
+      "official past paper text"
+    ],
+    "level_scope_rules": {
+      "SL_HL_only": "content assessed at both SL and HL",
+      "SL_HL_plus_AHL": "SL/HL common content plus additional HL-only content; AHL part must be tagged separately",
+      "AHL_only": "content assessed only at HL; classify as out_of_scope for SL"
+    }
+  },
+  "marking_guidance": {
+    "command_terms_ref": "references/page-map.json target assessment.command_terms",
+    "data_booklet_ref": "references/page-map.json target references.data_booklet",
+    "notes": "Command terms and data booklet reference are defined in the subject guide. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "id": "aqa-gcse-biology-8461",
+  "assessment_type": "syllabus",
+  "system": "GCSE",
+  "board_or_owner": "AQA",
+  "subject": "Biology",
+  "level": "GCSE",
+  "assessment_code": "8461",
+  "valid_from": "2016",
+  "valid_to": "ongoing",
+  "package_version": "2026.1",
+  "source_provenance": [
+    {
+      "role": "primary_specification",
+      "title": "AQA GCSE Biology (8461) Specification",
+      "url": "https://www.aqa.org.uk/subjects/science/gcse/biology-8461",
+      "source_document_type": "exam_specification",
+      "source_layout_profile": "aqa_two_column_specification",
+      "source_format": "pdf",
+      "local_archive_ref": "<local-pdf-archive>/aqa-gcse-biology-8461-specification-2025-2026.pdf",
+      "file_checksum_sha256": "effa4236b6250dd1309f6640bb6b1fb5b1acee870c2b4c689b7d7ac2a1af3f48",
+      "is_official": true,
+      "license_status": "reference_only",
+      "document_version": "Version 1.0, 21 April 2016",
+      "retrieved_at": "unknown",
+      "page_refs": ["p.1", "p.8", "p.9-14", "p.16-76", "p.78-79", "p.80", "p.83", "p.85-91"],
+      "extraction_tool": "pdftotext",
+      "extraction_method": "structured_extract",
+      "extraction_verified": true,
+      "extraction_note": "Structured extraction only; no full official text copied. Source review verdict: pass_with_risks; two-column separation and required practicals need independent visual re-review before active use.",
+      "redistribution_note": "Do not redistribute official text; store only structured summaries and short citations.",
+      "notes": "Page references use printed/footer page numbers. Two-column layout: left column assessable content, right column Key opportunities for skills development (WS/MS/AT)."
+    }
+  ],
+  "aliases": [],
+  "canonical_id": "aqa-gcse-biology-8461",
+  "supersedes": [],
+  "breaking_changes": false,
+  "notes": "Generated from source evidence bundle aqa-gcse-biology-8461-2025-2026. Covers Topics 4.1-4.8, Working scientifically WS1-WS4, and 10 required practical activities."
+}

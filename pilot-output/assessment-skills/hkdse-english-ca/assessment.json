@@ -1,0 +1,137 @@
+{
+  "schema_version": "1",
+  "papers": [
+    {
+      "paper_id": "P1",
+      "name": "Reading",
+      "question_styles": ["reading_comprehension", "multiple_choice", "short_answer", "matching", "summary"],
+      "duration_minutes": 90,
+      "total_marks": null,
+      "weighting_percent": 20,
+      "coverage_notes": "Graded approach; tests reading assessment objectives including comprehension, inference, tone, views/arguments and language features.",
+      "calculator_allowed": false,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P2",
+      "name": "Writing",
+      "question_styles": ["short_writing_task", "long_writing_task", "discursive", "argumentative", "descriptive", "narrative"],
+      "duration_minutes": 120,
+      "total_marks": null,
+      "weighting_percent": 25,
+      "coverage_notes": "Tests writing assessment objectives including audience/purpose, organisation, coherence, tone/style/register and language use.",
+      "calculator_allowed": false,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P3",
+      "name": "Listening and Integrated Skills",
+      "question_styles": ["listening_comprehension", "integrated_task", "note_completion", "data_response", "extended_response"],
+      "duration_minutes": 120,
+      "total_marks": null,
+      "weighting_percent": 30,
+      "coverage_notes": "Graded approach; tests listening objectives and integrated skills combining listening/reading/writing.",
+      "calculator_allowed": false,
+      "formula_sheet_allowed": false
+    },
+    {
+      "paper_id": "P4",
+      "name": "Speaking",
+      "question_styles": ["group_interaction", "individual_response"],
+      "duration_minutes": 20,
+      "total_marks": null,
+      "weighting_percent": 10,
+      "coverage_notes": "Tests speaking assessment objectives including interaction, coherent speech, pronunciation and non-verbal features.",
+      "calculator_allowed": false,
+      "formula_sheet_allowed": false
+    }
+  ],
+  "assessment_objectives": [
+    {
+      "ao_id": "Reading",
+      "name": "Reading",
+      "description": "Understand and interpret purpose and meaning; identify main theme and key details; understand contextual meaning; recognise tone/mood; distinguish/evaluate views/arguments; understand language features; interpret/analyse/select/organise ideas from sources.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"P1": 100, "P3": "integrated"},
+      "classification_hints": ["comprehension", "inference", "tone", "argument", "language feature", "source use"]
+    },
+    {
+      "ao_id": "Writing",
+      "name": "Writing",
+      "description": "Write for different contexts, audiences and purposes; convey meaning with vocabulary, devices and patterns; plan and produce coherent structured texts; use appropriate tone, style, register and genre; draft and revise.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"P2": 100, "P3": "integrated"},
+      "classification_hints": ["audience", "purpose", "organisation", "coherence", "register", "genre", "drafting"]
+    },
+    {
+      "ao_id": "Listening",
+      "name": "Listening",
+      "description": "Understand and interpret spoken texts; identify key details; understand speakers' feelings, views, attitudes and intentions; recognise a range of accents/varieties; understand language features in spoken texts.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"P3": 100, "P4": "interaction"},
+      "classification_hints": ["spoken text", "speaker attitude", "accent", "intention", "aural detail"]
+    },
+    {
+      "ao_id": "Speaking",
+      "name": "Speaking",
+      "description": "Express information and ideas with elaboration; convey meaning with vocabulary and patterns; establish and maintain exchanges; produce coherent structured speeches; use intelligible pronunciation; control pace, volume, intonation, stress, eye contact and gesture.",
+      "weighting_qualification_percent": null,
+      "weighting_by_paper": {"P4": 100, "P3": "integrated"},
+      "classification_hints": ["oral interaction", "speech", "pronunciation", "fluency", "non-verbal features"]
+    }
+  ],
+  "question_styles": [
+    {"style_id": "reading_comprehension", "name": "Reading comprehension", "typical_marks": null, "ao_focus": ["Reading"]},
+    {"style_id": "multiple_choice", "name": "Multiple choice", "typical_marks": null, "ao_focus": ["Reading", "Listening"]},
+    {"style_id": "short_answer", "name": "Short answer", "typical_marks": null, "ao_focus": ["Reading", "Listening"]},
+    {"style_id": "matching", "name": "Matching", "typical_marks": null, "ao_focus": ["Reading", "Listening"]},
+    {"style_id": "summary", "name": "Summary", "typical_marks": null, "ao_focus": ["Reading", "Writing"]},
+    {"style_id": "short_writing_task", "name": "Short writing task", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "long_writing_task", "name": "Long writing task", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "discursive", "name": "Discursive writing", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "argumentative", "name": "Argumentative writing", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "descriptive", "name": "Descriptive writing", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "narrative", "name": "Narrative writing", "typical_marks": null, "ao_focus": ["Writing"]},
+    {"style_id": "listening_comprehension", "name": "Listening comprehension", "typical_marks": null, "ao_focus": ["Listening"]},
+    {"style_id": "integrated_task", "name": "Integrated task", "typical_marks": null, "ao_focus": ["Listening", "Reading", "Writing"]},
+    {"style_id": "note_completion", "name": "Note completion", "typical_marks": null, "ao_focus": ["Listening", "Writing"]},
+    {"style_id": "data_response", "name": "Data response", "typical_marks": null, "ao_focus": ["Listening", "Writing"]},
+    {"style_id": "extended_response", "name": "Extended response", "typical_marks": null, "ao_focus": ["Listening", "Writing"]},
+    {"style_id": "group_interaction", "name": "Group interaction", "typical_marks": null, "ao_focus": ["Speaking"]},
+    {"style_id": "individual_response", "name": "Individual response", "typical_marks": null, "ao_focus": ["Speaking"]}
+  ],
+  "difficulty_ladder": [
+    {"level": "foundation", "description": "single skill recall or direct comprehension (e.g., identify a text type, locate a detail, write a short functional text)"},
+    {"level": "standard", "description": "multi-skill application within one paper or strand (e.g., infer tone and evaluate an argument in a reading passage; organise a coherent short essay)"},
+    {"level": "challenge", "description": "cross-skill synthesis or exam-style integration (e.g., integrate listening data and reading sources into an extended written response)"}
+  ],
+  "difficulty_scale": "ordinal_3",
+  "confidence_thresholds": {
+    "route_minimum": 0.80,
+    "classification_minimum": 0.75,
+    "review_required_below": 0.75
+  },
+  "lesson_use": {
+    "supported": false,
+    "modes": [],
+    "teacher_use_contract_ref": "",
+    "student_use_contract_ref": "",
+    "parent_use_contract_ref": "",
+    "notes": "v1 skill supports classification and qbank routing only. Teacher/student/parent modes are not enabled."
+  },
+  "generation_constraints": {
+    "must_match_scope": true,
+    "mark_out_of_scope_as_extension": true,
+    "exclude_from_questions": [
+      "content beyond S4-S6 HKDSE English Language scope",
+      "IELTS/TOEFL/general academic English exam formats",
+      "text types not listed in the C&A Guide appendices",
+      "university-level literary criticism",
+      "live examination regulations not covered by the guide"
+    ]
+  },
+  "marking_guidance": {
+    "command_words_ref": "references/page-map.json target assessment.assessment_objectives",
+    "notes": "Command words and assessment demands are summarised from the C&A Guide p.63. Use generated marking guidance only; do not copy official mark schemes."
+  }
+}

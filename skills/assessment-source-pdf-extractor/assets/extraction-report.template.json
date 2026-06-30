@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "extracted_at": "",
+  "extracted_by": "",
+  "extraction_profile": "",
+  "sections_extracted": [
+    {
+      "section": "",
+      "page_refs": [],
+      "extracted_content_summary": "",
+      "target_asset": "topics.json / assessment.json / references"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "",
+      "page_refs": [],
+      "reason": "admin / marketing / support / copyright / not_official_scope"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "",
+      "page_refs": [],
+      "reason": "needs_visual_review / ocr_quality / table_span / column_layout"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "",
+    "assessment_json": "",
+    "references": ""
+  },
+  "known_risks": [],
+  "notes": ""
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ca_guide",
+  "mappings": [
+    {
+      "target": "metadata.identity",
+      "page_refs": ["p.i"],
+      "evidence_note": "Title page states 'English Language Curriculum and Assessment Guide (Secondary 4 - 6)', jointly prepared by CDC and HKEAA, published by Education Bureau HKSARG, 2021, effective from Secondary 4 in the 2021/22 school year."
+    },
+    {
+      "target": "assessment.aims",
+      "page_refs": ["p.5"],
+      "evidence_note": "Aims of the English Language Curriculum: increase language proficiency for study/work/leisure/personal enrichment; develop knowledge, skills, values and attitudes; promote lifelong learning."
+    },
+    {
+      "target": "assessment.curriculum_framework",
+      "page_refs": ["p.6-7"],
+      "evidence_note": "Curriculum framework comprises subject knowledge and skills, generic skills, positive values and attitudes; organised under Interpersonal, Knowledge and Experience Strands."
+    },
+    {
+      "target": "assessment.strands.interpersonal",
+      "page_refs": ["p.8"],
+      "evidence_note": "Interpersonal Strand targets: establish/maintain relationships and routines; converse/discuss/compare/argue/evaluate/justify; communicate complex messages; participate in planning/organising events; obtain/provide objects/services/information."
+    },
+    {
+      "target": "assessment.strands.knowledge",
+      "page_refs": ["p.8-9"],
+      "evidence_note": "Knowledge Strand targets: provide/find/select/analyse/organise/present information; interpret/use complex information; identify/discuss ideas/issues/themes/arguments/views; identify/define/solve problems; develop/reorganise ideas; understand how English works."
+    },
+    {
+      "target": "assessment.strands.experience",
+      "page_refs": ["p.9"],
+      "evidence_note": "Experience Strand targets: respond to imaginative/literary texts; respond to characters/events/issues/themes; give expression to imaginative ideas and personal experience through oral/written/performative means."
+    },
+    {
+      "target": "assessment.learning_objectives.language_forms",
+      "page_refs": ["p.10-11"],
+      "evidence_note": "Language Forms and Communicative Functions: grammatical forms/structures, vocabulary, text types; detailed list in Appendix 1 (p.79-83)."
+    },
+    {
+      "target": "assessment.learning_objectives.language_skills",
+      "page_refs": ["p.12"],
+      "evidence_note": "Language Skills and Language Development Strategies for Key Stage 4 (S4-6): listening, speaking, reading, writing and development strategies; detailed in Appendix 4 (p.91-94)."
+    },
+    {
+      "target": "assessment.learning_objectives.attitudes",
+      "page_refs": ["p.12"],
+      "evidence_note": "Attitudes Specific to English Language Learning; detailed in Appendix 5 (p.95-96)."
+    },
+    {
+      "target": "assessment.modules",
+      "page_refs": ["p.13-18"],
+      "evidence_note": "Curriculum Organisation: Learning Time, Modules of Learning (Compulsory Part + Elective Parts), Enrichment Components."
+    },
+    {
+      "target": "assessment.assessment_objectives.reading",
+      "page_refs": ["p.63"],
+      "evidence_note": "Reading assessment objectives: understand/interpret purpose and meaning; identify main theme/key details; contextual meaning; tone/mood; distinguish/evaluate views/arguments; language features; interpret/analyse/select/organise ideas from sources."
+    },
+    {
+      "target": "assessment.assessment_objectives.writing",
+      "page_refs": ["p.63"],
+      "evidence_note": "Writing assessment objectives: write for different contexts/audiences/purposes; convey meaning with vocabulary/devices/patterns; plan/produce coherent structured texts; appropriate tone/style/register/genre; draft and revise."
+    },
+    {
+      "target": "assessment.assessment_objectives.listening",
+      "page_refs": ["p.63"],
+      "evidence_note": "Listening assessment objectives: understand/interpret spoken texts; key details; speakers' feelings/views/attitudes/intentions; range of accents/varieties; language features in spoken texts."
+    },
+    {
+      "target": "assessment.assessment_objectives.speaking",
+      "page_refs": ["p.63"],
+      "evidence_note": "Speaking assessment objectives: express information/ideas with elaboration; convey meaning with vocabulary/patterns; establish/maintain exchanges; produce coherent structured speeches; pronunciation; pace/volume/intonation/stress/eye contact/gesture."
+    },
+    {
+      "target": "assessment.papers.P1",
+      "page_refs": ["p.69"],
+      "evidence_note": "Paper 1 Reading: weighting 20%, duration 1.5 hours."
+    },
+    {
+      "target": "assessment.papers.P2",
+      "page_refs": ["p.69"],
+      "evidence_note": "Paper 2 Writing: weighting 25%, duration 2 hours."
+    },
+    {
+      "target": "assessment.papers.P3",
+      "page_refs": ["p.69"],
+      "evidence_note": "Paper 3 Listening and Integrated Skills: weighting 30%, duration about 2 hours."
+    },
+    {
+      "target": "assessment.papers.P4",
+      "page_refs": ["p.69"],
+      "evidence_note": "Paper 4 Speaking: weighting 10%, duration about 20 minutes."
+    },
+    {
+      "target": "assessment.sba",
+      "page_refs": ["p.69-70"],
+      "evidence_note": "School-based Assessment: weighting 15%, reading/viewing programme, two to four texts over three years (at least one print and one non-print), assessed through oral performance."
+    },
+    {
+      "target": "assessment.public_exam_design",
+      "page_refs": ["p.69"],
+      "evidence_note": "Public assessment encompasses reading, writing, listening and speaking; includes SBA component; graded approach in reading and listening/integrated skills papers."
+    },
+    {
+      "target": "assessment.standards_reporting",
+      "page_refs": ["p.71-72"],
+      "evidence_note": "Standards-referenced reporting: five performance levels (1-5), Level 5** and 5* annotations; SBA moderated statistically."
+    },
+    {
+      "target": "references.appendix_1_language_items",
+      "page_refs": ["p.79-83"],
+      "evidence_note": "Appendix 1: Language Items and Communicative Functions for Key Stages 3-4."
+    },
+    {
+      "target": "references.appendix_3_text_types",
+      "page_refs": ["p.89"],
+      "evidence_note": "Appendix 3: Examples of Text Types for Key Stages 1-4."
+    },
+    {
+      "target": "references.appendix_4_language_skills",
+      "page_refs": ["p.91-94"],
+      "evidence_note": "Appendix 4: Language Skills and Language Development Strategies for Key Stage 4 (S4-6)."
+    }
+  ],
+  "draft_notes": [
+    "Page numbers use printed/footer numbers. Roman numeral p.i for preamble; Arabic numerals from p.1 for main body.",
+    "Physical PDF page offset is approximately +2 for main body (printed p.1 = physical page 3)."
+  ]
+}

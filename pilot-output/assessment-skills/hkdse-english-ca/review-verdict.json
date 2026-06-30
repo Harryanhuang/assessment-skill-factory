@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "skill_id": "hkdse-english-ca",
+  "reviewer": "worker_syllabus",
+  "reviewed_at": "2026-06-30",
+  "dimensions": {
+    "source_match": {"rating": "pass", "notes": "Metadata identity matches source bundle: HKDSE English Language C&A Guide, CDC/HKEAA, 2021 edition effective from Secondary 4 in 2021/22, assessment_code none. Checksum and local archive ref recorded."},
+    "source_traceability": {"rating": "pass", "notes": "All high-impact conclusions map to page-map references. Page references use printed/footer page numbers with documented +2 physical offset. Source review verdict is pass_with_risks with accepted risks documented."},
+    "topic_tree": {"rating": "pass", "notes": "Topic tree is built around strands, learning objectives, language forms/functions, modules and text types rather than forced granular content topics, matching the C&A Guide nature. topic_id stable and unique within skill. Scope/out_of_scope present."},
+    "assessment_model": {"rating": "pass", "notes": "Papers P1-P4 and SBA structure, assessment objectives for reading/writing/listening/speaking, standards-referenced reporting, confidence thresholds, generation_constraints and command-words reference all present. lesson_use correctly disabled for v1."},
+    "out_of_scope": {"rating": "pass", "notes": "Out-of-scope rules clear. Examples include IELTS task formats and university literary theory."},
+    "examples": {"rating": "pass", "notes": "3 correct classification, 2 misclassification, 2 out-of-scope, 1 cross-topic examples provided. Meets minimum requirement for classification use."},
+    "portability": {"rating": "pass", "notes": "No platform-specific dependencies. SKILL.md and templates do not mention EduFlow, Feishu, ClaudeTeam or any runtime."}
+  },
+  "conclusion": "通过",
+  "p0": [],
+  "p1": [],
+  "p2": [
+    {
+      "target": "metadata.source_provenance.retrieved_at",
+      "issue": "retrieved_at is 'unknown'; should be recorded when official source is re-downloaded or confirmed."
+    },
+    {
+      "target": "metadata.source_provenance.extraction_verified",
+      "issue": "extraction_verified is false because source bundle only had single-channel text extraction and same-agent review; independent re-review recommended before active."
+    },
+    {
+      "target": "assessment.papers.total_marks",
+      "issue": "Total marks per paper not extracted from the C&A Guide; should be confirmed against HKEAA examination regulations if needed for question generation."
+    },
+    {
+      "target": "topics.json.granularity",
+      "issue": "C&A Guide does not provide a traditional content topic tree; classification granularity is intentionally coarse. Machine consumers should expect strand/skill/objective/text-type routing rather than fine subtopics."
+    },
+    {
+      "target": "source bundle",
+      "issue": "Source extraction_confidence is medium (single-channel text extraction, same-agent review). Reviewer accepts this risk for validated status; independent re-review recommended before active."
+    }
+  ],
+  "needs_v2": false
+}

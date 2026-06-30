@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "file_locked": true,
+  "coverage_status": "complete",
+  "traceability_status": "partial",
+  "dual_pass_checked": false,
+  "review_status": "sampled_pass",
+  "extraction_confidence": "medium",
+  "blocking_risks": [],
+  "reuse_status": "reusable_with_review",
+  "confidence_justification": "Extraction is medium because: (1) the PDF is a native Word-generated document with clean selectable text, so text extraction is reliable; (2) page numbers are approximate rendered pages and have not been cross-verified by a second tool or rendered-page review for every high-impact section; (3) the document is a curriculum-and-assessment guide rather than a concise syllabus, so some scope boundaries (e.g. what is excluded from each topic) are embedded in narrative text and require reviewer interpretation; (4) the latest HKEAA public-exam rules after 2020 are not guaranteed to be captured by the 2018 update. No blocking risks, but a reviewer should verify high-impact pages before the skill is marked active.",
+  "accepted_risks": [
+    "Approximate page references may be off by one page in sections with front matter or blank pages.",
+    "Scope/out-of-scope boundaries for each topic are inferred from the guide's 學生應學習/學生應能 lists and overview text, not from a separate explicit exclusions table.",
+    "Assessment weightings and paper durations reflect the 2016-onwards design as stated in the guide; subsequent HKEAA updates should be checked separately."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1",
+  "skill_id": "",
+  "reviewer": "",
+  "reviewed_at": "",
+  "dimensions": {
+    "source_match": {"rating": "fail", "notes": "Not yet reviewed."},
+    "source_traceability": {"rating": "fail", "notes": "Not yet reviewed."},
+    "topic_tree": {"rating": "fail", "notes": "Not yet reviewed."},
+    "assessment_model": {"rating": "fail", "notes": "Not yet reviewed."},
+    "out_of_scope": {"rating": "fail", "notes": "Not yet reviewed."},
+    "examples": {"rating": "fail", "notes": "Not yet reviewed."},
+    "portability": {"rating": "fail", "notes": "Not yet reviewed."}
+  },
+  "conclusion": "打回",
+  "p0": [],
+  "p1": [],
+  "p2": [],
+  "needs_v2": false
+}

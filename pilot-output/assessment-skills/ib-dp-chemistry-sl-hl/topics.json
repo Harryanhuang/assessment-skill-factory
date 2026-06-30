@@ -1,0 +1,509 @@
+{
+  "schema_version": "1",
+  "topics": [
+    {
+      "topic_id": "S1",
+      "topic_name": "Structure 1: Models of the particulate nature of matter",
+      "parent_id": "",
+      "scope": ["particulate model of matter", "states of matter", "kinetic theory", "atomic structure", "electron configuration", "mole concept", "ideal gases"],
+      "out_of_scope": ["nuclear physics beyond mass spectra and isotopes", "quantum mechanical orbital details beyond syllabus", "real gas equations beyond ideal gas law", "pre-DP descriptive chemistry without quantitative link"],
+      "classification_hints": ["question involves particles, atoms, moles, gas laws, or electron arrangement"],
+      "common_misconceptions": ["electrons orbit the nucleus like planets", "gases have no mass", "mole is only a counting unit with no mass link"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2",
+          "reason": "both use models; Structure 1 focuses on particles/atoms/moles, Structure 2 on bonding and materials"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S1.1",
+      "topic_name": "Introduction to the particulate nature of matter",
+      "parent_id": "S1",
+      "scope": ["particulate nature of matter", "states of matter and particle arrangement", "kinetic particle theory", "changes of state", "separation techniques"],
+      "out_of_scope": ["detailed phase diagrams", "thermodynamic derivations of state changes"],
+      "classification_hints": ["question asks about states of matter, particle arrangement, or separation techniques"],
+      "common_misconceptions": ["particles expand when heated rather than moving further apart"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2.1",
+          "reason": "both may discuss ionic substances; S1.1 focuses on state/arrangement, S2.1 on ionic bonding model"
+        }
+      ],
+      "prerequisite_topics": [],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "S1.2",
+      "topic_name": "The nuclear atom",
+      "parent_id": "S1",
+      "scope": ["protons, neutrons, electrons", "atomic number and mass number", "isotopes", "relative atomic mass", "mass spectra (AHL)"],
+      "out_of_scope": ["nuclear reactions and decay chains", "binding energy calculations", "mass spectrometer instrumentation beyond syllabus"],
+      "classification_hints": ["question asks for subatomic particles, isotopes, or mass spectrum interpretation"],
+      "common_misconceptions": ["isotopes have different chemical properties because mass differs"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S1.3",
+          "reason": "both deal with atomic structure; S1.2 focuses on nucleus and isotopes, S1.3 on electron configuration"
+        }
+      ],
+      "prerequisite_topics": ["S1.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S1.3",
+      "topic_name": "Electron configurations",
+      "parent_id": "S1",
+      "scope": ["emission spectra", "energy levels and shells", "orbital occupancy up to argon", "ionization energy trends", "convergence limit and successive ionization energy (AHL)"],
+      "out_of_scope": ["full quantum mechanical wave equations", "term symbols", "atomic orbitals beyond s/p/d introduction at AHL"],
+      "classification_hints": ["question asks for electron configuration, ionization energy, or emission spectrum"],
+      "common_misconceptions": ["4s fills after 3d in all ions", "ionization energy decreases down a group only because atomic radius increases"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S3.1",
+          "reason": "both use periodic trends; S1.3 focuses on electron structure, S3.1 on periodic classification"
+        }
+      ],
+      "prerequisite_topics": ["S1.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S1.4",
+      "topic_name": "Counting particles by mass: The mole",
+      "parent_id": "S1",
+      "scope": ["Avogadro's constant", "molar mass", "mole-mass-number conversions", "empirical and molecular formulas", "percentage composition", "stoichiometric mass and gas volume calculations"],
+      "out_of_scope": ["solution concentration is covered in Reactivity 2.1", "advanced gravimetric analysis beyond syllabus"],
+      "classification_hints": ["question requires mole calculations, formula determination, or mass-to-particle conversion"],
+      "common_misconceptions": ["molar mass has units of grams rather than g mol^-1", "empirical formula is always the same as molecular formula"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R2.1",
+          "reason": "both involve quantitative chemistry; R2.1 focuses on solution stoichiometry and titrations"
+        }
+      ],
+      "prerequisite_topics": ["S1.1", "S1.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "S1.5",
+      "topic_name": "Ideal gases",
+      "parent_id": "S1",
+      "scope": ["ideal gas equation", "molar volume at STP", "kinetic theory of gases", "pressure-volume-temperature relationships"],
+      "out_of_scope": ["real gas equations such as van der Waals", "Maxwell-Boltzmann distribution is in Reactivity 2.2"],
+      "classification_hints": ["question involves gas laws, ideal gas equation, or molar volume"],
+      "common_misconceptions": ["volume is directly proportional to temperature on Celsius scale"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R2.2",
+          "reason": "both may use kinetic theory; S1.5 focuses on gas laws, R2.2 on reaction rates"
+        }
+      ],
+      "prerequisite_topics": ["S1.4"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "S2",
+      "topic_name": "Structure 2: Models of bonding and structure",
+      "parent_id": "",
+      "scope": ["ionic model", "covalent model", "metallic model", "intermolecular forces", "VSEPR", "hybridization (AHL)", "delocalization (AHL)", "materials properties"],
+      "out_of_scope": ["band theory beyond metallic bonding", "molecular orbital theory beyond syllabus", "polymer chemistry beyond functional-group links"],
+      "classification_hints": ["question asks about bonding, structure, shape, or properties of substances"],
+      "common_misconceptions": ["ionic bonds form molecules in the solid state", "intermolecular forces are bonds within molecules"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S3.2",
+          "reason": "both involve organic compounds; S2 focuses on bonding/structure, S3.2 on functional-group classification"
+        }
+      ],
+      "prerequisite_topics": ["S1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S2.1",
+      "topic_name": "The ionic model",
+      "parent_id": "S2",
+      "scope": ["ionic bonding", "electrostatic attraction", "lattice structure", "formula units", "physical properties of ionic compounds"],
+      "out_of_scope": ["Born-Haber cycle", "lattice enthalpy calculations", "defect chemistry"],
+      "classification_hints": ["question asks about ionic bonding, lattice, or properties of ionic compounds"],
+      "common_misconceptions": ["ionic compounds form molecules"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2.2",
+          "reason": "both discuss electron sharing/transfer; S2.1 is electron transfer to ions, S2.2 is electron sharing in covalent bonds"
+        }
+      ],
+      "prerequisite_topics": ["S1.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "S2.2",
+      "topic_name": "The covalent model",
+      "parent_id": "S2",
+      "scope": ["covalent bonding", "Lewis structures", "bond polarity", "VSEPR theory", "molecular shapes", "formal charge (AHL)", "delocalized systems (AHL)", "expanded/octet exceptions (AHL)"],
+      "out_of_scope": ["molecular orbital theory", "full valence bond/hybridization mathematics"],
+      "classification_hints": ["question asks for Lewis structures, molecular shape, bond polarity, or VSEPR"],
+      "common_misconceptions": ["lone pairs do not affect molecular shape", "all molecules with polar bonds are polar"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2.3",
+          "reason": "both relate to bonding models; S2.2 is covalent, S2.3 is metallic"
+        }
+      ],
+      "prerequisite_topics": ["S1.3"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S2.3",
+      "topic_name": "The metallic model",
+      "parent_id": "S2",
+      "scope": ["metallic bonding", "delocalized electrons", "cation lattice", "physical properties of metals", "alloys (AHL)"],
+      "out_of_scope": ["band theory", "Fermi level", "metallic crystal defects"],
+      "classification_hints": ["question asks about metallic bonding, conductivity, malleability, or alloys"],
+      "common_misconceptions": ["metals contain positive ions and negative electrons in fixed positions"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2.1",
+          "reason": "both discuss lattices of positive ions; S2.3 has delocalized electrons, not discrete anions"
+        }
+      ],
+      "prerequisite_topics": ["S2.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S2.4",
+      "topic_name": "From models to materials",
+      "parent_id": "S2",
+      "scope": ["intermolecular forces", "hydrogen bonding", "dipole-dipole", "London dispersion forces", "relation to physical properties", "polymers and nanomaterials overview (AHL)"],
+      "out_of_scope": ["full polymerization mechanisms", "nanoparticle synthesis methods"],
+      "classification_hints": ["question asks about melting/boiling points, solubility, or IMF explanations"],
+      "common_misconceptions": ["hydrogen bonding is a covalent bond", "stronger IMF always means higher density"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S2.2",
+          "reason": "both explain properties; S2.4 focuses on intermolecular forces, S2.2 on intramolecular covalent bonding"
+        }
+      ],
+      "prerequisite_topics": ["S2.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S3",
+      "topic_name": "Structure 3: Classification of matter",
+      "parent_id": "",
+      "scope": ["periodic table", "periodic trends", "transition elements (AHL)", "complex ions (AHL)", "functional groups", "organic nomenclature", "spectroscopy (AHL)"],
+      "out_of_scope": ["descriptive chemistry of every element", "industrial processes beyond syllabus examples", "biochemistry macromolecules"],
+      "classification_hints": ["question involves periodic trends, element classification, or organic functional groups"],
+      "common_misconceptions": ["atomic radius increases across a period", "organic compounds always contain oxygen"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R3",
+          "reason": "both involve reactions; Structure 3 classifies substances, Reactivity 3 explains mechanisms of change"
+        }
+      ],
+      "prerequisite_topics": ["S1", "S2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S3.1",
+      "topic_name": "The periodic table: Classification of elements",
+      "parent_id": "S3",
+      "scope": ["periodic trends: atomic radius, ionization energy, electronegativity", "group 1 and group 17 reactivity patterns", "oxides across periods", "transition elements and complex ions (AHL)"],
+      "out_of_scope": ["full descriptive chemistry of d-block elements", "catalytic mechanisms beyond syllabus"],
+      "classification_hints": ["question asks for periodic trend explanation or group comparisons"],
+      "common_misconceptions": ["ionization energy always decreases down a group without exceptions"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S1.3",
+          "reason": "both use ionization energy; S3.1 links it to periodic trends, S1.3 to electron configuration"
+        }
+      ],
+      "prerequisite_topics": ["S1.3"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "S3.2",
+      "topic_name": "Functional groups: Classification of organic compounds",
+      "parent_id": "S3",
+      "scope": ["hydrocarbons: alkanes, alkenes, alkynes, aromatics", "functional groups and homologous series", "IUPAC nomenclature", "isomerism", "infrared and NMR spectroscopy (AHL)", "mass spectrometry of organic molecules (AHL)"],
+      "out_of_scope": ["reaction mechanisms beyond those in Reactivity 3.4", "industrial synthesis routes not listed in syllabus"],
+      "classification_hints": ["question asks to name, classify, or identify organic compounds using functional groups or spectra"],
+      "common_misconceptions": ["all compounds with C=C decolourize bromine water is the only test", "isomers always have different physical properties"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R3.4",
+          "reason": "both involve organic chemistry; S3.2 classifies/identifies, R3.4 explains reaction mechanisms"
+        }
+      ],
+      "prerequisite_topics": ["S2.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R1",
+      "topic_name": "Reactivity 1: What drives chemical reactions?",
+      "parent_id": "",
+      "scope": ["enthalpy changes", "energy cycles", "Hess's law", "bond enthalpies", "energy from fuels", "entropy and spontaneity (AHL)"],
+      "out_of_scope": ["full thermodynamic derivations", "statistical mechanics of entropy"],
+      "classification_hints": ["question asks why reactions occur, enthalpy, or energy cycles"],
+      "common_misconceptions": ["exothermic reactions have negative activation energy", "bond breaking releases energy"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R2",
+          "reason": "both involve quantitative reaction chemistry; R1 focuses on energy, R2 on amount/rate/extent"
+        }
+      ],
+      "prerequisite_topics": ["S1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R1.1",
+      "topic_name": "Measuring enthalpy changes",
+      "parent_id": "R1",
+      "scope": ["exothermic and endothermic reactions", "enthalpy change notation", "calorimetry", "specific heat capacity calculations", "experimental sources of error"],
+      "out_of_scope": ["bomb calorimetry details", "correction for heat loss beyond syllabus"],
+      "classification_hints": ["question asks to calculate enthalpy change from calorimetry data"],
+      "common_misconceptions": ["temperature change alone equals enthalpy change"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R1.2",
+          "reason": "both involve enthalpy; R1.1 is experimental measurement, R1.2 is energy cycles"
+        }
+      ],
+      "prerequisite_topics": ["S1.4"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "R1.2",
+      "topic_name": "Energy cycles in reactions",
+      "parent_id": "R1",
+      "scope": ["Hess's law cycles", "enthalpy of formation", "enthalpy of combustion", "bond enthalpies", "Born-Haber cycle (AHL)", "lattice enthalpy (AHL)"],
+      "out_of_scope": ["Kirchhoff's law", "temperature dependence of enthalpy"],
+      "classification_hints": ["question requires constructing or using an energy cycle"],
+      "common_misconceptions": ["Hess's law only works for two-step cycles"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R1.1",
+          "reason": "both use enthalpy values; R1.2 uses tabulated/cycle values, R1.1 uses experimental data"
+        }
+      ],
+      "prerequisite_topics": ["R1.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R1.3",
+      "topic_name": "Energy from fuels",
+      "parent_id": "R1",
+      "scope": ["combustion of fuels", "enthalpy of combustion comparisons", "renewable and non-renewable fuels", "environmental impact"],
+      "out_of_scope": ["industrial fuel processing details", "life-cycle analysis methodologies"],
+      "classification_hints": ["question compares fuels or discusses energy sources"],
+      "common_misconceptions": ["a higher molar enthalpy of combustion always means a better fuel"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R1.2",
+          "reason": "both use combustion enthalpies; R1.3 focuses on fuel context, R1.2 on cycles"
+        }
+      ],
+      "prerequisite_topics": ["R1.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "R1.4",
+      "topic_name": "Entropy and spontaneity",
+      "parent_id": "R1",
+      "scope": ["entropy change", "Gibbs free energy", "spontaneity criteria", "temperature dependence of spontaneity"],
+      "out_of_scope": ["statistical entropy derivations", "third-law absolute entropy calculations"],
+      "classification_hints": ["question asks about entropy, Gibbs energy, or reaction spontaneity"],
+      "common_misconceptions": ["exothermic reactions are always spontaneous", "entropy always increases in every system"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R1.2",
+          "reason": "both involve energy; R1.4 uses Gibbs/entropy, R1.2 uses enthalpy cycles"
+        }
+      ],
+      "prerequisite_topics": ["R1.2"],
+      "overlap_links": [],
+      "level_scope": "AHL_only"
+    },
+    {
+      "topic_id": "R2",
+      "topic_name": "Reactivity 2: How much, how fast and how far?",
+      "parent_id": "",
+      "scope": ["stoichiometry in solution", "titrations", "limiting reactants", "reaction rates", "rate laws and mechanisms (AHL)", "equilibrium", "acid-base equilibria (AHL)"],
+      "out_of_scope": ["industrial process design beyond Haber/contact process context", "full kinetic theory derivations"],
+      "classification_hints": ["question involves moles in solution, titration, rate, or equilibrium"],
+      "common_misconceptions": ["equilibrium means equal concentrations", "catalyst shifts equilibrium position"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R1",
+          "reason": "both use quantitative data; R2 focuses on amount/rate/extent, R1 on energy"
+        }
+      ],
+      "prerequisite_topics": ["S1.4"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R2.1",
+      "topic_name": "How much? The amount of chemical change",
+      "parent_id": "R2",
+      "scope": ["solution concentration", "molar volume of gases in reactions", "limiting and excess reactants", "percentage yield", "atom economy"],
+      "out_of_scope": ["industrial yield optimization details", "complex back-titrations beyond syllabus"],
+      "classification_hints": ["question asks for concentration, limiting reactant, yield, or atom economy"],
+      "common_misconceptions": ["limiting reactant is the one with smaller mass"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S1.4",
+          "reason": "both involve mole calculations; R2.1 focuses on reactions in solution, S1.4 on formula/mass counting"
+        }
+      ],
+      "prerequisite_topics": ["S1.4"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "R2.2",
+      "topic_name": "How fast? The rate of chemical change",
+      "parent_id": "R2",
+      "scope": ["factors affecting rate", "collision theory", "Maxwell-Boltzmann distribution", "rate expressions and orders (AHL)", "rate-determining step and mechanisms (AHL)", "Arrhenius equation (AHL)"],
+      "out_of_scope": ["full integrated rate laws beyond syllabus", "experimental methods not listed"],
+      "classification_hints": ["question asks about reaction rate, collision theory, or rate equation"],
+      "common_misconceptions": ["increasing temperature only increases collision frequency"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R2.3",
+          "reason": "both involve reaction progress; R2.2 is rate, R2.3 is equilibrium extent"
+        }
+      ],
+      "prerequisite_topics": ["R2.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R2.3",
+      "topic_name": "How far? The extent of chemical change",
+      "parent_id": "R2",
+      "scope": ["dynamic equilibrium", "equilibrium constant Kc", "Le Chatelier's principle", "acid-base theories", "pH calculations", "buffers (AHL)", "pKa/pKb (AHL)"],
+      "out_of_scope": ["full thermodynamic derivation of K", "polyprotic acid calculations beyond syllabus"],
+      "classification_hints": ["question asks about equilibrium constant, Le Chatelier, pH, or buffer"],
+      "common_misconceptions": ["catalyst changes the value of Kc", "pH + pOH = 14 at all temperatures"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R3.1",
+          "reason": "both involve acids and bases; R2.3 focuses on equilibrium extent, R3.1 on proton transfer reactions"
+        }
+      ],
+      "prerequisite_topics": ["R2.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R3",
+      "topic_name": "Reactivity 3: What are the mechanisms of chemical change?",
+      "parent_id": "",
+      "scope": ["proton transfer (acid-base)", "electron transfer (redox)", "electron sharing (radical)", "electron-pair sharing (organic mechanisms)", "electrophiles and nucleophiles", "SN1/SN2 and electrophilic substitution (AHL)"],
+      "out_of_scope": ["organometallic mechanisms", "full biochemistry reaction pathways"],
+      "classification_hints": ["question asks for reaction type, mechanism, or oxidizing/reducing agents"],
+      "common_misconceptions": ["all substitution reactions are SN2", "oxidation always involves oxygen"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S3.2",
+          "reason": "both involve organic compounds; R3 explains how they react, S3.2 classifies them"
+        }
+      ],
+      "prerequisite_topics": ["S2", "R2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R3.1",
+      "topic_name": "Proton transfer reactions",
+      "parent_id": "R3",
+      "scope": ["Brønsted-Lowry acids and bases", "conjugate acid-base pairs", "strong and weak acids/bases", "neutralization", "pH of strong and weak acids/bases", "salt hydrolysis (AHL)", "buffers and indicators (AHL)", "Lewis acid-base (AHL)"],
+      "out_of_scope": ["full acid-base titration curves beyond syllabus", "complexometric titrations"],
+      "classification_hints": ["question asks about acid-base reactions, pH, neutralization, or buffer"],
+      "common_misconceptions": ["strong acids have the lowest pH values at all concentrations", "neutralization always gives pH 7"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R2.3",
+          "reason": "both involve acids/bases and equilibrium; R3.1 focuses on proton transfer reactions, R2.3 on extent of change"
+        }
+      ],
+      "prerequisite_topics": ["R2.3"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R3.2",
+      "topic_name": "Electron transfer reactions",
+      "parent_id": "R3",
+      "scope": ["oxidation and reduction", "oxidation numbers", "redox equations", "voltaic cells", "electrolysis", "standard electrode potentials (AHL)", "electrolysis of aqueous solutions (AHL)"],
+      "out_of_scope": ["electrochemical series beyond syllabus", "corrosion mechanisms beyond syllabus"],
+      "classification_hints": ["question asks for oxidation number, redox equation, or electrochemical cell"],
+      "common_misconceptions": ["oxidation number is the same as ionic charge", "electrolysis always produces the same products regardless of conditions"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R3.1",
+          "reason": "both involve ionic equations; R3.2 is electron transfer, R3.1 is proton transfer"
+        }
+      ],
+      "prerequisite_topics": ["S2.1"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    },
+    {
+      "topic_id": "R3.3",
+      "topic_name": "Electron sharing reactions",
+      "parent_id": "R3",
+      "scope": ["homolytic fission", "radicals", "chain reactions", "photochemical reactions", "ozone depletion and chlorofluorocarbons"],
+      "out_of_scope": ["polymerization mechanisms beyond radical context", "atmospheric chemistry beyond syllabus examples"],
+      "classification_hints": ["question mentions radicals, UV light, or chain mechanism"],
+      "common_misconceptions": ["radicals are ions with an extra electron"],
+      "common_misclassifications": [
+        {
+          "confused_with": "R3.4",
+          "reason": "both involve reaction mechanisms; R3.3 is radical/electron sharing, R3.4 is electron-pair sharing"
+        }
+      ],
+      "prerequisite_topics": ["S2.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_only"
+    },
+    {
+      "topic_id": "R3.4",
+      "topic_name": "Electron-pair sharing reactions",
+      "parent_id": "R3",
+      "scope": ["nucleophiles and electrophiles", "substitution, addition, elimination", "organic reaction mechanisms", "SN1/SN2 mechanisms (AHL)", "electrophilic substitution (AHL)", "coordination complex reactions (AHL)"],
+      "out_of_scope": ["organometallic catalytic cycles", "full synthetic routes not listed"],
+      "classification_hints": ["question asks for organic mechanism, nucleophile/electrophile, or reaction type"],
+      "common_misconceptions": ["all nucleophiles are negatively charged", "elimination and substitution are mutually exclusive"],
+      "common_misclassifications": [
+        {
+          "confused_with": "S3.2",
+          "reason": "both involve organic chemistry; R3.4 focuses on mechanisms, S3.2 on classification/identification"
+        }
+      ],
+      "prerequisite_topics": ["S3.2"],
+      "overlap_links": [],
+      "level_scope": "SL_HL_plus_AHL"
+    }
+  ]
+}

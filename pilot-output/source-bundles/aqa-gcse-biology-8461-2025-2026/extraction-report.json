@@ -1,0 +1,110 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_specification",
+  "extracted_at": "2026-06-30",
+  "extracted_by": "worker_syllabus",
+  "extraction_profile": "aqa_two_column_specification",
+  "sections_extracted": [
+    {
+      "section": "Syllabus identity",
+      "page_refs": ["p.1"],
+      "extracted_content_summary": "AQA GCSE Biology (8461), Version 1.0, 21 April 2016, for teaching from September 2016, exams from 2018.",
+      "target_asset": "metadata.json"
+    },
+    {
+      "section": "Specification at a glance",
+      "page_refs": ["p.8"],
+      "extracted_content_summary": "Linear qualification with Paper 1 (Topics 1-4) and Paper 2 (Topics 5-7), each 1h45m, 100 marks, 50%, Foundation/Higher Tier.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Assessment objectives",
+      "page_refs": ["p.78"],
+      "extracted_content_summary": "AO1 40%, AO2 40%, AO3 20%; per-paper ranges provided.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Component scaling",
+      "page_refs": ["p.79"],
+      "extracted_content_summary": "Paper 1 and Paper 2 each scaled x1 to 100; total 200.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Tiers and grades",
+      "page_refs": ["p.80"],
+      "extracted_content_summary": "Foundation Tier grades 1-5; Higher Tier grades 4-9 (allowed 3).",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Working scientifically",
+      "page_refs": ["p.9-14"],
+      "extracted_content_summary": "WS 1.1-1.6, WS 2.1-2.7, WS 3.1-3.8, WS 4.1-4.3; left-column skills extracted, right-column examples treated as skill opportunities.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Subject content",
+      "page_refs": ["p.16-76"],
+      "extracted_content_summary": "Topics 4.1-4.8 with specification points; two-column layout with content on left and skill opportunities on right.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Mathematical requirements",
+      "page_refs": ["p.83"],
+      "extracted_content_summary": "Mathematical skills required and assessed.",
+      "target_asset": "references"
+    },
+    {
+      "section": "Apparatus and techniques",
+      "page_refs": ["p.85"],
+      "extracted_content_summary": "AT 1-8 for biology (AT 8 biology only).",
+      "target_asset": "references / assessment.json"
+    },
+    {
+      "section": "Required practical activities",
+      "page_refs": ["p.86-91"],
+      "extracted_content_summary": "10 required practical activities with AT coverage and key skill opportunities; first four sampled.",
+      "target_asset": "references / assessment.json"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "Introduction / Why choose AQA / Support resources",
+      "page_refs": ["p.5-7"],
+      "reason": "programme_background"
+    },
+    {
+      "section": "General administration",
+      "page_refs": ["p.80-82"],
+      "reason": "admin"
+    },
+    {
+      "section": "Copyright page",
+      "page_refs": ["p.1"],
+      "reason": "copyright"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "Two-column content separation",
+      "page_refs": ["p.9-76"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Required practicals full list",
+      "page_refs": ["p.86-91"],
+      "reason": "needs_visual_review"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "Left-column assessable content from Topics 4.1-4.8 (p.16-76).",
+    "assessment_json": "Paper split, AO weightings, tiers, working scientifically (p.8, p.78-80, p.9-14).",
+    "references": "Right-column skill opportunities, mathematical requirements, apparatus/techniques, required practicals (p.83, p.85-91)."
+  },
+  "known_risks": [
+    "Single-channel text extraction; visual review of two-column separation pending.",
+    "Right-column skill opportunities may have merged with left-column content in places.",
+    "Official URL and exact retrieved_at not captured in local archive metadata.",
+    "PDF is encrypted but copy-allowed; extraction relies on pdftotext decryption."
+  ],
+  "notes": "Extraction completed without copying official PDF text. Page-map mappings use printed/page numbers."
+}

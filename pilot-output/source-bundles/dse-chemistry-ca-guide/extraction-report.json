@@ -1,0 +1,96 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_syllabus",
+  "extraction_date": "2026-06-30",
+  "extractor": "pdftotext + pdfinfo + manual section review",
+  "extraction_profile": "dse_curriculum_assessment_guide",
+  "pages_total": 159,
+  "language": "zh-Hant",
+  "sections_extracted": [
+    {
+      "section": "document_identity",
+      "status": "extracted",
+      "page_refs": ["cover", "p.i"],
+      "notes": "Title, publisher, version year, page count, checksum captured."
+    },
+    {
+      "section": "curriculum_framework",
+      "status": "extracted",
+      "page_refs": ["p.7-p.15"],
+      "notes": "Design principles, three learning-objective strands, mandatory/elective/investigative structure."
+    },
+    {
+      "section": "mandatory_topics_1_to_12",
+      "status": "extracted",
+      "page_refs": ["p.16-p.62"],
+      "notes": "Each topic has overview, 學生應學習/學生應能, suggested activities, values/attitudes, STSE links."
+    },
+    {
+      "section": "elective_topics_13_to_15",
+      "status": "extracted",
+      "page_refs": ["p.63-p.77"],
+      "notes": "Students choose any two of Industrial Chemistry, Materials Chemistry, Analytical Chemistry."
+    },
+    {
+      "section": "investigative_study",
+      "status": "extracted",
+      "page_refs": ["p.78-p.80"],
+      "notes": "20-hour practical investigation; assessed via SBA, not a written exam topic."
+    },
+    {
+      "section": "assessment_model",
+      "status": "extracted",
+      "page_refs": ["p.115-p.124"],
+      "notes": "Assessment objectives, public exam papers, SBA, standards-referenced grading."
+    },
+    {
+      "section": "experimental_techniques_appendix",
+      "status": "extracted",
+      "page_refs": ["p.137-p.138"],
+      "notes": "Illustrative skill list; not a mandated exhaustive list."
+    }
+  ],
+  "sections_not_extracted_admin": [
+    {
+      "section": "chapter_1_introduction",
+      "page_refs": ["p.i-p.6"],
+      "reason": "Background, policy context, articulation diagrams; not assessable scope."
+    },
+    {
+      "section": "chapter_3_curriculum_planning",
+      "page_refs": ["p.81-p.98"],
+      "reason": "Teaching sequence and school-level planning guidance; not assessable scope."
+    },
+    {
+      "section": "chapter_4_learning_and_teaching",
+      "page_refs": ["p.99-p.114"],
+      "reason": "Pedagogical strategies, scaffolding, grouping, IT use; not assessable scope."
+    },
+    {
+      "section": "chapter_6_resources",
+      "page_refs": ["p.125-p.132"],
+      "reason": "Textbook, internet, community resources; not assessable scope."
+    },
+    {
+      "section": "appendix_1_timetabling",
+      "page_refs": ["p.133-p.136"],
+      "reason": "School administration and teacher deployment."
+    },
+    {
+      "section": "glossary_references_committees",
+      "page_refs": ["p.139-p.159"],
+      "reason": "Reference material and committee lists."
+    }
+  ],
+  "granularity_note": "DSE Chemistry is a course-and-assessment guide, not a short syllabus. The skill package should use strand/skill/objective/topic granularity rather than forcing a rigid traditional content topic tree. Mandatory topics are stable enough to act as topic containers; electives are choice-based and should be tagged accordingly.",
+  "topics_assessment_split_recommendation": {
+    "topics_json": "Mandatory Topics 1-12 and Elective Topics 13-15 as strand/topic containers with scope/out_of_scope and skill links.",
+    "assessment_json": "Paper structure, weightings, assessment objectives, question styles, difficulty ladder, SBA rules, grading.",
+    "references": "Experimental techniques, STSE links, teaching guidance remain as reference only."
+  },
+  "known_limitations": [
+    "Page numbers are approximate rendered PDF pages; exact line-level offsets are not captured.",
+    "No dual-pass OCR or rendered-page verification was performed for every high-impact page.",
+    "The 2018 update may not reflect very recent HKEAA exam-rule changes after 2020; exam rules should be cross-checked against the latest HKEAA assessment framework."
+  ]
+}

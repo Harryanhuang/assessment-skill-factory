@@ -1,0 +1,115 @@
+{
+  "schema_version": "1",
+  "source_id": "primary_ced",
+  "extracted_at": "2026-06-30",
+  "extracted_by": "worker_syllabus",
+  "extraction_profile": "ap_ced_unit_guide",
+  "sections_extracted": [
+    {
+      "section": "Syllabus identity",
+      "page_refs": ["p.1"],
+      "extracted_content_summary": "AP Physics 1: Algebra-Based Course and Exam Description, Effective Fall 2024.",
+      "target_asset": "metadata.json"
+    },
+    {
+      "section": "Course description",
+      "page_refs": ["p.6"],
+      "extracted_content_summary": "Algebra-based introductory college-level physics; 8 content areas; prerequisites Geometry + concurrent Algebra II; 25% lab time.",
+      "target_asset": "assessment.json / references"
+    },
+    {
+      "section": "Science practices",
+      "page_refs": ["p.13-14"],
+      "extracted_content_summary": "Practice 1 Creating Representations, Practice 2 Mathematical Routines, Practice 3 Scientific Questioning and Argumentation; 10 skills total.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Course content / unit weightings",
+      "page_refs": ["p.16"],
+      "extracted_content_summary": "8 units with multiple-choice exam weightings.",
+      "target_asset": "assessment.json / topics.json"
+    },
+    {
+      "section": "Course at a Glance",
+      "page_refs": ["p.17-19"],
+      "extracted_content_summary": "Unit topics and suggested pacing for all 8 units.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Unit Guides (sampled)",
+      "page_refs": ["p.25-28", "p.45", "p.99"],
+      "extracted_content_summary": "Unit 1 sampled in detail (topics 1.1-1.5 with suggested skills); other units mapped from Course at a Glance and TOC.",
+      "target_asset": "topics.json"
+    },
+    {
+      "section": "Exam overview",
+      "page_refs": ["p.177"],
+      "extracted_content_summary": "3-hour exam: 40 MCQ (Section I, 80 min, 50%) and 4 FRQ (Section II, 100 min, 50%).",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Free-response question types",
+      "page_refs": ["p.180-181"],
+      "extracted_content_summary": "Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, Qualitative/Quantitative Translation.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Task verbs",
+      "page_refs": ["p.182"],
+      "extracted_content_summary": "14 task verbs commonly used in free-response questions.",
+      "target_asset": "assessment.json"
+    },
+    {
+      "section": "Appendix: Vocabulary and Equations",
+      "page_refs": ["p.213", "p.217"],
+      "extracted_content_summary": "Vocabulary definitions and Table of Information: Equations.",
+      "target_asset": "references"
+    }
+  ],
+  "sections_not_extracted": [
+    {
+      "section": "About AP / AP Resources / Instructional Model",
+      "page_refs": ["p.1-6"],
+      "reason": "programme_background"
+    },
+    {
+      "section": "Instructional Approaches",
+      "page_refs": ["p.155-174"],
+      "reason": "teaching_guidance"
+    },
+    {
+      "section": "Sample Exam Questions and Scoring Guidelines",
+      "page_refs": ["p.183-208"],
+      "reason": "sample_questions"
+    },
+    {
+      "section": "Copyright / acknowledgments",
+      "page_refs": ["p.v-vi"],
+      "reason": "copyright"
+    }
+  ],
+  "sections_pending_review": [
+    {
+      "section": "Unit Guides details",
+      "page_refs": ["p.21-133"],
+      "reason": "needs_visual_review"
+    },
+    {
+      "section": "Science practice tables",
+      "page_refs": ["p.13-14"],
+      "reason": "needs_visual_review"
+    }
+  ],
+  "split_recommendations": {
+    "topics_json": "8 units and their topics from Course at a Glance (p.17-19) and Unit Guides (p.21-133).",
+    "assessment_json": "Science practices, exam design, FRQ types, skill weightings, task verbs (p.13-14, p.177-182).",
+    "references": "Equation sheet, vocabulary definitions (p.213, p.217)."
+  },
+  "known_risks": [
+    "Single-channel text extraction; visual review of high-impact pages pending.",
+    "Large document (228 pages); Unit Guides section only sampled.",
+    "Official URL and exact retrieved_at not captured in local archive metadata.",
+    "Physical-to-printed page offset varies; page-map uses printed numbers."
+  ],
+  "notes": "Extraction completed without copying official PDF text. Page-map mappings use printed/footer page numbers."
+}
